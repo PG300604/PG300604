@@ -212,7 +212,7 @@ An offline-first PWA for site inspectors to perform AI-powered safety audits of 
 
 <div align="center">
 
-![Streak](https://github-readme-streak-stats-git-main-denvercoder1.vercel.app?user=PG300604&theme=dark&background=0d1117&border=1A56DB&stroke=1A56DB&ring=79b8ff&fire=ff6b35&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=ffffff&sideNums=ffffff)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=PG300604&theme=dark&background=0d1117&border=1A56DB&stroke=1A56DB&ring=79b8ff&fire=ff6b35&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=ffffff&sideNums=ffffff)
 
 </div>
 
