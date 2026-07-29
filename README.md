@@ -320,10 +320,8 @@ Reports:    Gemini-powered narrative maintenance briefs
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=PG300604&bg_color=0d1117&color=79b8ff&line=1A56DB&point=4fcea6&area=true&area_color=1A56DB&hide_border=false&border_color=1A56DB&radius=6)
 
 </div>
-
 <div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats-git-main-denvercoder1.vercel.app?user=PG300604&theme=dark&background=0d1117&border=1A56DB&stroke=1A56DB&ring=79b8ff&fire=ff6b35&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/PG300604)
+     [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PG300604&theme=dark&background=0d1117&border=1A56DB&stroke=1A56DB&ring=79b8ff&fire=ff6b35&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=ffffff&sideNums=ffffff) 
 
 </div>
 
