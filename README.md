@@ -323,7 +323,11 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=PG300604&theme=nord&no-frame=true&no-bg=true&margin-w=6&row=1&column=7)
+![Profile Views](https://komarev.com/ghpvc/?username=PG300604&style=for-the-badge&color=1A56DB&label=PROFILE+VIEWS)
+&nbsp;&nbsp;
+![Followers](https://img.shields.io/github/followers/PG300604?style=for-the-badge&color=4fcea6&label=FOLLOWERS&logo=github)
+&nbsp;&nbsp;
+![Stars](https://img.shields.io/github/stars/PG300604?style=for-the-badge&color=ff6b35&label=TOTAL+STARS&logo=github)
 
 </div>
 
