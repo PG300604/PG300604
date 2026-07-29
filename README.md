@@ -320,8 +320,10 @@ Reports:    Gemini-powered narrative maintenance briefs
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=PG300604&bg_color=0d1117&color=79b8ff&line=1A56DB&point=4fcea6&area=true&area_color=1A56DB&hide_border=false&border_color=1A56DB&radius=6)
 
 </div>
+
 <div align="center">
-     [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PG300604&theme=dark&background=0d1117&border=1A56DB&stroke=1A56DB&ring=79b8ff&fire=ff6b35&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=ffffff&sideNums=ffffff) 
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=PG300604&theme=nord&no-frame=true&no-bg=true&margin-w=6&row=1&column=7)
 
 </div>
 
@@ -340,7 +342,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 | ⚡ **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) end-to-end at CodingNinjas × Google Hackathon | 2026 |
 | 🏭 **Tata InnoVent Submission** | SkyCheck PWA submitted to Tata Technologies InnoVent 2026 — AI-powered industrial inspection | 2026 |
 | 🏦 **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
-| 👑 **Mr. CSBS 2023** | Won personality & aptitude competition — Asansol Engineering College | 2023 |
 | 🎓 **SGPA 8.88** | B.Tech CSBS — Asansol Engineering College | Ongoing |
 
 </div>
