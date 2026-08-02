@@ -12,7 +12,7 @@
 
 | 🏗️ Projects Shipped | 🟢 Live Deployments | ⚡ Fastest Ship | 🏆 Competitions | 🤖 AI Features Built | 🔩 Microservices |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **4** | **3** | **24 hrs** | **2** | **5+** | **9** |
+| **5** | **3** | **24 hrs** | **2** | **7+** | **9** |
 
 </div>
 
@@ -28,6 +28,7 @@
 ├──────────────────┬──────────────┬──────────────────────┬────────────────┤
 │  SERVICE         │  STATUS      │  STACK               │  UPTIME        │
 ├──────────────────┼──────────────┼──────────────────────┼────────────────┤
+│  TriageNet       │  🔵 BUILDING │  Java · ML · Next.js │  Final Yr Proj │
 │  ShopFlow        │  🟡 BUILDING │  Java · Microsvcs    │  In Progress   │
 │  SkillShare      │  🟢 LIVE     │  Spring Boot · React │  Deployed ✓    │
 │  ZeroHour        │  🟢 LIVE     │  Gemini AI · React   │  Deployed ✓    │
@@ -83,6 +84,61 @@ public class Priyanshu {
      ╚══════════════════════════════════════════════════════════════════╝ -->
 
 ## 🚀 Projects
+
+---
+
+### 🏥 TriageNet — AI-Powered Regional Hospital Triage System
+> `Status: IN PROGRESS` &nbsp;·&nbsp; `Type: Final Year Project` &nbsp;·&nbsp; `Scale: Full Platform`
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+**The most technically ambitious project I've built.** An intelligent healthcare operations platform that uses ML severity scoring, graph-based load balancing, and multi-resource clinical matching to optimize patient intake and inter-hospital referrals across a connected regional network.
+
+```
+ML Engine:    Logistic Regression severity scorer
+              Score = Sigmoid(W·X + b) × 100
+              Features: SpO₂, HR, BP, Temp, RespRate, Age
+              Risk Tiers: 🔴 High (≥80) · 🟡 Moderate · 🟢 Low
+
+Algorithms:   Dijkstra shortest-path inter-hospital referrals
+              Hungarian algorithm for optimal bed assignment
+              3-way match: Beds ∧ Equipment ∧ Specialist
+
+Dashboard:    12 operational pages — Triage Queue, Regional
+              Network, AI CDS, Billing, Medical Records,
+              Inventory, Reports, Communications
+```
+
+**Key engineering highlights:**
+- 🧠 Explainable AI — top risk factor attribution per patient
+- 🚨 Sepsis early warning — auto-detects SpO₂ < 90% + HR > 110
+- ⏱️ Priority decay — severity escalates dynamically with wait time
+- 🔗 4-hospital graph network with real-time travel time routing
+- 🔐 Spring Security + JWT · Docker Compose multi-container
+
+`Java 21` `Spring Boot 3.4` `Next.js 16` `Python` `scikit-learn` `PostgreSQL` `Docker` `Tailwind CSS v4`
+
+**[Code ↗](https://github.com/PG300604/TriageNet)**
+
+</td>
+<td width="42%" align="center" valign="top">
+
+[![TriageNet](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=PG300604&repo=TriageNet&theme=react&bg_color=0d1117&border_color=1A56DB&title_color=79b8ff&text_color=8fa3c0&icon_color=1A56DB)](https://github.com/PG300604/TriageNet)
+
+<br/>
+
+![](https://img.shields.io/badge/Type-Final_Year_Project-1A56DB?style=flat-square)
+![](https://img.shields.io/badge/ML-Logistic_Regression-8E75B2?style=flat-square&logo=python&logoColor=white)
+![](https://img.shields.io/badge/Algorithm-Dijkstra_+_Hungarian-4fcea6?style=flat-square)
+![](https://img.shields.io/badge/Pages-12_Operational-ff6b35?style=flat-square)
+![](https://img.shields.io/badge/Network-4_Hospitals-316192?style=flat-square)
+![](https://img.shields.io/badge/Stack-Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -283,12 +339,13 @@ Reports:    Gemini-powered narrative maintenance briefs
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Frontend & AI · 5 tools**
+**Frontend & AI · 6 tools**
 
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 **Mobile · 2 tools**
