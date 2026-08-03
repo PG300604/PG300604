@@ -403,7 +403,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 | ⚡ **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) end-to-end at CodingNinjas × Google Hackathon | 2026 |
 | 🏭 **Tata InnoVent Submission** | SkyCheck PWA submitted to Tata Technologies InnoVent 2026 — AI-powered industrial inspection | 2026 |
 | 🏦 **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
-| 🎓 **SGPA 8.88** | B.Tech CSBS — Asansol Engineering College | Ongoing |
+| 🎓 **SGPA 8.83** | B.Tech CSBS — Asansol Engineering College | Ongoing |
 
 </div>
 
