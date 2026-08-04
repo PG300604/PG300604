@@ -4,23 +4,15 @@
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                    SYSTEM METRICS DASHBOARD                     ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
-
 <div align="center">
 
-| 🏗️ Projects Shipped | 🟢 Live Deployments | ⚡ Fastest Ship | 🏆 Competitions | 🤖 AI Features Built | 🔩 Microservices |
+| 🏗️ Projects Shipped | 🟢 Live Deployments | ⚡ Fastest Ship | 🏆 Competitions | 🤖 AI Agents Built | 🔩 Microservices |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **5** | **3** | **24 hrs** | **2** | **7+** | **9** |
+| **5** | **3** | **24 hrs** | **2** | **9+** | **9** |
 
 </div>
 
 <br/>
-
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                      SYSTEM STATUS BOARD                        ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -28,7 +20,7 @@
 ├──────────────────┬──────────────┬──────────────────────┬────────────────┤
 │  SERVICE         │  STATUS      │  STACK               │  UPTIME        │
 ├──────────────────┼──────────────┼──────────────────────┼────────────────┤
-│  TriageNet       │  🔵 BUILDING │  Java · ML · Next.js │  Final Yr Proj │
+│  TriageNet       │  🔵 PHASE 4/5│  Java 21 · ML · Next │  Final Yr Proj │
 │  ShopFlow        │  🟡 BUILDING │  Java · Microsvcs    │  In Progress   │
 │  SkillShare      │  🟢 LIVE     │  Spring Boot · React │  Deployed ✓    │
 │  ZeroHour        │  🟢 LIVE     │  Gemini AI · React   │  Deployed ✓    │
@@ -41,10 +33,6 @@
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                        IDENTITY BLOCK                           ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
-
 ```java
 /**
  * @author  Priyanshu Ghosh
@@ -54,22 +42,20 @@
 @RestController
 public class Priyanshu {
 
-    // What I build
     private final String[] domains = {
-        "Backend APIs",  "Microservices",  "AI Agents",
+        "Backend APIs",  "Microservices",  "Autonomous AI Agents",
         "Full Stack Web", "PWAs",          "Security Systems"
     };
 
-    // How fast I build it
     private final String record = "Production app shipped in 24 hours (ZeroHour · Hackathon)";
 
     @GetMapping("/stack")
     public Map<String, String[]> getStack() {
         return Map.of(
-            "backend",   new String[]{"Java 17", "Spring Boot", "Spring Security", "Hibernate/JPA", "Maven"},
-            "ai",        new String[]{"Gemini API", "Multi-Agent Systems", "Edge Inference", "SSE Streaming"},
+            "backend",   new String[]{"Java 21", "Spring Boot", "Spring Security", "Hibernate/JPA", "Maven"},
+            "ai",        new String[]{"Gemini API", "Multi-Agent Systems", "ML Severity Scoring", "SSE Streaming"},
             "database",  new String[]{"PostgreSQL", "MySQL", "H2", "Supabase"},
-            "frontend",  new String[]{"React 19", "Next.js", "Vite", "Framer Motion", "Three.js"},
+            "frontend",  new String[]{"React 19", "Next.js 16", "Vite", "Framer Motion", "Three.js"},
             "devops",    new String[]{"Docker", "Railway", "Vercel", "Git"},
             "mobile",    new String[]{"Kotlin", "Jetpack Compose", "Firebase"}
         );
@@ -79,46 +65,48 @@ public class Priyanshu {
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                       PROJECT DASHBOARD                         ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
-
 ## 🚀 Projects
 
 ---
 
-### 🏥 TriageNet — AI-Powered Regional Hospital Triage System
-> `Status: IN PROGRESS` &nbsp;·&nbsp; `Type: Final Year Project` &nbsp;·&nbsp; `Scale: Full Platform`
+### 🏥 TriageNet — AI-Powered Hospital Triage, Resource & Financial Recovery System
+> `Status: PHASE 4/5 COMPLETE` &nbsp;·&nbsp; `Type: Final Year Project` &nbsp;·&nbsp; `Scale: Full Platform + Autonomous Agents`
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-**The most technically ambitious project I've built.** An intelligent healthcare operations platform that uses ML severity scoring, graph-based load balancing, and multi-resource clinical matching to optimize patient intake and inter-hospital referrals across a connected regional network.
+**The most technically ambitious project I've built.** A full-stack healthcare operations platform where autonomous AI agents manage patient triage, resource allocation, equipment costs, and inter-hospital transfers in real time — across a 4-hospital weighted regional network.
 
 ```
-ML Engine:    Logistic Regression severity scorer
-              Score = Sigmoid(W·X + b) × 100
-              Features: SpO₂, HR, BP, Temp, RespRate, Age
-              Risk Tiers: 🔴 High (≥80) · 🟡 Moderate · 🟢 Low
+ML Engine:     Logistic Regression severity scorer
+               Score = Sigmoid(W·X + b) × 100
+               Risk Tiers: High(>=80) Moderate Low
 
-Algorithms:   Dijkstra shortest-path inter-hospital referrals
-              Hungarian algorithm for optimal bed assignment
-              3-way match: Beds ∧ Equipment ∧ Specialist
+Algorithms:    Dijkstra shortest-path referrals
+               Hungarian bed assignment matcher
+               Priority decay: E = S + lambda*W
 
-Dashboard:    12 operational pages — Triage Queue, Regional
-              Network, AI CDS, Billing, Medical Records,
-              Inventory, Reports, Communications
+AI Agents:     Supply Demand Agent (24/7 telemetry)
+               Financial Cost Recovery Agent (Rupees)
+               Dijkstra Overflow Routing Agent
+
+Backend:       8 Maven test suites -- 100% passing
+               Full JPA persistence + REST APIs
 ```
 
-**Key engineering highlights:**
-- 🧠 Explainable AI — top risk factor attribution per patient
-- 🚨 Sepsis early warning — auto-detects SpO₂ < 90% + HR > 110
-- ⏱️ Priority decay — severity escalates dynamically with wait time
-- 🔗 4-hospital graph network with real-time travel time routing
-- 🔐 Spring Security + JWT · Docker Compose multi-container
+**Phase 4 additions — Autonomous AI Agents:**
+- 🤖 **Supply Demand Agent** — 24/7 telemetry, dynamic deficit calculator, live CLI terminal
+- 💰 **Financial Recovery Agent** — manages a **₹12.80 Cr** budget, tracks equipment costs, computes **+₹1.46 Cr surplus** at a **142.7% Cost Recovery Ratio**
+- 🖥️ **Darkroom Terminal UI** — live macOS/Linux-style CLI streaming real telemetry
+- 📊 Real-time SVG dashboards — wait latency trends, specialist matching, cost vs recovery
 
-`Java 21` `Spring Boot 3.4` `Next.js 16` `Python` `scikit-learn` `PostgreSQL` `Docker` `Tailwind CSS v4`
+**Phase 3 — Core Engine (complete):**
+- 🚨 Sepsis early warning, Explainable AI risk attribution
+- 🛏️ ICU/General bed stratification with disease-specific recovery thresholds
+- 🔒 Non-preemptible critical occupancy lock (severity ≥ 85)
+
+`Java 21` `Spring Boot 3.4` `Next.js 16` `Python` `scikit-learn` `PostgreSQL` `Docker`
 
 **[Code ↗](https://github.com/PG300604/TriageNet)**
 
@@ -129,12 +117,12 @@ Dashboard:    12 operational pages — Triage Queue, Regional
 
 <br/>
 
-![](https://img.shields.io/badge/Type-Final_Year_Project-1A56DB?style=flat-square)
-![](https://img.shields.io/badge/ML-Logistic_Regression-8E75B2?style=flat-square&logo=python&logoColor=white)
-![](https://img.shields.io/badge/Algorithm-Dijkstra_+_Hungarian-4fcea6?style=flat-square)
-![](https://img.shields.io/badge/Pages-12_Operational-ff6b35?style=flat-square)
-![](https://img.shields.io/badge/Network-4_Hospitals-316192?style=flat-square)
-![](https://img.shields.io/badge/Stack-Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![](https://img.shields.io/badge/Phase-4/5_Complete-1A56DB?style=flat-square)
+![](https://img.shields.io/badge/AI_Agents-3_Autonomous-8E75B2?style=flat-square)
+![](https://img.shields.io/badge/Tests-8_Suites_100%25-4fcea6?style=flat-square)
+![](https://img.shields.io/badge/Budget_Managed-₹12.80_Cr-ff6b35?style=flat-square)
+![](https://img.shields.io/badge/Surplus-%2B₹1.46_Cr-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/Algorithm-Dijkstra_+_Hungarian-316192?style=flat-square)
 
 </td>
 </tr>
@@ -149,16 +137,16 @@ Dashboard:    12 operational pages — Triage Queue, Regional
 <tr>
 <td width="58%" valign="top">
 
-**The most architecturally complex project I've built.** A production-grade e-commerce platform on a 9-microservice Spring Boot architecture — each service independently deployable with its own database schema.
+**A production-grade e-commerce platform on a 9-microservice Spring Boot architecture** — each service independently deployable with its own database schema.
 
 ```
-Auth Service       → JWT + BCrypt + Role Management
-Product Service    → Catalog, Search, Pagination
-Order Service      → Cart → Checkout → State Machine
-Payment Service    → Stripe + Webhook Callbacks
-Inventory Service  → PENDING → COMMITTED → RELEASED
-Notification Svc   → Async SMTP Email Pipeline
-API Gateway        → Routing + Auth Validation
+Auth Service       -> JWT + BCrypt + Role Management
+Product Service    -> Catalog, Search, Pagination
+Order Service      -> Cart -> Checkout -> State Machine
+Payment Service    -> Stripe + Webhook Callbacks
+Inventory Service  -> PENDING -> COMMITTED -> RELEASED
+Notification Svc   -> Async SMTP Email Pipeline
+API Gateway        -> Routing + Auth Validation
 ```
 
 **Key engineering highlights:**
@@ -201,12 +189,12 @@ A Tinder-style web app that connects users with nearby collaborators based on sh
 
 ```
 Algorithm: Haversine Formula
-Radius:    10km → 100km (dynamic expansion)
+Radius:    10km -> 100km (dynamic expansion)
 Fallback:  Global top profiles by proficiency score
 Auth:      OAuth2 + JWT via JWKS endpoint
 ORM:       Spring Data JPA + Hibernate
 DB:        PostgreSQL (prod) · H2 (dev/test)
-Deploy:    Multi-stage Docker → JRE Alpine
+Deploy:    Multi-stage Docker -> JRE Alpine
 ```
 
 `Java` `Spring Boot` `Spring Security` `OAuth2` `PostgreSQL` `Docker` `React 19`
@@ -241,8 +229,8 @@ Deploy:    Multi-stage Docker → JRE Alpine
 **Built and deployed end-to-end in 24 hours at a national hackathon.** A multi-agent AI crisis companion that turns impossible deadlines into managed schedules — automatically.
 
 ```
-Pipeline:  PlannerAgent → PrioritizerAgent
-           → SchedulerAgent → NudgeAgent
+Pipeline:  PlannerAgent -> PrioritizerAgent
+           -> SchedulerAgent -> NudgeAgent
 Stream:    Real-time SSE (watch agents think live)
 Input:     PDFs · Syllabi · Photos (Gemini multimodal)
 Calendar:  Google Calendar API (auto-schedule + sync)
@@ -286,7 +274,7 @@ An offline-first PWA for industrial safety audits — real-time AI defect classi
 AI Engine:  Edge inference via camera feed (in-browser)
 Classifies: Corrosion · Cracks · Normal (real-time)
 Offline:    Full audit capability via Dexie.js (IndexedDB)
-Sync:       Cascading ID reconciliation → PostgreSQL
+Sync:       Cascading ID reconciliation -> PostgreSQL
 Auth:       JWT + OTP password recovery via SMTP
 Reports:    Gemini-powered narrative maintenance briefs
 ```
@@ -314,17 +302,13 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                         TECH STACK                              ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
-
 ## 🛠 Tech Stack
 
 <div align="center">
 
 **Backend · 5 frameworks**
 
-![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
@@ -342,7 +326,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 **Frontend & AI · 6 tools**
 
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -357,10 +341,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                       GITHUB METRICS                            ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
-
 ## 📊 GitHub Metrics
 
 <div align="center">
@@ -371,8 +351,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 </div>
 
 <div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=PG300604&repo=ShopFLow&theme=react&bg_color=0d1117&border_color=1A56DB&title_color=79b8ff&text_color=8fa3c0&icon_color=1A56DB" style="display:none"/>
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=PG300604&bg_color=0d1117&color=79b8ff&line=1A56DB&point=4fcea6&area=true&area_color=1A56DB&hide_border=false&border_color=1A56DB&radius=6)
 
@@ -390,28 +368,21 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                      ACHIEVEMENT BOARD                          ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
-
 ## 🏆 Achievement Board
 
 <div align="center">
 
 | 🎖️ Achievement | 📋 Details | 📅 Year |
 |:---|:---|:---:|
+| 🏥 **TriageNet — Phase 4/5 Complete** | Built 3 autonomous AI agents managing a ₹12.80 Cr budget with +₹1.46 Cr recovery surplus; 8/8 Maven test suites passing | 2026 |
 | ⚡ **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) end-to-end at CodingNinjas × Google Hackathon | 2026 |
 | 🏭 **Tata InnoVent Submission** | SkyCheck PWA submitted to Tata Technologies InnoVent 2026 — AI-powered industrial inspection | 2026 |
 | 🏦 **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
-| 🎓 **SGPA 8.83** | B.Tech CSBS — Asansol Engineering College | Ongoing |
+| 🎓 **SGPA 8.83 · CGPA 8.05** | B.Tech CSBS — Asansol Engineering College | Ongoing |
 
 </div>
 
 <br/>
-
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                        OPEN SOURCE                              ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
 
 ## 🌱 Open Source Roadmap
 
@@ -427,15 +398,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 | 📖 Studying | `eugenp/tutorials` | Java best practices | Q3 2026 |
 | 🎯 Target | First merged PR | Any Java/Spring repo | Q3 2026 |
 
-<!-- Update as you contribute:
-| ✅ Merged | spring-projects/spring-boot #XXXXX | Description | Date |
--->
-
 <br/>
-
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                        CONNECT                                  ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
 
 ## 📫 Connect
 
