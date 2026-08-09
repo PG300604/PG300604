@@ -338,7 +338,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,postgres,mysql,docker,git,github&theme=dark&perline=9" alt="Row 1"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=vercel,railway,firebase,kotlin,androidstudio,py,vscode,figma,tailwind&theme=dark&perline=9" alt="Row 2"/>
+<img src="https://skillicons.dev/icons?i=vercel,maven,firebase,kotlin,androidstudio,py,vscode,figma,tailwind&theme=dark&perline=9" alt="Row 2"/>
 </div>
 
 <br/>
@@ -482,6 +482,10 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <br/><br/>
 
+<a href="https://portfolio-website-vercel-ten.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/priyanshu-ghosh-pg3006/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
@@ -492,6 +496,10 @@ Reports:    Gemini-powered narrative maintenance briefs
 &nbsp;
 <a href="https://github.com/PG300604">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://github.com/PG300604/LeetCode-Solutions">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
 </a>
 
 <br/><br/>
