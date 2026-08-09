@@ -1,34 +1,93 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=140&section=header&text=Priyanshu%20Ghosh&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=Full%20Stack%20Java%20Developer%20%7C%20AI%20Builder%20%7C%20Ships%20Fast&descAlignY=65&descSize=15&descColor=79b8ff&animation=fadeIn" width="100%"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=160&section=header&text=Priyanshu%20Ghosh&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Java%20Developer%20%7C%20AI%20Builder%20%7C%20Ships%20Fast&descAlignY=58&descSize=16&descColor=79b8ff&animation=fadeIn" width="100%"/>
 
 <br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2500&pause=900&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+production+AI+agents+in+24+hours;9+microservices.+3+live+deployments.+0+shortcuts;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
+
+<br/><br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/priyanshu-ghosh-)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1A56DB?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-website-vercel-ten.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyanshughosh97@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/priyanshughosh30/)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════ METRICS ═══════════════════════════════════════════ -->
+
 <div align="center">
 
-| 🏗️ Projects Shipped | 🟢 Live Deployments | ⚡ Fastest Ship | 🏆 Competitions | 🤖 AI Agents Built | 🔩 Microservices |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **5** | **3** | **24 hrs** | **2** | **9+** | **9** |
+<table>
+<tr>
+<td align="center" width="16.6%">
+
+### 🏗️
+**5**
+<sub>Projects Shipped</sub>
+
+</td>
+<td align="center" width="16.6%">
+
+### 🟢
+**3**
+<sub>Live Deployments</sub>
+
+</td>
+<td align="center" width="16.6%">
+
+### ⚡
+**24hrs**
+<sub>Fastest Ship</sub>
+
+</td>
+<td align="center" width="16.6%">
+
+### 🏆
+**2**
+<sub>Competitions</sub>
+
+</td>
+<td align="center" width="16.6%">
+
+### 🤖
+**9+**
+<sub>AI Agents Built</sub>
+
+</td>
+<td align="center" width="16.6%">
+
+### 🔩
+**9**
+<sub>Microservices</sub>
+
+</td>
+</tr>
+</table>
 
 </div>
 
 <br/>
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  ◉  DEPLOYMENT STATUS MONITOR                          [LIVE · 2026]    │
-├──────────────────┬──────────────┬──────────────────────┬────────────────┤
-│  SERVICE         │  STATUS      │  STACK               │  UPTIME        │
-├──────────────────┼──────────────┼──────────────────────┼────────────────┤
-│  TriageNet       │  🔵 PHASE 4/5│  Java 21 · ML · Next │  Final Yr Proj │
-│  ShopFlow        │  🟡 BUILDING │  Java · Microsvcs    │  In Progress   │
-│  SkillShare      │  🟢 LIVE     │  Spring Boot · React │  Deployed ✓    │
-│  ZeroHour        │  🟢 LIVE     │  Gemini AI · React   │  Deployed ✓    │
-│  SkyCheck PWA    │  🟢 LIVE     │  React PWA · Java    │  Deployed ✓    │
-├──────────────────┼──────────────┼──────────────────────┼────────────────┤
-│  ACTIVE REPOS    │  10+         │  LANGUAGES           │  8+            │
-│  FRAMEWORKS      │  15+         │  OPEN TO INTERN      │  ✅ YES        │
-└──────────────────┴──────────────┴──────────────────────┴────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│  ◉  DEPLOYMENT STATUS MONITOR                           [ LIVE · 2026 ]  │
+├───────────────────┬──────────────┬───────────────────────┬───────────────┤
+│  SERVICE          │  STATUS      │  STACK                │  UPTIME       │
+├───────────────────┼──────────────┼───────────────────────┼───────────────┤
+│  TriageNet        │  🔵 PHASE 4/5│  Java 21 · ML · Next   │ Final Yr Proj │
+│  ShopFlow         │  🟡 BUILDING │  Java · Microservices  │ In Progress   │
+│  SkillShare       │  🟢 LIVE     │  Spring Boot · React   │ Deployed ✓    │
+│  ZeroHour         │  🟢 LIVE     │  Gemini AI · React     │ Deployed ✓    │
+│  SkyCheck PWA     │  🟢 LIVE     │  React PWA · Java      │ Deployed ✓    │
+├───────────────────┼──────────────┼───────────────────────┼───────────────┤
+│  ACTIVE REPOS     │  10+         │  LANGUAGES             │  8+           │
+│  FRAMEWORKS       │  15+         │  OPEN TO INTERN        │  ✅ YES       │
+└───────────────────┴──────────────┴───────────────────────┴───────────────┘
 ```
 
 <br/>
@@ -62,6 +121,8 @@ public class Priyanshu {
     }
 }
 ```
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
 
 <br/>
 
@@ -300,6 +361,8 @@ Reports:    Gemini-powered narrative maintenance briefs
 </tr>
 </table>
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
+
 <br/>
 
 ## 🛠 Tech Stack
@@ -339,6 +402,22 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 </div>
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
+
+<br/>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PG300604/PG300604/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PG300604/PG300604/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/PG300604/PG300604/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+
+</div>
+
 <br/>
 
 ## 📊 GitHub Metrics
@@ -365,6 +444,8 @@ Reports:    Gemini-powered narrative maintenance briefs
 ![Stars](https://img.shields.io/github/stars/PG300604?style=for-the-badge&color=ff6b35&label=TOTAL+STARS&logo=github)
 
 </div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
 
 <br/>
 
@@ -398,11 +479,13 @@ Reports:    Gemini-powered narrative maintenance briefs
 | 📖 Studying | `eugenp/tutorials` | Java best practices | Q3 2026 |
 | 🎯 Target | First merged PR | Any Java/Spring repo | Q3 2026 |
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
+
 <br/>
 
-## 📫 Connect
-
 <div align="center">
+
+## 📫 Let's Build Something
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/priyanshu-ghosh-)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyanshughosh97@gmail.com)
@@ -410,8 +493,10 @@ Reports:    Gemini-powered narrative maintenance briefs
 [![ZeroHour](https://img.shields.io/badge/ZeroHour_Live-ff6b35?style=for-the-badge&logo=firebase&logoColor=white)](https://zerohour-a84d3.web.app)
 [![SkillShare](https://img.shields.io/badge/SkillShare_Live-4fcea6?style=for-the-badge&logo=vercel&logoColor=white)](https://skillshare-app-vercel-xv9i.vercel.app)
 
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=4A6080&center=true&vCenter=true&width=500&lines=%22Code+is+read+more+often+than+it+is+written%22;Thanks+for+scrolling+this+far+%F0%9F%91%80" alt="footer typing" />
+
 </div>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=90&section=footer" width="100%"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%"/>
