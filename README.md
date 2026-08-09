@@ -19,48 +19,25 @@
 
 <!-- ═══════════════════════════ METRICS DASHBOARD ═══════════════════════════ -->
 
+<br/>
+
 <div align="center">
 
-<br/>
-
-<table>
-<tr>
-<td align="center" width="16.6%">
-<img width="36" src="https://img.icons8.com/fluency/48/rocket.png" alt="ship"/><br/>
-<strong>5</strong><br/>
-<sub>Projects Shipped</sub>
-</td>
-<td align="center" width="16.6%">
-<img width="36" src="https://img.icons8.com/fluency/48/ok.png" alt="live"/><br/>
-<strong>3</strong><br/>
-<sub>Live Deployments</sub>
-</td>
-<td align="center" width="16.6%">
-<img width="36" src="https://img.icons8.com/fluency/48/flash-on.png" alt="fast"/><br/>
-<strong>24hrs</strong><br/>
-<sub>Fastest Ship</sub>
-</td>
-<td align="center" width="16.6%">
-<img width="36" src="https://img.icons8.com/fluency/48/trophy.png" alt="trophy"/><br/>
-<strong>2</strong><br/>
-<sub>Competitions</sub>
-</td>
-<td align="center" width="16.6%">
-<img width="36" src="https://img.icons8.com/fluency/48/bot.png" alt="agents"/><br/>
-<strong>9+</strong><br/>
-<sub>AI Agents Built</sub>
-</td>
-<td align="center" width="16.6%">
-<img width="36" src="https://img.icons8.com/fluency/48/microservices.png" alt="micro"/><br/>
-<strong>9</strong><br/>
-<sub>Microservices</sub>
-</td>
-</tr>
-</table>
-
-<br/>
+<img src="https://img.shields.io/badge/Projects_Shipped-5-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Live_Deployments-3-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Fastest_Ship-24hrs-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Competitions-2-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+&nbsp;
+<img src="https://img.shields.io/badge/AI_Agents_Built-9+-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Microservices-9-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 
 </div>
+
+<br/>
 
 <!-- ═══════════════════════════ DEPLOYMENT MONITOR ═══════════════════════════ -->
 
@@ -138,10 +115,7 @@ public class Priyanshu {
 <!-- ─── TriageNet ─── -->
 
 <details open>
-<summary><b>
-<img width="20" src="https://img.icons8.com/fluency/48/heart-with-pulse.png" alt="triage"/>
-TriageNet — AI-Powered Hospital Triage, Resource & Financial Recovery System
-</b></summary>
+<summary><b>◆ TriageNet — AI-Powered Hospital Triage, Resource & Financial Recovery System</b></summary>
 
 <br/>
 
@@ -197,10 +171,7 @@ Sepsis early warning · Explainable AI risk attribution · ICU/General bed strat
 <!-- ─── ShopFlow ─── -->
 
 <details>
-<summary><b>
-<img width="20" src="https://img.icons8.com/fluency/48/shopping-cart.png" alt="shop"/>
-ShopFlow — Full Stack E-Commerce Platform
-</b></summary>
+<summary><b>◆ ShopFlow — Full Stack E-Commerce Platform</b></summary>
 
 <br/>
 
@@ -247,10 +218,7 @@ API Gateway        →  Routing + Auth Validation
 <!-- ─── SkillShare ─── -->
 
 <details>
-<summary><b>
-<img width="20" src="https://img.icons8.com/fluency/48/link.png" alt="skill"/>
-SkillShare — Skill Matching Platform
-</b></summary>
+<summary><b>◆ SkillShare — Skill Matching Platform</b></summary>
 
 <br/>
 
@@ -287,10 +255,7 @@ Deploy:     Multi-stage Docker → JRE Alpine
 <!-- ─── ZeroHour ─── -->
 
 <details>
-<summary><b>
-<img width="20" src="https://img.icons8.com/fluency/48/lightning-bolt.png" alt="zero"/>
-ZeroHour — Multi-Agent AI Productivity Platform
-</b></summary>
+<summary><b>◆ ZeroHour — Multi-Agent AI Productivity Platform</b></summary>
 
 <br/>
 
@@ -326,10 +291,7 @@ Security:   CSRF · IDOR mitigation · 30-day sessions
 <!-- ─── SkyCheck ─── -->
 
 <details>
-<summary><b>
-<img width="20" src="https://img.icons8.com/fluency/48/search.png" alt="sky"/>
-SkyCheck — AI Visual Structural Inspection PWA
-</b></summary>
+<summary><b>◆ SkyCheck — AI Visual Structural Inspection PWA</b></summary>
 
 <br/>
 
@@ -490,11 +452,13 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <div align="center">
 
-```
-[▓▓▓▓▓▓░░░░░░░░░░░░░░]  30%   Exploring Spring Boot issues
-[▓▓▓▓░░░░░░░░░░░░░░░░]  20%   Studying Baeldung contribution patterns
-[░░░░░░░░░░░░░░░░░░░░]   0%   First PR — Target: Q3 2026
-```
+<img src="https://img.shields.io/badge/Exploring_Spring_Boot_Issues-30%25-79b8ff?style=flat-square&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/Studying_Baeldung_Patterns-20%25-4fcea6?style=flat-square&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/First_PR_%E2%80%94_Target:_Q3_2026-0%25-8fa3c0?style=flat-square&labelColor=0d1117"/>
+
+<br/><br/>
 
 | Status | Repo | Area | ETA |
 |:---|:---|:---|:---:|
