@@ -17,8 +17,6 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
 
-<!-- ═══════════════════════════ METRICS DASHBOARD ═══════════════════════════ -->
-
 <br/>
 
 <div align="center">
@@ -38,8 +36,6 @@
 </div>
 
 <br/>
-
-<!-- ═══════════════════════════ DEPLOYMENT MONITOR ═══════════════════════════ -->
 
 <div align="center">
 
@@ -63,8 +59,6 @@
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<!-- ═══════════════════════════ ABOUT CODE BLOCK ═══════════════════════════ -->
 
 <br/>
 
@@ -102,8 +96,6 @@ public class Priyanshu {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
 
-<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
-
 <br/>
 
 <div align="center">
@@ -111,8 +103,6 @@ public class Priyanshu {
 </div>
 
 <br/>
-
-<!-- ─── TriageNet ─── -->
 
 <details open>
 <summary><b>◆ TriageNet — AI-Powered State-Wide Hospital Triage, 108 Dispatch & Spatial Resource Allocation Platform</b></summary>
@@ -197,8 +187,6 @@ Sepsis early warning · Explainable AI risk attribution · ICU/General bed strat
 
 <br/>
 
-<!-- ─── ShopFlow ─── -->
-
 <details>
 <summary><b>◆ ShopFlow — Full Stack E-Commerce Platform</b></summary>
 
@@ -244,8 +232,6 @@ API Gateway        →  Routing + Auth Validation
 
 <br/>
 
-<!-- ─── SkillShare ─── -->
-
 <details>
 <summary><b>◆ SkillShare — Skill Matching Platform</b></summary>
 
@@ -281,8 +267,6 @@ Deploy:     Multi-stage Docker → JRE Alpine
 
 <br/>
 
-<!-- ─── ZeroHour ─── -->
-
 <details>
 <summary><b>◆ ZeroHour — Multi-Agent AI Productivity Platform</b></summary>
 
@@ -316,8 +300,6 @@ Security:   CSRF · IDOR mitigation · 30-day sessions
 </details>
 
 <br/>
-
-<!-- ─── SkyCheck ─── -->
 
 <details>
 <summary><b>◆ SkyCheck — AI Visual Structural Inspection PWA</b></summary>
@@ -354,8 +336,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
 
-<!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
-
 <br/>
 
 <div align="center">
@@ -389,8 +369,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
 
-<!-- ═══════════════════════════ CONTRIBUTION SNAKE ═══════════════════════════ -->
-
 <br/>
 
 <div align="center">
@@ -411,8 +389,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
 
-<!-- ═══════════════════════════ GITHUB METRICS ═══════════════════════════ -->
-
 <br/>
 
 <div align="center">
@@ -422,7 +398,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 <br/>
 
 <div align="center">
-<img height="180" src="https://github-readme-stats-vercel-lake.vercel.app/api?username=PG300604&show_icons=true&theme=react&bg_color=0d1117&border_color=1a56db&title_color=79b8ff&text_color=8fa3c0&icon_color=4fcea6&count_private=true&include_all_commits=true&show=reviews,discussions_started&ring_color=79b8ff&rank_icon=percentile" />
+<img height="180" src="https://github-readme-stats-vercel-lake.vercel.app/api?username=PG300604&show_icons=true&theme=react&bg_color=0d1117&border_color=1a56db&title_color=79b8ff&text_color=8fa3c0&icon_color=4fcea6&show=reviews,discussions_started&ring_color=79b8ff&rank_icon=percentile" />
 &nbsp;&nbsp;
 <img height="180" src="https://github-readme-stats-vercel-lake.vercel.app/api/top-langs/?username=PG300604&layout=compact&theme=react&bg_color=0d1117&border_color=1a56db&title_color=79b8ff&text_color=8fa3c0&langs_count=8&hide=html,css&card_width=320" />
 </div>
@@ -442,8 +418,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<!-- ═══════════════════════════ ACHIEVEMENTS ═══════════════════════════ -->
 
 <br/>
 
@@ -468,8 +442,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<!-- ═══════════════════════════ OPEN SOURCE ROADMAP ═══════════════════════════ -->
 
 <br/>
 
@@ -500,8 +472,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 
 <br/>
 
