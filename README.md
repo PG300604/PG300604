@@ -49,7 +49,7 @@
 ├─────────────────────┬──────────────┬─────────────────────────┬──────────────┤
 │  SERVICE            │  STATUS      │  STACK                  │  UPTIME      │
 ├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
-│  TriageNet          │  ● PHASE 4/5 │  Java 21 · ML · Next.js │  Final Yr    │
+│  TriageNet          │  ● PHASE 7   │  Java 17 · ML · Next.js │  Final Yr    │
 │  ShopFlow           │  ● BUILDING  │  Java · Microservices   │  In Progress │
 │  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
 │  ZeroHour           │  ● LIVE      │  Gemini AI · React      │  Deployed    │
@@ -115,32 +115,57 @@ public class Priyanshu {
 <!-- ─── TriageNet ─── -->
 
 <details open>
-<summary><b>◆ TriageNet — AI-Powered Hospital Triage, Resource & Financial Recovery System</b></summary>
+<summary><b>◆ TriageNet — AI-Powered State-Wide Hospital Triage, 108 Dispatch & Spatial Resource Allocation Platform</b></summary>
 
 <br/>
 
-> **Status:** `PHASE 4/5 COMPLETE` · **Type:** Final Year Project · **Scale:** Full Platform + Autonomous Agents
+> **Status:** `PHASE 7 COMPLETE` · **Type:** Final Year Project · **Scale:** 111 Hospitals × 24 Districts × 6 RBAC Roles × 3 AI Agents
 
-The most technically ambitious project I've built. A full-stack healthcare operations platform where **autonomous AI agents** manage patient triage, resource allocation, equipment costs, and inter-hospital transfers in real time — across a 4-hospital weighted regional network.
+The most technically ambitious project I've built. A **state-wide healthcare emergency operations platform** connecting **111 real government hospitals across all 24 districts of Jharkhand** — with ML-driven triage scoring, Dijkstra shortest-path ambulance routing, autonomous AI agents managing ₹12.80 Cr budgets, and a full 108 Ambulance Tactical Command System with 1-click bed pre-booking.
 
 ```
-ML Engine:    Logistic Regression severity scorer
-              Score = Sigmoid(W·X + b) × 100
-              Risk Tiers: High(≥80) · Moderate · Low
+ML Engine:      Logistic Regression severity scorer (4 Kaggle datasets benchmarked)
+                Score = Sigmoid(W·X + b) × 100
+                98.88% cross-dataset transfer recall
+                Risk Tiers: Critical(≥75) · Urgent(50-74) · Moderate(25-49) · Low(<25)
 
-Algorithms:   Dijkstra shortest-path referrals
-              Hungarian bed assignment matcher
-              Priority decay: E = S + λ·W
+Algorithms:     Dijkstra shortest-path inter-hospital referrals
+                Hungarian 3-constraint clinical bed matcher (Bed ∧ Equipment ∧ Specialist)
+                Priority Heap with starvation prevention: E = S + λ·W
 
-AI Agents:    Supply Demand Agent (24/7 telemetry)
-              Financial Cost Recovery Agent (₹)
-              Dijkstra Overflow Routing Agent
+108 Dispatch:   4-Stage Golden Hour Pipeline
+                Incident Intake → Multi-Criteria Hospital Scoring → 1-Click Bed Pre-Booking
+                → In-Flight Fleet Telemetry with Live ETA Countdown
 
-Testing:      8 Maven test suites — 100% passing
-              Full JPA persistence + REST APIs
+AI Agents:      Supply Demand Agent (24/7 autonomous telemetry)
+                Financial Cost Recovery Agent (₹12.80 Cr budget · +₹1.46 Cr surplus)
+                Dijkstra Regional Overflow Routing Agent
+
+Data Scale:     111 real Jharkhand hospitals (RIMS, MGM, Sadar, SDH, CHC)
+                24 districts · 79+ road network edges · GIS coordinates
+                12 operational dashboard views · 6 RBAC user roles
+
+SEO & PWA:      Schema.org JSON-LD · OpenGraph · Twitter Cards · Sitemap · Robots
+                Web App Manifest · Font display:swap · Preconnect hints
+
+Testing:        14/14 Maven test suites — 100% passing
+                5 ML algorithms × 4 datasets benchmarked
+                Full JPA persistence + REST API integration tests
 ```
 
-**Phase 4 — Autonomous AI Agents:**
+**Phase 7 — Authentic Data, 108 Dispatch, SEO & Brand Identity (Latest):**
+
+| Feature | Detail |
+|---|---|
+| 108 Tactical Command | 4-stage Golden Hour: Incident → Dijkstra Scoring → Bed Pre-Book → Fleet Telemetry |
+| Authentic Hospital Data | 111 real Jharkhand facilities with GIS coords, bed pools, ICU/ventilator counts |
+| Multi-Criteria Scoring | Ranks hospitals by ETA + ICU beds + ventilators + trauma surgeons |
+| Bed Pre-Booking Protocol | Generates `#JH-108-DISPATCH-XXXX` token, reserves ICU bed, injects into triage queue |
+| Enterprise SEO | Sitemap, robots.txt, JSON-LD (WebApplication + GovernmentService), OpenGraph |
+| Official Brand Identity | Custom logo across navbar, sidebar, login portal, favicon, PWA manifest |
+| 13 Mermaid Diagrams | System architecture, component tree, DFD L0/L1/L2, use cases, RBAC matrix |
+
+**Phase 5 — Autonomous AI Agents:**
 
 | Agent | Capability |
 |---|---|
@@ -153,13 +178,17 @@ Testing:      8 Maven test suites — 100% passing
 Sepsis early warning · Explainable AI risk attribution · ICU/General bed stratification · Non-preemptible critical occupancy lock (severity ≥ 85)
 
 <p>
-<img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3.4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
 </p>
 
 [**View Code →**](https://github.com/PG300604/TriageNet)
@@ -428,7 +457,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Achievement | Details | Year |
 |:---|:---|:---:|
-| **TriageNet Phase 4/5 Complete** | 3 autonomous AI agents managing ₹12.80 Cr budget · +₹1.46 Cr recovery surplus · 8/8 Maven suites passing | 2026 |
+| **TriageNet Phase 7 Complete** | 111 hospitals × 24 districts · 108 Ambulance Tactical Command · 3 AI agents · ₹12.80 Cr budget · 13 architecture diagrams · Enterprise SEO | 2026 |
 | **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) at CodingNinjas × Google Hackathon | 2026 |
 | **Tata InnoVent Submission** | SkyCheck PWA — AI-powered industrial inspection submitted to Tata Technologies InnoVent | 2026 |
 | **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
