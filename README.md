@@ -143,7 +143,18 @@ Testing:        14/14 Maven test suites — 100% passing
                 Full JPA persistence + REST API integration tests
 ```
 
-**Phase 7 — Authentic Data, 108 Dispatch, SEO & Brand Identity (Latest):**
+**Phase 8 — Security Hardening (Latest):**
+
+| Feature | Detail |
+|---|---|
+| CORS Lockdown | Restricted cross-origin access to explicitly allowed origins only |
+| Security Headers | Added hardened HTTP security headers and improved permission-denied error responses |
+| Password Policy | Increased minimum registration password length to 8 characters |
+| Security Documentation | Added `SECURITY.md` policy, audit tracking, and contribution templates |
+| Test Coverage | Added referral workflow and authorization test suites |
+| Workflow | Self-raised GitHub issue → fixed via PR → reviewed with CodeRabbit → merged |
+
+**Phase 7 — Authentic Data, 108 Dispatch, SEO & Brand Identity:**
 
 | Feature | Detail |
 |---|---|
