@@ -45,7 +45,7 @@
 ├─────────────────────┬──────────────┬─────────────────────────┬──────────────┤
 │  SERVICE            │  STATUS      │  STACK                  │  UPTIME      │
 ├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
-│  TriageNet          │  ● PHASE 7   │  Java 17 · ML · Next.js │  Final Yr    │
+│  TriageNet          │  ● PHASE 8.1 │  Java 17 · ML · Next.js │  Final Yr    │
 │  ShopFlow           │  ● BUILDING  │  Java · Microservices   │  In Progress │
 │  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
 │  ZeroHour           │  ● LIVE      │  Gemini AI · React      │  Deployed    │
@@ -104,14 +104,16 @@ public class Priyanshu {
 
 <br/>
 
+<!-- ─── TriageNet ─── -->
+
 <details open>
 <summary><b>◆ TriageNet — AI-Powered State-Wide Hospital Triage, 108 Dispatch & Spatial Resource Allocation Platform</b></summary>
 
 <br/>
 
-> **Status:** `PHASE 7 COMPLETE` · **Type:** Final Year Project · **Scale:** 111 Hospitals × 24 Districts × 6 RBAC Roles × 3 AI Agents
+> **Status:** `PHASE 8.1 COMPLETE` · **Type:** Final Year Project · **Scale:** 111 Hospitals × 24 Districts × 6 RBAC Roles × 3 AI Agents · **Tests:** 36/36
 
-The most technically ambitious project I've built. A **state-wide healthcare emergency operations platform** connecting **111 real government hospitals across all 24 districts of Jharkhand** — with ML-driven triage scoring, Dijkstra shortest-path ambulance routing, autonomous AI agents managing ₹12.80 Cr budgets, and a full 108 Ambulance Tactical Command System with 1-click bed pre-booking.
+The most technically ambitious project I've built. A **state-wide healthcare emergency operations platform** connecting **111 real government hospitals across all 24 districts of Jharkhand** — with ML-driven triage scoring, Dijkstra shortest-path ambulance routing, autonomous AI agents managing ₹12.80 Cr budgets, a full 108 Ambulance Tactical Command System with 1-click bed pre-booking, and **enterprise-grade security hardening** with RBAC enforcement, brute-force lockouts, and HttpOnly JWT cookies.
 
 ```
 ML Engine:      Logistic Regression severity scorer (4 Kaggle datasets benchmarked)
@@ -131,6 +133,11 @@ AI Agents:      Supply Demand Agent (24/7 autonomous telemetry)
                 Financial Cost Recovery Agent (₹12.80 Cr budget · +₹1.46 Cr surplus)
                 Dijkstra Regional Overflow Routing Agent
 
+Security:       22-vector audit · CORS lockdown · @PreAuthorize RBAC
+                HttpOnly SameSite JWT cookies · Brute-force lockout (5 attempts / 15 min)
+                Fail-fast JWT entropy validation · Non-root Docker container
+                Structured audit logging with PII masking
+
 Data Scale:     111 real Jharkhand hospitals (RIMS, MGM, Sadar, SDH, CHC)
                 24 districts · 79+ road network edges · GIS coordinates
                 12 operational dashboard views · 6 RBAC user roles
@@ -138,21 +145,35 @@ Data Scale:     111 real Jharkhand hospitals (RIMS, MGM, Sadar, SDH, CHC)
 SEO & PWA:      Schema.org JSON-LD · OpenGraph · Twitter Cards · Sitemap · Robots
                 Web App Manifest · Font display:swap · Preconnect hints
 
-Testing:        14/14 Maven test suites — 100% passing
+Testing:        36/36 backend test suites — 100% passing
                 5 ML algorithms × 4 datasets benchmarked
                 Full JPA persistence + REST API integration tests
 ```
 
-**Phase 8 — Security Hardening (Latest):**
+**Phase 8.1 — Security Hardening (Latest):**
 
 | Feature | Detail |
 |---|---|
-| CORS Lockdown | Restricted cross-origin access to explicitly allowed origins only |
-| Security Headers | Added hardened HTTP security headers and improved permission-denied error responses |
-| Password Policy | Increased minimum registration password length to 8 characters |
-| Security Documentation | Added `SECURITY.md` policy, audit tracking, and contribution templates |
-| Test Coverage | Added referral workflow and authorization test suites |
-| Workflow | Self-raised GitHub issue → fixed via PR → reviewed with CodeRabbit → merged |
+| 22-Vector Security Audit | Full attack surface analysis: Auth, RBAC, Data Exposure, Infrastructure, Supply Chain |
+| CORS Centralization | Purged wildcard `@CrossOrigin(*)`, centralized via `CorsConfigurationSource` |
+| RBAC `@PreAuthorize` | Method-level role enforcement across all 7 REST controllers |
+| Brute-Force Protection | `LoginAttemptService` — 5-attempt threshold, 15-min lockouts, `423 Locked` |
+| HttpOnly JWT Cookies | `triagenet_jwt` with `HttpOnly`, `SameSite=Lax`, `Secure` + dual Bearer/Cookie extraction |
+| Audit Logging | `SecurityAuditService` with CRLF sanitization, quote escaping, and PII masking |
+| JWT Entropy Validation | `@PostConstruct` fail-fast requiring ≥256-bit secret, blocks dev secrets in prod |
+| Password Complexity | Uppercase + lowercase + digit + symbol enforcement on registration |
+| Non-Root Docker | Hardened `Dockerfile` with `USER 1001:1001` |
+| Spring Boot 3.3.2 | Upgraded from 3.2.5 with JJWT 0.12.5 |
+| Security Docs | `SECURITY.md`, issue templates, audit tracker, 1-click issue generator |
+| Test Coverage | 36/36 suites passing (referral workflow + auth lockout + RBAC tests) |
+
+**Phase 8 — 108 Referral REST API & Dual-Mode Sync:**
+
+| Feature | Detail |
+|---|---|
+| Referral REST Controller | 4 endpoints with `#JH-108-DISPATCH-XXXXXXXX` token generation |
+| Dual-Mode Sync | `useBackendConnection()` hook with live REST probe + simulated fallback |
+| 21/21 Test Suite | Unit & integration coverage across all engines, repos, and controllers |
 
 **Phase 7 — Authentic Data, 108 Dispatch, SEO & Brand Identity:**
 
@@ -160,8 +181,6 @@ Testing:        14/14 Maven test suites — 100% passing
 |---|---|
 | 108 Tactical Command | 4-stage Golden Hour: Incident → Dijkstra Scoring → Bed Pre-Book → Fleet Telemetry |
 | Authentic Hospital Data | 111 real Jharkhand facilities with GIS coords, bed pools, ICU/ventilator counts |
-| Multi-Criteria Scoring | Ranks hospitals by ETA + ICU beds + ventilators + trauma surgeons |
-| Bed Pre-Booking Protocol | Generates `#JH-108-DISPATCH-XXXX` token, reserves ICU bed, injects into triage queue |
 | Enterprise SEO | Sitemap, robots.txt, JSON-LD (WebApplication + GovernmentService), OpenGraph |
 | Official Brand Identity | Custom logo across navbar, sidebar, login portal, favicon, PWA manifest |
 | 13 Mermaid Diagrams | System architecture, component tree, DFD L0/L1/L2, use cases, RBAC matrix |
@@ -180,7 +199,8 @@ Sepsis early warning · Explainable AI risk attribution · ICU/General bed strat
 
 <p>
 <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
 <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
@@ -190,6 +210,7 @@ Sepsis early warning · Explainable AI risk attribution · ICU/General bed strat
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
 </p>
 
 [**View Code →**](https://github.com/PG300604/TriageNet)
@@ -197,6 +218,8 @@ Sepsis early warning · Explainable AI risk attribution · ICU/General bed strat
 </details>
 
 <br/>
+
+<!-- ─── ShopFlow ─── -->
 
 <details>
 <summary><b>◆ ShopFlow — Full Stack E-Commerce Platform</b></summary>
@@ -243,6 +266,8 @@ API Gateway        →  Routing + Auth Validation
 
 <br/>
 
+<!-- ─── SkillShare ─── -->
+
 <details>
 <summary><b>◆ SkillShare — Skill Matching Platform</b></summary>
 
@@ -278,6 +303,8 @@ Deploy:     Multi-stage Docker → JRE Alpine
 
 <br/>
 
+<!-- ─── ZeroHour ─── -->
+
 <details>
 <summary><b>◆ ZeroHour — Multi-Agent AI Productivity Platform</b></summary>
 
@@ -311,6 +338,8 @@ Security:   CSRF · IDOR mitigation · 30-day sessions
 </details>
 
 <br/>
+
+<!-- ─── SkyCheck ─── -->
 
 <details>
 <summary><b>◆ SkyCheck — AI Visual Structural Inspection PWA</b></summary>
@@ -442,7 +471,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Achievement | Details | Year |
 |:---|:---|:---:|
-| **TriageNet Phase 7 Complete** | 111 hospitals × 24 districts · 108 Ambulance Tactical Command · 3 AI agents · ₹12.80 Cr budget · 13 architecture diagrams · Enterprise SEO | 2026 |
+| **TriageNet Phase 8.1 Complete** | 111 hospitals × 24 districts · 36/36 test suites · 22-vector security audit · HttpOnly JWT cookies · RBAC `@PreAuthorize` · Spring Boot 3.3.2 · 13 architecture diagrams | 2026 |
 | **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) at CodingNinjas × Google Hackathon | 2026 |
 | **Tata InnoVent Submission** | SkyCheck PWA — AI-powered industrial inspection submitted to Tata Technologies InnoVent | 2026 |
 | **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
