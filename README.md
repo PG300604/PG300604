@@ -5,11 +5,11 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Priyanshu%20Ghosh&fontSize=48&fontColor=ffffff&fontAlignY=34&desc=Full%20Stack%20Java%20Developer%20%C2%B7%20AI%20Agent%20Architect%20%C2%B7%20Ships%20Fast&descAlignY=56&descSize=16&descColor=79b8ff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Priyanshu%20Ghosh&fontSize=48&fontColor=ffffff&fontAlignY=34&desc=Full%20Stack%20Java%20Developer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20AI%20Agent%20Architect&descAlignY=56&descSize=16&descColor=79b8ff&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+production+AI+agents+in+24+hours;9+microservices+%C2%B7+3+live+deployments+%C2%B7+0+shortcuts;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+distributed+Spring+Boot+microservices+solo;Shipping+production+AI+agents+in+24+hours;8+microservices+%C2%B7+4+live+deployments+%C2%B7+0+shortcuts;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
 
 </div>
 
@@ -23,7 +23,7 @@
 
 <img src="https://img.shields.io/badge/Projects_Shipped-5-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Live_Deployments-3-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Live_Deployments-4-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Fastest_Ship-24hrs-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
@@ -31,7 +31,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/AI_Agents_Built-9+-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Microservices-9-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Microservices-8-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 
 </div>
 
@@ -46,7 +46,7 @@
 │  SERVICE            │  STATUS      │  STACK                  │  UPTIME      │
 ├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
 │  TriageNet          │  ● PHASE 8.1 │  Java 17 · ML · Next.js │  Final Yr    │
-│  ShopFlow           │  ● BUILDING  │  Java · Microservices   │  In Progress │
+│  ShopFlow           │  ● SHIPPED   │  Java 17 · Spring Cloud │  v1.0 Live   │
 │  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
 │  ZeroHour           │  ● LIVE      │  Gemini AI · React      │  Deployed    │
 │  SkyCheck PWA       │  ● LIVE      │  React PWA · Java       │  Deployed    │
@@ -72,8 +72,8 @@
 public class Priyanshu {
 
     private final String[] domains = {
-        "Backend APIs", "Microservices", "Autonomous AI Agents",
-        "Full Stack Web", "PWAs", "Security Systems"
+        "Distributed Microservices", "Backend APIs", "Two-Phase Transactions",
+        "Autonomous AI Agents", "Full Stack Web", "Security Hardening"
     };
 
     private final String record = "Production app shipped in 24 hours (ZeroHour · Hackathon)";
@@ -81,11 +81,11 @@ public class Priyanshu {
     @GetMapping("/stack")
     public Map<String, String[]> getStack() {
         return Map.of(
-            "backend",  new String[]{"Java 21", "Spring Boot 3", "Spring Security", "Hibernate/JPA", "Maven"},
+            "backend",  new String[]{"Java 21/17", "Spring Boot 3", "Spring Cloud", "Spring Security", "Hibernate/JPA", "Maven"},
             "ai",       new String[]{"Gemini API", "Multi-Agent Systems", "ML Severity Scoring", "SSE Streaming"},
             "database", new String[]{"PostgreSQL", "MySQL", "H2", "Supabase"},
-            "frontend", new String[]{"React 19", "Next.js 16", "Vite", "Framer Motion", "Three.js"},
-            "devops",   new String[]{"Docker", "Railway", "Vercel", "Git"},
+            "frontend", new String[]{"React 19/18", "Next.js 16", "TypeScript 5", "Vite", "Framer Motion"},
+            "devops",   new String[]{"Docker", "Eureka Service Mesh", "API Gateway", "Vercel", "Git"},
             "mobile",   new String[]{"Kotlin", "Jetpack Compose", "Firebase"}
         );
     }
@@ -221,46 +221,51 @@ Sepsis early warning · Explainable AI risk attribution · ICU/General bed strat
 
 <!-- ─── ShopFlow ─── -->
 
-<details>
-<summary><b>◆ ShopFlow — Full Stack E-Commerce Platform</b></summary>
+<details open>
+<summary><b>◆ ShopFlow — Distributed Multi-Vendor Microservices Commerce Platform (Solo Project)</b></summary>
 
 <br/>
 
-> **Status:** `IN PROGRESS` · **Type:** Microservices · **Scale:** 9 Services
+> **Status:** `v1.0 SHIPPED` · **Type:** Distributed Microservices · **Scale:** 8 Services × Two-Phase Locks × Stripe Card/UPI × Pinterest Editorial UI
 
-A production-grade e-commerce platform on a **9-microservice** Spring Boot architecture — each service independently deployable with its own database schema.
+An enterprise-grade, distributed multi-vendor commerce platform engineered entirely from the ground up as an independent solo full-stack project. Solves distributed commerce race conditions, prevents overselling during high-concurrency checkouts via **two-phase inventory reservation locks**, and delivers a clean **Pinterest-inspired minimalist editorial 3-column storefront**.
 
 ```
-Auth Service       →  JWT + BCrypt + Role Management
-Product Service    →  Catalog, Search, Pagination
-Order Service      →  Cart → Checkout → State Machine
-Payment Service    →  Stripe + Webhook Callbacks
-Inventory Service  →  PENDING → COMMITTED → RELEASED
-Notification Svc   →  Async SMTP Email Pipeline
-API Gateway        →  Routing + Auth Validation
+Auth Service        →  JJWT 0.12.5 + BCrypt + Multi-Tenant RBAC (:8081)
+Product Service     →  Catalog + Category Indexing + Scoped Vendor Isolation (:8082)
+Order Service       →  Checkout Orchestration + State Machine + Compensating Rollbacks (:8083)
+Payment Service     →  Stripe SDK + Webhook HMAC Validation + Card/UPI Modal (:8084)
+Inventory Service   →  Two-Phase Stock Lock (PENDING → COMMITTED / RELEASED) (:8085)
+Notification Svc    →  Async TLS SMTP Mailer + HTML Order Receipts (:8086)
+API Gateway         →  Spring Cloud Gateway (:8080) + JWT Claims Forwarding + CORS
+Discovery Mesh      →  Netflix Eureka Server (:8761) + Dynamic Heartbeats
 ```
 
 **Engineering Highlights:**
 
 | Feature | Detail |
 |---|---|
-| Inventory State Machine | Prevents oversell on concurrent checkouts |
-| Stripe Webhooks | Async payment confirmation pipeline |
-| Email Pipeline | Non-blocking notifications via background threads |
-| Frontend | Next.js with Vanilla CSS — zero framework overhead |
+| **Two-Phase Inventory Lock** | Optimistic reservation locks (`physical - pendingReserved`) prevent overselling when multiple shoppers checkout the final unit simultaneously. |
+| **Auto-Sweeper Worker** | Scheduled 60-second background worker automatically releases orphaned `PENDING` stock holds after 15 minutes of payment abandonment. |
+| **Stripe Payment Modal & Webhooks** | Embedded Credit/Debit Card and UPI modal with cryptographic HMAC signature verification and resilient client fallback (`#SF-XXXXXX`). |
+| **Multi-Vendor Partitioning** | Strict role-based scoping ensuring sellers manage independent product lines, restock quantities, and inspect vendor-scoped earnings tables. |
+| **Pinterest Editorial UI** | High-performance React 18 + Vite frontend with 3-column editorial grid, live swatches, size filters, drawer cart, and native Indian Rupee (₹) formatting. |
+| **Complete System Documentation** | Full structural technical whitepaper with DFD Levels 0/1/2, database ERD, finite state machines, and 7-slide executive PDF. |
 
 <p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Microservices-1572B6?style=for-the-badge&logo=icloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Cloud-2023-blue?style=for-the-badge&logo=spring"/>
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript_5-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
 </p>
 
-[**View Code →**](https://github.com/PG300604/ShopFLow)
+[**View Architecture Docs →**](https://github.com/PG300604/ShopFLow/blob/main/docs/SYSTEM_DOCUMENTATION.md) · [**View Code →**](https://github.com/PG300604/ShopFLow)
 
 </details>
 
@@ -396,11 +401,12 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Layer | Technologies |
 |:---|:---|
-| **Backend** | Java 21 · Spring Boot 3 · Spring Security · Hibernate/JPA · Maven |
+| **Backend** | Java 21/17 · Spring Boot 3 · Spring Cloud · Spring Security · Hibernate/JPA · Maven |
+| **Distributed Mesh** | Netflix Eureka · Spring Cloud API Gateway · OpenFeign · Two-Phase Stock Locks |
 | **AI & ML** | Gemini API · Multi-Agent Systems · scikit-learn · SSE Streaming |
 | **Database** | PostgreSQL · MySQL · Supabase · H2 |
-| **Frontend** | React 19 · Next.js 16 · Vite · Framer Motion · Three.js |
-| **DevOps** | Docker · Railway · Vercel · Git · GitHub Actions |
+| **Frontend** | React 19/18 · Next.js 16 · TypeScript 5 · Vite · Framer Motion · Three.js |
+| **DevOps & Cloud** | Docker · Stripe SDK · Railway · Vercel · Git · GitHub Actions |
 | **Mobile** | Kotlin · Jetpack Compose · Firebase |
 
 </div>
@@ -471,6 +477,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Achievement | Details | Year |
 |:---|:---|:---:|
+| **ShopFlow v1.0 Shipped Solo** | Engineered 8 Spring Boot 3.3.1 microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration · Pinterest editorial React UI · 7-slide system architecture whitepaper | 2026 |
 | **TriageNet Phase 8.1 Complete** | 111 hospitals × 24 districts · 36/36 test suites · 22-vector security audit · HttpOnly JWT cookies · RBAC `@PreAuthorize` · Spring Boot 3.3.2 · 13 architecture diagrams | 2026 |
 | **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) at CodingNinjas × Google Hackathon | 2026 |
 | **Tata InnoVent Submission** | SkyCheck PWA — AI-powered industrial inspection submitted to Tata Technologies InnoVent | 2026 |
