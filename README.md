@@ -21,13 +21,13 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Projects_Shipped-5-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Projects_Shipped-6-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Live_Deployments-4-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Fastest_Ship-24hrs-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Competitions-2-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Competitions-3-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
 <img src="https://img.shields.io/badge/AI_Agents_Built-9+-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
@@ -47,6 +47,7 @@
 ├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
 │  TriageNet          │  ● PHASE 8.1 │  Java 17 · ML · Next.js │  Final Yr    │
 │  ShopFlow           │  ● SHIPPED   │  Java 17 · Spring Cloud │  v1.0 Live   │
+│  RepoMind           │  ● SUBMITTED │  IBM Bob · GH Actions   │  Hackathon   │
 │  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
 │  ZeroHour           │  ● LIVE      │  Gemini AI · React      │  Deployed    │
 │  SkyCheck PWA       │  ● LIVE      │  React PWA · Java       │  Deployed    │
@@ -271,6 +272,54 @@ Discovery Mesh      →  Netflix Eureka Server (:8761) + Dynamic Heartbeats
 
 <br/>
 
+<!-- ─── RepoMind ─── -->
+
+<details open>
+<summary><b>◆ RepoMind — AI-Powered PR Blast-Radius & Risk Analyzer (IBM Bob 2.0 Hackathon)</b></summary>
+
+<br/>
+
+> **Status:** `SUBMITTED` · **Type:** Hackathon Project · **Event:** IBM Bob 2.0 Hackathon · **Stack:** IBM Bob API · GitHub Actions
+
+A PR review co-pilot that reasons across an entire codebase — not just the diff — to catch risk that reviewers usually miss. Built on **IBM Bob's API**, it traces the real dependency graph behind every changed file, scores merge risk, and flags missing test coverage automatically.
+
+```
+Analysis Engine:  Bob API traces every file/function that depends on the changed code,
+                  mapping the true "blast radius" of a PR before it merges
+
+Risk Scoring:     Low / Medium / High risk classification with a plain-language
+                  explanation of what could break and why
+
+Test Coverage:    Auto-generated test stub suggestions for code paths left
+                  uncovered by the current diff
+
+GitHub Action:    Drop-in workflow (.github/workflows) triggers on every PR open/sync,
+                  calls the analysis service, and posts the risk summary as a
+                  PR comment automatically — zero manual review step required
+```
+
+**Engineering Highlights:**
+
+| Feature | Detail |
+|---|---|
+| **Full-Repo Reasoning** | Uses Bob's API to analyze the changed diff in the context of the whole repository, not just the isolated patch |
+| **Blast-Radius Mapping** | Identifies every downstream file/function affected by a change before merge |
+| **Zero-Touch Integration** | One workflow file added to any repo — no dashboard, no manual trigger, review happens automatically on every PR |
+| **Auto Test Suggestions** | Flags missing test coverage and drafts concrete test stubs for the changed code |
+
+<p>
+<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/IBM_Bob_API-052FAD?style=for-the-badge&logo=ibm&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+</p>
+
+[**View Code →**](https://github.com/PG300604/REPOMIND-IBM_BOB2.0_HACKATHON_PROJ)
+
+</details>
+
+<br/>
+
 <!-- ─── SkillShare ─── -->
 
 <details>
@@ -479,6 +528,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 |:---|:---|:---:|
 | **ShopFlow v1.0 Shipped Solo** | Engineered 8 Spring Boot 3.3.1 microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration · Pinterest editorial React UI · 7-slide system architecture whitepaper | 2026 |
 | **TriageNet Phase 8.1 Complete** | 111 hospitals × 24 districts · 36/36 test suites · 22-vector security audit · HttpOnly JWT cookies · RBAC `@PreAuthorize` · Spring Boot 3.3.2 · 13 architecture diagrams | 2026 |
+| **RepoMind Submitted** | PR risk analyzer built on IBM Bob's API for the IBM Bob 2.0 Hackathon · blast-radius dependency mapping · auto GitHub Action PR review | 2026 |
 | **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) at CodingNinjas × Google Hackathon | 2026 |
 | **Tata InnoVent Submission** | SkyCheck PWA — AI-powered industrial inspection submitted to Tata Technologies InnoVent | 2026 |
 | **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
