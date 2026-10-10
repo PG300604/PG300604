@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+distributed+Spring+Boot+microservices+solo;Shipping+production+AI+agents+in+24+hours;8+microservices+%C2%B7+4+live+deployments+%C2%B7+0+shortcuts;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Zero-Trust+Cryptographic+FIM+for+HashWatch;Shipping+distributed+Spring+Boot+microservices+solo;Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+production+AI+agents+in+24+hours;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
 
 </div>
 
@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Projects_Shipped-6-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Projects_Shipped-7-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Live_Deployments-4-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
@@ -45,7 +45,8 @@
 ├─────────────────────┬──────────────┬─────────────────────────┬──────────────┤
 │  SERVICE            │  STATUS      │  STACK                  │  UPTIME      │
 ├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
-│  TriageNet          │  ● PHASE 8.1 │  Java 17 · ML · Next.js │  Final Yr    │
+│  HashWatch          │  ● SPRINT 2  │  Java 17 · Ed25519 · DB │  Final Yr    │
+│  TriageNet          │  ● PHASE 8.1 │  Java 17 · ML · Next.js │  Flagship    │
 │  ShopFlow           │  ● SHIPPED   │  Java 17 · Spring Cloud │  v1.0 Live   │
 │  RepoMind           │  ● SUBMITTED │  IBM Bob · GH Actions   │  Hackathon   │
 │  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
@@ -73,8 +74,8 @@
 public class Priyanshu {
 
     private final String[] domains = {
-        "Distributed Microservices", "Backend APIs", "Two-Phase Transactions",
-        "Autonomous AI Agents", "Full Stack Web", "Security Hardening"
+        "Distributed Microservices", "Zero-Trust Cryptography", "Backend APIs",
+        "Two-Phase Transactions", "Autonomous AI Agents", "Security Hardening"
     };
 
     private final String record = "Production app shipped in 24 hours (ZeroHour · Hackathon)";
@@ -83,11 +84,11 @@ public class Priyanshu {
     public Map<String, String[]> getStack() {
         return Map.of(
             "backend",  new String[]{"Java 21/17", "Spring Boot 3", "Spring Cloud", "Spring Security", "Hibernate/JPA", "Maven"},
+            "crypto",   new String[]{"Ed25519 (RFC 8032)", "SHA-256 Streaming", "SunEC JCA", "Zero-Trust Baselines"},
             "ai",       new String[]{"Gemini API", "Multi-Agent Systems", "ML Severity Scoring", "SSE Streaming"},
             "database", new String[]{"PostgreSQL", "MySQL", "H2", "Supabase"},
             "frontend", new String[]{"React 19/18", "Next.js 16", "TypeScript 5", "Vite", "Framer Motion"},
-            "devops",   new String[]{"Docker", "Eureka Service Mesh", "API Gateway", "Vercel", "Git"},
-            "mobile",   new String[]{"Kotlin", "Jetpack Compose", "Firebase"}
+            "devops",   new String[]{"Docker", "Eureka Service Mesh", "API Gateway", "Vercel", "Git"}
         );
     }
 }
@@ -105,6 +106,66 @@ public class Priyanshu {
 
 <br/>
 
+<!-- ─── HashWatch (Final Year Project) ─── -->
+
+<details open>
+<summary><b>◆ HashWatch — Cryptographically Signed File Integrity & Baseline Monitoring System</b></summary>
+
+<br/>
+
+> **Status:** `SPRINT 2 ACTIVE` · **Type:** Final Year Project (Lead) · **Scale:** Zero-Trust Cryptography × 30s Quartz Scheduler × Dual DB · **Tests:** 33/33 Passing
+
+A modern enterprise File Integrity Monitoring (FIM) system engineered to solve the classical **Baseline Poisoning Attack** seen in traditional tools like Tripwire and AIDE. Uses **asymmetric Edwards-curve digital signatures (Ed25519)** and **64 KB buffered streaming SHA-256** to mathematically guarantee file authenticity without relying on trusted database media.
+
+```
+Integrity Engine: 64 KB chunked streaming SHA-256 (<64 KB RAM consumption for any file size)
+                  Native Java 17 LTS Ed25519 asymmetric signing via SunEC JCA (RFC 8032)
+                  Triple-Lock Canonical Envelope (Domain + Path + Hash + Size)
+                  Fingerprint-pinned verification stopping in-memory / DB rogue key substitution
+
+State Machine:    Deterministic 5-state integrity classification:
+                  VERIFIED · TAMPERED · MISSING · SIGNATURE_INVALID · UNTRACKED
+                  Distinguishes disk tampering from database-level tampering
+
+Scheduler:        Resilient Quartz Job with @DisallowConcurrentExecution
+                  Misfire handling with execution duration telemetry
+                  State-transition alert gating eliminating 30-second polling alert fatigue
+
+Architecture:     Dual-Profile persistence: H2 in-memory (dev) + PostgreSQL 16 (prod)
+                  HikariCP connection pool with schema migration defaults
+                  Full academic benchmarking suite against published research papers (snaproot, Bernstein)
+
+Testing Health:   33/33 automated tests passing (Comparison, Repositories, Scheduler, Crypto)
+```
+
+**Key Innovations & Technical Highlights:**
+
+| Feature | Detail |
+|---|---|
+| **Zero-Trust Baselines** | Verifies Ed25519 signature before comparing disk bytes; detects and alerts database tampering (`SIGNATURE_INVALID`) |
+| **Triple-Lock Envelope** | Binds `HashWatch:v1:<normalizedPath>:<sha256Hex>:<fileSizeBytes>` to stop cross-file DB signature swaps |
+| **Fingerprint Pinning** | Enforces active public key SHA-256 fingerprint verification against stored `publicKeyId` |
+| **In-Place Monitoring** | Non-intrusive monitoring leaving disk files in place with 0% storage bloat |
+| **Batch Fault Isolation** | Per-file isolated execution ensures transient locks never interrupt scans of remaining files |
+| **Enterprise Readiness** | Centralized Docker deployment for banks/cloud servers with REST API and Web Dashboard |
+
+<p>
+<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ed25519-0284c7?style=for-the-badge&logo=shield&logoColor=white"/>
+<img src="https://img.shields.io/badge/SHA--256-0284c7?style=for-the-badge&logo=lock&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Quartz_Scheduler-D22128?style=for-the-badge&logo=clock&logoColor=white"/>
+<img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tests-33%2F33_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
+</p>
+
+[**View Code →**](https://github.com/PG300604/HashWatch)
+
+</details>
+
+<br/>
+
 <!-- ─── TriageNet ─── -->
 
 <details open>
@@ -112,9 +173,9 @@ public class Priyanshu {
 
 <br/>
 
-> **Status:** `PHASE 8.1 COMPLETE` · **Type:** Final Year Project · **Scale:** 111 Hospitals × 24 Districts × 6 RBAC Roles × 3 AI Agents · **Tests:** 36/36
+> **Status:** `PHASE 8.1 COMPLETE` · **Type:** Flagship Aspirational Platform · **Scale:** 111 Hospitals × 24 Districts × 6 RBAC Roles × 3 AI Agents · **Tests:** 36/36
 
-The most technically ambitious project I've built. A **state-wide healthcare emergency operations platform** connecting **111 real government hospitals across all 24 districts of Jharkhand** — with ML-driven triage scoring, Dijkstra shortest-path ambulance routing, autonomous AI agents managing ₹12.80 Cr budgets, a full 108 Ambulance Tactical Command System with 1-click bed pre-booking, and **enterprise-grade security hardening** with RBAC enforcement, brute-force lockouts, and HttpOnly JWT cookies.
+The most technically ambitious platform I've built. A **state-wide healthcare emergency operations system** connecting **111 real government hospitals across all 24 districts of Jharkhand** — with ML-driven triage scoring, Dijkstra shortest-path ambulance routing, autonomous AI agents managing ₹12.80 Cr budgets, a full 108 Ambulance Tactical Command System with 1-click bed pre-booking, and **enterprise-grade security hardening** with RBAC enforcement, brute-force lockouts, and HttpOnly JWT cookies.
 
 ```
 ML Engine:      Logistic Regression severity scorer (4 Kaggle datasets benchmarked)
@@ -143,9 +204,6 @@ Data Scale:     111 real Jharkhand hospitals (RIMS, MGM, Sadar, SDH, CHC)
                 24 districts · 79+ road network edges · GIS coordinates
                 12 operational dashboard views · 6 RBAC user roles
 
-SEO & PWA:      Schema.org JSON-LD · OpenGraph · Twitter Cards · Sitemap · Robots
-                Web App Manifest · Font display:swap · Preconnect hints
-
 Testing:        36/36 backend test suites — 100% passing
                 5 ML algorithms × 4 datasets benchmarked
                 Full JPA persistence + REST API integration tests
@@ -167,36 +225,6 @@ Testing:        36/36 backend test suites — 100% passing
 | Spring Boot 3.3.2 | Upgraded from 3.2.5 with JJWT 0.12.5 |
 | Security Docs | `SECURITY.md`, issue templates, audit tracker, 1-click issue generator |
 | Test Coverage | 36/36 suites passing (referral workflow + auth lockout + RBAC tests) |
-
-**Phase 8 — 108 Referral REST API & Dual-Mode Sync:**
-
-| Feature | Detail |
-|---|---|
-| Referral REST Controller | 4 endpoints with `#JH-108-DISPATCH-XXXXXXXX` token generation |
-| Dual-Mode Sync | `useBackendConnection()` hook with live REST probe + simulated fallback |
-| 21/21 Test Suite | Unit & integration coverage across all engines, repos, and controllers |
-
-**Phase 7 — Authentic Data, 108 Dispatch, SEO & Brand Identity:**
-
-| Feature | Detail |
-|---|---|
-| 108 Tactical Command | 4-stage Golden Hour: Incident → Dijkstra Scoring → Bed Pre-Book → Fleet Telemetry |
-| Authentic Hospital Data | 111 real Jharkhand facilities with GIS coords, bed pools, ICU/ventilator counts |
-| Enterprise SEO | Sitemap, robots.txt, JSON-LD (WebApplication + GovernmentService), OpenGraph |
-| Official Brand Identity | Custom logo across navbar, sidebar, login portal, favicon, PWA manifest |
-| 13 Mermaid Diagrams | System architecture, component tree, DFD L0/L1/L2, use cases, RBAC matrix |
-
-**Phase 5 — Autonomous AI Agents:**
-
-| Agent | Capability |
-|---|---|
-| Supply Demand Agent | 24/7 telemetry, dynamic deficit calculator, live CLI terminal |
-| Financial Recovery Agent | Manages ₹12.80 Cr budget, tracks equipment costs, +₹1.46 Cr surplus at 142.7% CRR |
-| Darkroom Terminal UI | Live macOS/Linux-style CLI streaming real telemetry |
-| SVG Dashboards | Wait latency trends, specialist matching, cost vs recovery |
-
-**Phase 3 — Core Engine:**
-Sepsis early warning · Explainable AI risk attribution · ICU/General bed stratification · Non-preemptible critical occupancy lock (severity ≥ 85)
 
 <p>
 <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
@@ -450,12 +478,13 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Layer | Technologies |
 |:---|:---|
-| **Backend** | Java 21/17 · Spring Boot 3 · Spring Cloud · Spring Security · Hibernate/JPA · Maven |
+| **Backend & Microservices** | Java 21/17 · Spring Boot 3 · Spring Cloud · Spring Security · Hibernate/JPA · Maven |
+| **Cryptography & FIM** | Ed25519 (RFC 8032) · Streaming SHA-256 · SunEC JCA · Zero-Trust Baselines · Quartz |
 | **Distributed Mesh** | Netflix Eureka · Spring Cloud API Gateway · OpenFeign · Two-Phase Stock Locks |
-| **AI & ML** | Gemini API · Multi-Agent Systems · scikit-learn · SSE Streaming |
-| **Database** | PostgreSQL · MySQL · Supabase · H2 |
-| **Frontend** | React 19/18 · Next.js 16 · TypeScript 5 · Vite · Framer Motion · Three.js |
-| **DevOps & Cloud** | Docker · Stripe SDK · Railway · Vercel · Git · GitHub Actions |
+| **AI & ML Systems** | Gemini API · Multi-Agent Systems · scikit-learn · SSE Streaming · Logistic Regression |
+| **Database & Persistence** | PostgreSQL 16 · MySQL · Supabase · H2 In-Memory · HikariCP |
+| **Frontend & UI** | React 19/18 · Next.js 16 · TypeScript 5 · Vite · Tailwind v4 · Framer Motion · Three.js |
+| **DevOps & Cloud** | Docker · Stripe SDK · Railway · Vercel · Git · GitHub Actions CI |
 | **Mobile** | Kotlin · Jetpack Compose · Firebase |
 
 </div>
@@ -506,12 +535,6 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <br/>
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PG300604&bg_color=0d1117&color=79b8ff&line=4fcea6&point=79b8ff&area=true&area_color=1a56db&hide_border=true&custom_title=Contribution%20Activity" width="95%"/>
-</div>
-
-<br/>
-
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
 
 <br/>
@@ -526,6 +549,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Achievement | Details | Year |
 |:---|:---|:---:|
+| **HashWatch Project Lead** | Architected Zero-Trust FIM system with Ed25519 digital signatures, 64 KB streaming SHA-256, and Quartz scheduler · 33/33 test suites passing · Final Year Project | 2026 |
 | **ShopFlow v1.0 Shipped Solo** | Engineered 8 Spring Boot 3.3.1 microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration · Pinterest editorial React UI · 7-slide system architecture whitepaper | 2026 |
 | **TriageNet Phase 8.1 Complete** | 111 hospitals × 24 districts · 36/36 test suites · 22-vector security audit · HttpOnly JWT cookies · RBAC `@PreAuthorize` · Spring Boot 3.3.2 · 13 architecture diagrams | 2026 |
 | **RepoMind Submitted** | PR risk analyzer built on IBM Bob's API for the IBM Bob 2.0 Hackathon · blast-radius dependency mapping · auto GitHub Action PR review | 2026 |
@@ -600,7 +624,7 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=PG300604&style=for-the-badge&color=1a56db&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://img.shields.io/badge/PROFILE_VIEWS-1.2k+-1a56db?style=for-the-badge&logo=eye&logoColor=white&labelColor=0d1117" alt="Profile Views"/>
 
 <br/><br/>
 
