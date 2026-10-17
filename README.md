@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Zero-Trust+Cryptographic+FIM+for+HashWatch;Shipping+distributed+Spring+Boot+microservices+solo;Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+production+AI+agents+in+24+hours;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Zero-Trust+Cryptographic+FIM+for+HashWatch;Shipping+TriageNet+v1.3.0+Statewide+Healthcare+OS;Shipping+distributed+Spring+Boot+microservices+solo;Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+production+AI+agents+in+24+hours;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
 
 </div>
 
@@ -21,9 +21,9 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Projects_Shipped-7-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Projects_Shipped-8-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Live_Deployments-4-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<img src="https://img.shields.io/badge/Live_Deployments-5-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Fastest_Ship-24hrs-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
 &nbsp;
@@ -46,7 +46,7 @@
 │  SERVICE            │  STATUS      │  STACK                  │  UPTIME      │
 ├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
 │  HashWatch          │  ● SPRINT 2  │  Java 17 · Ed25519 · DB │  Final Yr    │
-│  TriageNet          │  ● PHASE 9.6 │  Java 17 · Next · Nginx │  Flagship    │
+│  TriageNet          │  ● v1.3.0    │  Java 17 · Next · Redis │  Live Cloud  │
 │  ShopFlow           │  ● SHIPPED   │  Java 17 · Spring Cloud │  v1.0 Live   │
 │  RepoMind           │  ● SUBMITTED │  IBM Bob · GH Actions   │  Hackathon   │
 │  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
@@ -75,7 +75,7 @@ public class Priyanshu {
 
     private final String[] domains = {
         "Distributed Microservices", "Zero-Trust Cryptography", "Backend APIs",
-        "Two-Phase Transactions", "Autonomous AI Agents", "Security Hardening"
+        "Two-Phase Transactions", "Autonomous AI Agents", "Spatial Healthcare Systems"
     };
 
     private final String record = "Production app shipped in 24 hours (ZeroHour · Hackathon)";
@@ -83,12 +83,12 @@ public class Priyanshu {
     @GetMapping("/stack")
     public Map<String, String[]> getStack() {
         return Map.of(
-            "backend",  new String[]{"Java 21/17", "Spring Boot 3", "Spring Cloud", "Spring Security", "Hibernate/JPA", "Maven"},
+            "backend",  new String[]{"Java 21/17", "Spring Boot 3.3.13", "Spring Cloud", "Spring Security", "Hibernate/JPA", "Maven"},
             "crypto",   new String[]{"Ed25519 (RFC 8032)", "SHA-256 Streaming", "SunEC JCA", "Zero-Trust Baselines"},
-            "ai",       new String[]{"Gemini API", "Multi-Agent Systems", "ML Severity Scoring", "SSE Streaming"},
-            "database", new String[]{"PostgreSQL", "MySQL", "H2", "Supabase", "Redis"},
-            "frontend", new String[]{"React 19/18", "Next.js 16", "TypeScript 5", "Vite", "Framer Motion"},
-            "devops",   new String[]{"Docker", "Nginx", "Eureka Service Mesh", "API Gateway", "GitHub Actions CI", "Vercel"}
+            "ai",       new String[]{"Gemini API", "Multi-Agent Systems", "Sigmoid Acuity Regression", "SSE Streaming"},
+            "database", new String[]{"PostgreSQL 16 + PostGIS", "Redis 7.2 Pub/Sub", "MySQL", "H2 In-Memory", "Supabase"},
+            "frontend", new String[]{"React 19/18", "Next.js 16.4.1", "TypeScript 5.7", "Vite", "Tailwind v4", "Leaflet 3D"},
+            "devops",   new String[]{"Docker Compose", "Nginx Reverse Proxy", "Render Cloud", "GitHub Actions CI", "Trivy"}
         );
     }
 }
@@ -173,61 +173,66 @@ Testing Health:   33/33 automated tests passing (Comparison, Repositories, Sched
 
 <br/>
 
-> **Status:** `PHASE 9.6 ACTIVE` · **Type:** Flagship Healthcare Platform · **Scale:** 111+ Hospitals × 24 Districts × 6 RBAC Roles × 4 Core Algorithms · **Tests:** 71/71 Passing (100% Green CI)
+> **Status:** `v1.3.0 PRODUCTION SHIPPED` · **Type:** Flagship Healthcare Platform · **Scale:** 111+ Authentic Hospitals × 24 Districts × 6 RBAC Roles × 4 Core Algorithms · **Tests:** 89/89 Passing (100% Green CI) · **Deployment:** Live on Render Cloud
 
-The most technically ambitious platform I've built. A **state-wide healthcare emergency operations system** connecting **111+ real government hospitals across all 24 districts of Jharkhand** — with multi-parameter triage scoring, Hungarian optimal bipartite bed allocation, Dijkstra shortest-path inter-district routing, autonomous telemetry agents, full 108 Ambulance Tactical Command, and **hardened enterprise infrastructure** with Nginx reverse proxy, PostgreSQL 16, Redis 7 caching, and Spring Boot 3.3.13.
+The most technically ambitious platform I've built. A **state-wide healthcare emergency operating system** connecting **111 real government healthcare facilities across all 24 districts of Jharkhand** (RIMS Ranchi, MGM Jamshedpur, SNMMCH Dhanbad, 24 District Hospitals, and 80+ CHCs). Features multivariate logistic acuity scoring, Kuhn-Munkres optimal bipartite ICU bed allocation, Dijkstra shortest-path highway routing with municipal ITMS 108 Green Wave traffic signal preemption, cross-platform Android/iOS Mobile Companion Suite, Guest Sandbox simulation mode, and **hardened enterprise infrastructure** with Docker Compose, Nginx reverse proxy, PostgreSQL 16 + PostGIS, Redis 7.2 Pub/Sub telemetry, and Spring Boot 3.3.13.
 
 ```
-Core Algorithms:  SeverityScorer: Multi-parameter scoring (vitals + GCS/SIRS + trauma weighting)
-                  TriageQueueService: Priority min-heap with wait-time starvation prevention (E = S + λ·W)
-                  HungarianMatcher: Optimal O(N³) bipartite clinical bed & ICU allocation
-                  DijkstraRouter: Shortest-path routing over 24-district road topology graph
+Core Algorithms:  SeverityScorer: Multivariate logistic regression (98.88% recall across 4 Kaggle hospital datasets)
+                  TriageQueueService: Dynamic lock-free binary max-heap with wait-aging decay (E = S + λ√W)
+                  HungarianMatcher: Optimal O(V³) Kuhn-Munkres bipartite ICU bed & surgical specialist allocator
+                  DijkstraRouter: Dynamic congestion shortest-path highway routing with ITMS 108 Green Wave preemption
 
 108 Dispatch:     4-Stage Golden Hour Emergency Pipeline
-                  Incident Intake → Multi-Criteria Facility Matching → 1-Click Bed Reservation
-                  → In-Flight Fleet Telemetry with Live GPS Route Tracking & ETA Countdown
+                  Incident Ingestion → Bipartite Specialist Matching → Sub-50ms Bed Hold TTL Lock
+                  → In-Flight Telemetry with Real-Time GPS Tracking, Digital Trauma Voucher & Green Corridor Preemption
 
-Infrastructure:   Spring Boot 3.3.13 backend (Java 17 Temurin, fully patched)
-                  Next.js 16.4.1 App Router frontend (Turbopack, 12 static prerendered routes)
-                  Nginx Reverse Proxy with /healthz, /api/, /ws/, and security headers
-                  PostgreSQL 16 persistence + Redis 7 caching for spatial & session telemetry
+Infrastructure:   Spring Boot 3.3.13 backend (Java 17 Temurin, Virtual Threads concurrency, zero Python runtime)
+                  Next.js 16.4.1 App Router frontend (React 19 SSR, Turbopack, 23 routes, Tailwind v4, Leaflet 3D)
+                  Redis 7.2 In-Memory Broker (sub-50ms GPS Pub/Sub, STOMP relay, 30-min bed hold TTL, AOF durability)
+                  Nginx Reverse Proxy with SSL termination, keepalive connection pooling, and rate limiting
+                  PostgreSQL 16 + PostGIS spatial persistence with Row-Level Security (RLS) policies
+                  Multi-Platform Mobile Companion (Flutter Android APK, iOS package, native Jetpack background service)
 
-Security & RBAC:  22-vector security audit · CORS centralization · Method-level @PreAuthorize RBAC
-                  HttpOnly SameSite JWT cookies · Brute-force protection (5 attempts / 15-min lockout)
-                  Fail-fast entropy validation (≥256-bit secrets) · PII-masked audit logging
-                  Clinician Profile Modal with role customizer & clean active session switching
+Security & Safety: 3-Tier Multi-Layer Governance: Clinical (Sepsis/Shock alerts) + Operational (FIDO2, Dual-Control)
+                  Zero-Email BIP-39 Offline Credentials · Token-bucket rate limiting (10 req/s/IP) · Aqua Trivy 0 CVEs
+                  Dual-Mode Architecture: Non-mutating Guest Sandbox Mode vs Authenticated Clinical Multi-Tenant Portal
 
-Testing & CI/CD:  71/71 automated backend tests passing across integration, security & algorithms
+Testing & CI/CD:  89/89 automated backend tests passing across integration, security, and algorithms
                   GitHub Actions CI with 3 parallel jobs: Maven test, Next.js build, Trivy offline scan
-                  100% Green CI pipeline with 0 critical security vulnerabilities
+                  Official GitHub Release v1.3.0 with Android APK, iOS package, executable JAR & SHA256 checksums
 ```
 
 **Key Architectural Highlights & Innovations:**
 
 | Feature | Detail |
 |---|---|
-| **4 Hand-Built Engines** | `SeverityScorer`, `TriageQueueService`, `HungarianMatcher`, and `DijkstraRouter` implemented natively without external solver dependencies |
-| **24-District Coverage** | Full geospatial topology for Jharkhand: RIMS Ranchi, MGM Jamshedpur, SNMMCH Dhanbad, Sadar Hospitals, SDHs, and CHCs |
-| **Nginx Reverse Proxy** | Unified edge routing for frontend, backend REST API, and WebSocket streaming with zero CORS overhead |
-| **Zero-Trust Security** | 22-vector audit, HttpOnly JWTs, non-root containers, brute-force defense, and Jakarta validation |
-| **Clinician Profile Modal** | Multi-role switching with React portals, 24-district filter command bar, and categorized facility search |
-| **71/71 Tests Green** | 100% automated test coverage verified on both Linux (Fedora) and Windows 11 host runners |
+| **4 Hand-Built Engines** | `SeverityScorer`, `TriageQueueService`, `HungarianMatcher`, and `DijkstraRouter` implemented natively without external solver or runtime Python dependencies |
+| **24-District Coverage** | Authentic public health infrastructure covering all 111 government hospitals and CHCs across Jharkhand with real ORS distance matrices |
+| **ITMS 108 Green Wave** | Municipal traffic control gateway overrides corridor traffic lights along NH-33/GT Road to `ALL_GREEN` for in-transit trauma ambulances |
+| **Redis 7.2 Telemetry** | Sub-50ms GPS streaming (`/topic/ambulance-telemetry`), WebSocket STOMP relay, and 30-minute auto-release bed hold locks |
+| **Multi-Dataset ML Validation** | Empirical evaluation across 4 authentic Kaggle hospital datasets (General, ESI, KTAS, NHAMCS) proving 98.88% emergency recall |
+| **Guest Sandbox Console** | Zero-login simulated command sandbox (`/control`) allows external evaluators to stress-test mass-casualty triage safely |
+| **Zero-Trust Security** | FIDO2 hardware tokens, dual-control supervisor signoffs, BIP-39 offline auth, PostgreSQL RLS, and 0 Trivy CVEs |
+| **89/89 Tests Green** | 100% automated test coverage verified on both Linux (Fedora) and Windows 11 host runners |
 
 <p>
 <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring_Boot_3.3.13-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js_16.4.1-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis_7-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL_16_+_PostGIS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis_7.2_Pub%2FSub-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
 <img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Release-v1.3.0-blue?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Deployment-Render_Live-4fcea6?style=for-the-badge&logo=render&logoColor=white"/>
 <img src="https://img.shields.io/badge/Trivy-0_Vulnerabilities-00ADD8?style=for-the-badge&logo=aquasec&logoColor=white"/>
 <img src="https://img.shields.io/badge/CI%2FCD-100%25_Green-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tests-71%2F71_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tests-89%2F89_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
-[**View Code →**](https://github.com/PG300604/TriageNet)
+[**Launch Live Cloud Demo →**](https://triagenet-frontend.onrender.com) · [**Download v1.3.0 Release Packages →**](https://github.com/PG300604/TriageNet/releases/tag/v1.3.0) · [**View Code →**](https://github.com/PG300604/TriageNet)
 
 </details>
 
@@ -466,11 +471,11 @@ Reports:    Gemini-powered narrative maintenance briefs
 | **Backend & Microservices** | Java 21/17 · Spring Boot 3.3.13 · Spring Cloud · Spring Security · Hibernate/JPA · Maven |
 | **Cryptography & FIM** | Ed25519 (RFC 8032) · Streaming SHA-256 · SunEC JCA · Zero-Trust Baselines · Quartz |
 | **Distributed Mesh** | Netflix Eureka · Spring Cloud API Gateway · OpenFeign · Two-Phase Stock Locks |
-| **AI & ML Systems** | Gemini API · Multi-Agent Systems · scikit-learn · SSE Streaming · Logistic Regression |
-| **Database & Persistence** | PostgreSQL 16 · Redis 7 · MySQL · Supabase · H2 In-Memory · HikariCP |
-| **Frontend & UI** | React 19/18 · Next.js 16.4.1 · TypeScript 5 · Vite · Tailwind v4 · Framer Motion · Three.js |
-| **DevOps & Cloud** | Docker · Nginx Reverse Proxy · Trivy Security · Stripe SDK · Railway · Vercel · Git · GitHub Actions CI |
-| **Mobile** | Kotlin · Jetpack Compose · Firebase |
+| **AI & ML Systems** | Gemini API · Multi-Agent Systems · Sigmoid Acuity Logistic Regression · scikit-learn · SSE Streaming |
+| **Database & Persistence** | PostgreSQL 16 + PostGIS · Redis 7.2 Pub/Sub & TTL · MySQL · Supabase · H2 · HikariCP |
+| **Frontend & UI** | React 19/18 · Next.js 16.4.1 · TypeScript 5.7 · Vite · Tailwind v4 · Leaflet 3D · Framer Motion |
+| **DevOps & Cloud** | Docker Compose · Render.com Cloud · Nginx Reverse Proxy · Trivy Security (0 CVEs) · GitHub Actions CI · Vercel · Railway |
+| **Mobile** | Flutter · Kotlin · Jetpack Compose · Android APK & iOS Companion |
 
 </div>
 
@@ -534,9 +539,9 @@ Reports:    Gemini-powered narrative maintenance briefs
 
 | Achievement | Details | Year |
 |:---|:---|:---:|
+| **TriageNet Production Cloud Launch (v1.3.0)** | 111 government hospitals × 24 districts · 89/89 test suites (100% CI Green) · Production release live on Render.com · Guest Sandbox mode · Mobile companion suite (APK/IPA) · Spring Boot 3.3.13 · Next.js 16.4.1 · Redis 7.2 sub-50ms telemetry · Nginx reverse proxy · Trivy 0 CVEs · Level 0/1 DFD Manim animations | 2026 |
 | **HashWatch Project Lead** | Architected Zero-Trust FIM system with Ed25519 digital signatures, 64 KB streaming SHA-256, and Quartz scheduler · 33/33 test suites passing · Final Year Project | 2026 |
 | **ShopFlow v1.0 Shipped Solo** | Engineered 8 Spring Boot 3.3.1 microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration · Pinterest editorial React UI · 7-slide system architecture whitepaper | 2026 |
-| **TriageNet Flagship Milestone** | 111+ hospitals × 24 districts · 71/71 test suites (100% CI Green) · Spring Boot 3.3.13 · Next.js 16.4.1 · Nginx reverse proxy · Trivy 0-vuln security scan · 22-vector security audit · 13 architecture diagrams | 2026 |
 | **RepoMind Submitted** | PR risk analyzer built on IBM Bob's API for the IBM Bob 2.0 Hackathon · blast-radius dependency mapping · auto GitHub Action PR review | 2026 |
 | **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) at CodingNinjas × Google Hackathon | 2026 |
 | **Tata InnoVent Submission** | SkyCheck PWA — AI-powered industrial inspection submitted to Tata Technologies InnoVent | 2026 |
@@ -581,9 +586,9 @@ Reports:    Gemini-powered narrative maintenance briefs
 | Perk / Advantage | Proven Impact Across Shipped Code |
 |:---|:---|
 | ⚡ **Extreme Zero-to-Ship Velocity** | Shipped a full multi-agent crisis app in **24 hours** (ZeroHour) and engineered **8 microservices solo** (ShopFlow) with zero shortcuts. |
-| 🛡️ **Security-First Architecture** | Proven track record in Zero-Trust Ed25519 cryptography (HashWatch) and 22-vector security audits with HttpOnly JWTs (TriageNet). |
-| 🏗️ **Distributed Systems Depth** | Hands-on mastery of two-phase inventory reservation locks, Netflix Eureka discovery meshes, and compensating transaction rollbacks. |
-| 🧪 **Test-Driven Reliability** | **33/33** tests on HashWatch · **71/71** tests on TriageNet · 100% green CI testing with rigorous edge-case coverage. |
+| 🛡️ **Security-First Architecture** | Proven track record in Zero-Trust Ed25519 cryptography (HashWatch) and 22-vector security audits with HttpOnly JWTs & 0 Trivy CVEs (TriageNet). |
+| 🏗️ **Distributed Systems Depth** | Hands-on mastery of two-phase inventory reservation locks, Netflix Eureka discovery meshes, and Redis 7.2 sub-50ms distributed pub/sub & TTL locks. |
+| 🧪 **Test-Driven Reliability** | **33/33** tests on HashWatch · **89/89** tests on TriageNet · 100% green CI testing with rigorous edge-case coverage. |
 
 </div>
 
