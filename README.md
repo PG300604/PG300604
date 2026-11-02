@@ -38,40 +38,43 @@
 <!--  EDITORIAL IDENTITY SECTION (WHO I AM // WHAT I DO // VISION)      -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-### WHO I AM &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
+<img src="./assets/art/pin4.jpg" align="right" width="310" alt="Cyber Recon Portscanner" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
 
-- **Systems & AI Engineer** from Jharkhand, India.
+### WHO I AM &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
+
+- **Systems & AI Engineer** based in Jharkhand, India.
 - Focus on **high-throughput distributed backends**, microservice orchestration, and applied autonomous AI agent networks.
 - Specialize in **Java 21/17 (Spring Boot 3.3)**, reactive frontends (Next.js 16/React 19), and zero-trust container security.
 - Strong advocate of test-driven engineering, clean architecture, and building from first principles.
 
-### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
+### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 - **Emergency Healthcare Tech**: Engineered [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), a statewide dispatch OS actively mapping 111 government hospitals across all 24 districts of Jharkhand with 108 ambulance green wave routing.
 - **Distributed Commerce**: Built [ShopFlow](https://github.com/PG300604/ShopFLow) solo — an 8-microservice mesh featuring two-phase stock reservation locks, Eureka discovery, and Redis sub-50ms pub/sub.
 - **Applied AI Agents**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × CodingNinjas hackathon — a 4-agent SSE pipeline converting chaotic multi-format deadlines into scheduled calendar workflows.
 - **Automated Verification**: Rigorous testing across every project (89/89 green tests on TriageNet, 0 Trivy CVEs on Docker images).
 
-### VISION &nbsp; <img src="./assets/divider.svg" width="60%" height="12" align="center" alt="divider" />
+<br clear="all"/>
+<br/>
+
+<img src="./assets/art/pin3.jpg" align="right" width="320" alt="Retro Battlestation Desk" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+
+### VISION &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
 - **Real-World Impact Over Hype**: Software should solve high-stakes infrastructure bottlenecks — whether cutting hospital admission delays or preventing flash-sale inventory deadlocks.
 - **Guiding Tenet**: **Humanity first, technology second.** Engineering systems that save time, reduce anxiety, and protect lives.
 - **Open Standards**: Building resilient, inspectable, and auditable open-source tooling for public welfare.
 
-### BEYOND CODE &nbsp; <img src="./assets/divider.svg" width="52%" height="12" align="center" alt="divider" />
+### BEYOND CODE &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
 
 - **Algorithmic Practice**: Consistent problem solving on [LeetCode](https://leetcode.com/u/priyanshughosh30/) covering graphs, dynamic programming, and concurrency.
 - **Technical Curiosity**: Diving into cryptographic signature schemes (Ed25519), distributed consensus mechanisms, and Linux kernel internals.
-- **Off the Screen**: Ambient electronic soundscapes, mechanical keyboards, and exploring mathematics from first principles.
-<br/>
+- **Off the Screen**: Synthwave soundscapes, mechanical keyboards, and exploring mathematics from first principles.
 
-<div align="center">
-  <img src="./assets/art/pin4.jpg" width="460" alt="Cyber Recon Portscanner Terminal" style="border-radius: 8px;" />
-</div>
+<br clear="all"/>
 
 <br/>
 
-<!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  SOCIAL MATRIX (FRAMED TERMINAL GRID)                              -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
@@ -148,11 +151,7 @@
 
 <br/>
 
-<div align="center">
-  <img src="./assets/art/pin3.jpg" width="480" alt="Retro Developer Battlestation" style="border-radius: 8px;" />
-</div>
 
-<br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  SKILL SET (4x8 = 32 CUSTOM DARK TILES GRID)                       -->
@@ -209,17 +208,22 @@
 
 <br/>
 
-<div align="center">
-  <img src="./assets/art/pin2.jpg" width="460" alt="Cyber Hands & Matrix Code Stream" style="border-radius: 8px;" />
-</div>
-
-<br/>
-
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  EXPANDABLE PROJECT CARDS WITH CONCISE BEAUTY PANELS               -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-### PRODUCTION SYSTEMS ARCHITECTURE &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
+<img src="./assets/art/pin2.jpg" align="right" width="310" alt="Cyber Hands & Matrix Code Stream" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+
+### PRODUCTION SYSTEMS ARCHITECTURE &nbsp; <img src="./assets/divider.svg" width="32%" height="12" align="center" alt="divider" />
+
+Core engineering systems showcasing production-deployed distributed microservices, statewide emergency infrastructure, autonomous multi-agent pipelines, and offline-first edge applications.
+
+- **Verified Deployments**: 5 live cloud deployments with continuous automated health monitoring and zero Trivy CVEs.
+- **Distributed Concurrency**: Two-phase commit reservation locks, Netflix Eureka service discovery, and sub-50ms Redis streams.
+- **First-Principles Design**: Hand-crafted native algorithmic engines with zero bloated dependencies and 100% green CI testing.
+
+<br clear="all"/>
+<br/>
 
 <!-- ─── 1. TriageNet ─── -->
 
@@ -569,12 +573,24 @@
 
 <br/><br/>
 
-<div align="center">
-  <img src="./assets/art/pin1.jpg" width="440" alt="Coding Philosophy" style="border-radius: 8px;" />
+<img src="./assets/art/pin1.jpg" align="right" width="300" alt="Coding Philosophy" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+
+<div align="left">
+
+### CODER'S CREED &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
+
+> *"Code is read far more often than it is written. Build with mathematical rigor, design from first principles, and ship with audacity."*
+
+- **Location**: Jharkhand, India
+- **Core Domain**: Distributed Systems & Applied AI Engineering
+- **Current Status**: Open to Software Engineering (SDE) & AI Systems Internships (Summer/Fall 2026)
+- **Direct Dispatch**: [priyanshughosh97@gmail.com](mailto:priyanshughosh97@gmail.com) · [@PGhosh3006](https://x.com/PGhosh3006) · [@priyanshu30ghosh](https://www.instagram.com/priyanshu30ghosh/)
+
 </div>
 
+<br clear="all"/>
 <br/>
 
-<img src="./assets/header.svg" width="60%" alt="Footer Seal" />
+
 
 </div>
