@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  HEADER BANNER (Fedora / Sway Wayland Rice Aesthetic)               -->
+<!--  HEADER BANNER                                                     -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/header.png" width="100%" alt="Priyanshu Ghosh - AI & Full Stack Engineer" style="border-radius: 8px;" />
+<img src="./assets/header.png" width="100%" alt="Priyanshu Ghosh - Full Stack & Backend Developer" style="border-radius: 8px;" />
 
 <br/>
 
@@ -12,7 +12,7 @@
 <!--  TYPING TELEMETRY                                                 -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=AI+Engineer+%C2%B7+Full+Stack+Engineer+%C2%B7+Distributed+Systems;Architected+TriageNet+v1.3.0+%E2%80%94+Statewide+Emergency+OS+(111+Hospitals)" alt="Typing Telemetry" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=Full+Stack+Developer+%C2%B7+Distributed+Systems+%C2%B7+Java;Building+TriageNet+(111+Hospitals)+and+distributed+backends;Open+to+Software+Engineering+and+Backend+Internships" alt="Typing Telemetry" />
 
 <br/><br/>
 
@@ -20,13 +20,13 @@
 <!--  HIGH-CONTRAST METRIC PILLS                                       -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<a href="#production-systems-architecture"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-7+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-7+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+&nbsp;
+<a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-UPSTREAM_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
 &nbsp;
 <a href="https://triagenet-frontend.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-5-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
 &nbsp;
-<a href="#zerohour"><img src="https://img.shields.io/badge/FASTEST_SHIP-24_HOURS-f0883e?style=for-the-badge&labelColor=0d1117&color=bd561d" alt="Fastest Ship"/></a>
-&nbsp;
-<a href="#verified-honors--track-record"><img src="https://img.shields.io/badge/HACKATHONS-3_SUBMITTED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Competitions"/></a>
+<a href="#honors--track-record"><img src="https://img.shields.io/badge/HACKATHONS-PRIZE_WINNER-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Hackathon Winner"/></a>
 &nbsp;
 <a href="#triagenet-v130"><img src="https://img.shields.io/badge/TEST_COVERAGE-100%25_GREEN-3fb950?style=for-the-badge&labelColor=0d1117&color=238636" alt="100% Green CI"/></a>
 
@@ -35,46 +35,47 @@
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  EDITORIAL IDENTITY SECTION (WHO I AM // WHAT I DO // VISION)      -->
+<!--  EDITORIAL IDENTITY SECTION (WHO I AM // WHAT I DO // ABOUT)        -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/art/pin4.jpg" align="right" width="310" alt="Cyber Recon Portscanner" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+<img src="./assets/art/pin4.jpg" align="right" width="310" alt="Desk setup" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
 
 ### WHO I AM &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
-- **Systems & AI Engineer** based in Jharkhand, India.
-- Focus on **high-throughput distributed backends**, microservice orchestration, and applied autonomous AI agent networks.
-- Specialize in **Java 21/17 (Spring Boot 3.3)**, reactive frontends (Next.js 16/React 19), and zero-trust container security.
-- Strong advocate of test-driven engineering, clean architecture, and building from first principles.
+- **Full Stack & Backend Developer** based in Jharkhand, India.
+- Pre-final year CSBS student at Asansol Engineering College (2023 - 2027).
+- Focus on **Java (Spring Boot 3.3)** backends, distributed microservices, and applied AI tools.
+- Comfortable building across the stack with Next.js, React, PostgreSQL, and Redis.
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
-- **Emergency Healthcare Tech**: Engineered [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), a statewide dispatch OS actively mapping 111 government hospitals across all 24 districts of Jharkhand with 108 ambulance green wave routing.
-- **Distributed Commerce**: Built [ShopFlow](https://github.com/PG300604/ShopFLow) solo | an 8-microservice mesh featuring two-phase stock reservation locks, Eureka discovery, and Redis sub-50ms pub/sub.
-- **Applied AI Agents**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × CodingNinjas hackathon | a 4-agent SSE pipeline converting chaotic multi-format deadlines into scheduled calendar workflows.
-- **Automated Verification**: Rigorous testing across every project (89/89 green tests on TriageNet, 0 Trivy CVEs on Docker images).
+- **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
+- **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
+- **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
+- **Testing & Quality**: Writing comprehensive unit/integration test suites (89 passing tests on TriageNet) and maintaining clean container vulnerability scans.
 
 <br clear="all"/>
 <br/>
 
-<img src="./assets/art/pin3.jpg" align="right" width="320" alt="Retro Battlestation Desk" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+<img src="./assets/art/pin3.jpg" align="right" width="320" alt="Workstation" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
 
-### VISION &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
+### HOW I BUILD &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
-- **Real-World Impact Over Hype**: Software should solve high-stakes infrastructure bottlenecks | whether cutting hospital admission delays or preventing flash-sale inventory deadlocks.
-- **Guiding Tenet**: **Humanity first, technology second.** Engineering systems that save time, reduce anxiety, and protect lives.
-- **Open Standards**: Building resilient, inspectable, and auditable open-source tooling for public welfare.
+- **Practical Problem Solving**: I focus on software that solves real bottlenecks, such as coordinating hospital admissions during emergencies or preventing race conditions in flash sales.
+- **End-to-End Ownership**: From designing database schemas and writing business logic to Dockerizing services and wiring up frontend dashboards.
+- **Reliable by Default**: Prioritizing error handling, input validation, automated tests, and clear API boundaries before adding extra features.
 
 ### BEYOND CODE &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
 
-- **Algorithmic Practice**: Consistent problem solving on [LeetCode](https://leetcode.com/u/priyanshughosh30/) covering graphs, dynamic programming, and concurrency.
-- **Technical Curiosity**: Diving into cryptographic signature schemes (Ed25519), distributed consensus mechanisms, and Linux kernel internals.
-- **Off the Screen**: Synthwave soundscapes, mechanical keyboards, and exploring mathematics from first principles.
+- **Problem Solving**: Regularly solving data structures and algorithms problems on [LeetCode](https://leetcode.com/u/priyanshughosh30/), focused on graphs, trees, and dynamic programming.
+- **System Internals**: Reading about distributed consensus, database indexing, and Linux fundamentals.
+- **Interests**: Customizing Linux desktop environments, experimenting with mechanical keyboards, and listening to electronic music.
 
 <br clear="all"/>
 
 <br/>
 
+<!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  SOCIAL MATRIX (FRAMED TERMINAL GRID)                              -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
@@ -134,7 +135,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Isometric Contribution Skyline & Radar Telemetry" />
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Isometric Contribution Skyline" />
 </picture>
 
 <br/><br/>
@@ -151,29 +152,26 @@
 
 <br/>
 
-
-
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  SKILL SET (4x8 = 32 CUSTOM DARK TILES GRID)                       -->
+<!--  SKILL SET MATRIX                                                  -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
 ### SKILL SET &nbsp; <img src="./assets/divider.svg" width="65%" height="12" align="center" alt="divider" />
 
 <div align="center">
 
-<img src="./assets/skills.svg" width="100%" alt="Curated Skill Set Matrix" />
+<img src="./assets/skills.svg" width="100%" alt="Skill Set Matrix" />
 
 <br/><br/>
 
-| Domain | Core Competencies & Toolchain |
+| Domain | Core Technologies |
 |:---|:---|
-| **Backend & Microservices** | Java 21/17 · Spring Boot 3.3.13 · Spring Cloud Gateway · Spring Security · Hibernate/JPA · Maven · Virtual Threads |
-| **Security & Cryptography** | Ed25519 (RFC 8032) · Streaming SHA-256 · SunEC JCA · Signature-Pinned Baselines · Quartz Schedulers |
-| **Distributed Architecture** | Netflix Eureka Discovery · 2-Phase Stock Reservation Locks · Redis 7.2 Sub-50ms Pub/Sub · OpenFeign RPC |
-| **Applied AI & Agent Swarms** | Gemini Multimodal API · Autonomous Agent Teams (Planner/Prioritizer/Scheduler/Nudge) · Sigmoid Acuity Logistic Regression · SSE Streaming |
-| **Databases & Spatial GIS** | PostgreSQL 16 + PostGIS Spatial Engine · Redis 7.2 AOF In-Memory Broker · MySQL · Supabase · H2 · HikariCP |
-| **Frontend & Mobile UI** | React 19/18 · Next.js 16.4.1 (Turbopack, SSR) · TypeScript 5.7 · Vite · Tailwind CSS v4 · Leaflet 3D · Flutter · Kotlin · Jetpack Compose |
-| **DevOps, Security & Cloud** | Docker Compose · Render Cloud · Nginx Reverse Proxy · Aqua Trivy (0 CVEs) · GitHub Actions CI/CD · Vercel · Railway |
+| **Backend Development** | Java 21/17, Spring Boot 3.3, Spring Cloud Gateway, Spring Security, Hibernate/JPA, Maven |
+| **Distributed Systems** | Microservices, Netflix Eureka, Two-Phase Stock Reservation, Redis Pub/Sub, REST APIs, OpenFeign |
+| **Databases & Storage** | PostgreSQL, PostGIS (Geospatial), Redis, MySQL, Supabase, H2 |
+| **AI & LLM Integration** | Gemini API, Prompt Orchestration, Structured Outputs, Server-Sent Events (SSE) Streaming |
+| **Frontend & UI** | Next.js, React, TypeScript, Tailwind CSS, Vite, Leaflet |
+| **DevOps & Infrastructure** | Docker, Git & GitHub Actions (CI/CD), Nginx, Linux, Vercel, Render |
 
 </div>
 
@@ -189,7 +187,7 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│  [::]  ENTERPRISE SYSTEMS & CLOUD PRODUCTION MONITOR                 [ STATUS: GREEN ] │
+│  [::]  PROJECT STATUS & DEPLOYMENT MONITOR                          [ STATUS: ONLINE ] │
 ├─────────────────────────┬──────────────┬─────────────────────────────┬─────────────────┤
 │  SERVICE / SYSTEM       │  STATUS      │  CORE ARCHITECTURE          │  DEPLOYMENT     │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
@@ -209,18 +207,18 @@
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  EXPANDABLE PROJECT CARDS WITH CONCISE BEAUTY PANELS               -->
+<!--  FEATURED PROJECTS WITH EXPANDABLE DETAIL CARDS                    -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/art/pin2.jpg" align="right" width="310" alt="Cyber Hands & Matrix Code Stream" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+<img src="./assets/art/pin2.jpg" align="right" width="310" alt="Code stream" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
 
-### PRODUCTION SYSTEMS ARCHITECTURE &nbsp; <img src="./assets/divider.svg" width="32%" height="12" align="center" alt="divider" />
+### FEATURED PROJECTS & SYSTEMS &nbsp; <img src="./assets/divider.svg" width="32%" height="12" align="center" alt="divider" />
 
-Core engineering systems showcasing production-deployed distributed microservices, statewide emergency infrastructure, autonomous multi-agent pipelines, and offline-first edge applications.
+A selection of projects focusing on backend systems, distributed architectures, emergency healthcare routing, and web applications.
 
-- **Verified Deployments**: 5 live cloud deployments with continuous automated health monitoring and zero Trivy CVEs.
-- **Distributed Concurrency**: Two-phase commit reservation locks, Netflix Eureka service discovery, and sub-50ms Redis streams.
-- **First-Principles Design**: Hand-crafted native algorithmic engines with zero bloated dependencies and 100% green CI testing.
+- **Live Deployments**: Active web applications deployed on Render, Vercel, and cloud VMs.
+- **Distributed Design**: Multi-service architectures with service discovery, two-phase reservation locks, and Redis messaging.
+- **Tested & Maintained**: Core algorithms implemented directly without external solver bloat, backed by automated test suites.
 
 <br clear="all"/>
 <br/>
@@ -229,9 +227,9 @@ Core engineering systems showcasing production-deployed distributed microservice
 
 <details open id="triagenet-v130">
 <summary>
-  <b>TriageNet v1.3.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>111 Hospitals</code> &nbsp;|&nbsp; <code>89/89 Tests Green</code>
+  <b>TriageNet v1.3.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>111 Hospitals</code> &nbsp;|&nbsp; <code>89/89 Tests Passing</code>
   <br/>
-  <sub>Statewide Emergency Healthcare Operating System & 108 Ambulance Dispatch Platform</sub>
+  <sub>Emergency Healthcare Dispatch Platform and 108 Ambulance Routing</sub>
 </summary>
 
 <br/>
@@ -239,19 +237,19 @@ Core engineering systems showcasing production-deployed distributed microservice
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
-      <b>Purpose:</b> Statewide healthcare emergency OS connecting <b>111 real government hospitals across all 24 districts of Jharkhand</b> (RIMS Ranchi, MGM Jamshedpur, SNMMCH Dhanbad, 24 District Hospitals, 80+ CHCs) to automate emergency triage, specialist bed matching, and highway corridor dispatch.
+      <b>Purpose:</b> Healthcare emergency dispatch platform connecting <b>111 government hospitals across all 24 districts of Jharkhand</b> (including RIMS Ranchi, MGM Jamshedpur, SNMMCH Dhanbad, district hospitals, and community health centers) to streamline emergency intake, bed allocation, and ambulance routing.
       <br/><br/>
       <b>Key Metrics:</b>
       <br/>
-      • <b>111 authentic hospitals</b> across <b>24 districts</b> mapped with real distance matrices<br/>
-      • <b>89/89 automated tests passing</b> (100% CI Green on Linux & Windows runners)<br/>
-      • <b>Sub-50ms latency</b> on Redis 7.2 GPS ambulance telemetry streaming<br/>
-      • <b>98.88% emergency acuity recall</b> validated across 4 Kaggle hospital datasets<br/>
-      • <b>0 security vulnerabilities</b> verified by Aqua Trivy container scans
+      • <b>111 government hospitals</b> mapped across <b>24 districts</b> with actual road distance matrices<br/>
+      • <b>89/89 automated tests passing</b> across unit and integration suites<br/>
+      • <b>Real-time GPS telemetry</b> for ambulances streamed via Redis 7.2 pub/sub<br/>
+      • <b>High emergency triage recall</b> validated on emergency medical benchmark datasets<br/>
+      • <b>Clean container builds</b> with 0 CVEs on security scans
       <br/><br/>
-      <b>Problem Solved:</b> Prevents golden-hour trauma fatalities caused by manual phone-based bed inquiries, ambulance transit gridlock, and lack of real-time ICU specialist matching.
+      <b>Problem Solved:</b> In emergency trauma situations, hospital coordination often relies on manual phone calls. Delays in finding facilities with available ICU beds or specialists cost critical time during the golden hour.
       <br/><br/>
-      <b>How It Differs:</b> Implements <b>4 hand-crafted native Java algorithmic engines</b>: multivariate logistic acuity scoring, lock-free wait-aging priority ($E = S + \lambda\sqrt{W}$), Kuhn-Munkres $O(V^3)$ bipartite ICU bed allocation, and Dijkstra shortest-path routing integrated with municipal <b>ITMS 108 Green Wave traffic signal preemption</b>—running zero external Python or solver runtime overhead.
+      <b>How It Works:</b> Implements pure Java algorithms for triage and routing without external solver dependencies: logistic acuity scoring, a wait-aging queue for triage priority, Kuhn-Munkres bipartite matching for bed allocation, and Dijkstra shortest-path calculations to assist ambulance drivers and emergency dispatchers.
       <br/><br/>
       <b>Stack:</b> Java 17 · Spring Boot 3.3.13 · Next.js 16.4.1 · Redis 7.2 · PostgreSQL 16 + PostGIS · Docker Compose · Nginx
       <br/><br/>
@@ -273,9 +271,9 @@ Core engineering systems showcasing production-deployed distributed microservice
 
 <details id="shopflow">
 <summary>
-  <b>ShopFlow</b> &nbsp;|&nbsp; <code>SHIPPED v1.0</code> &nbsp;|&nbsp; <code>8 Microservices</code> &nbsp;|&nbsp; <code>Solo Architecture</code>
+  <b>ShopFlow</b> &nbsp;|&nbsp; <code>SHIPPED v1.0</code> &nbsp;|&nbsp; <code>8 Microservices</code> &nbsp;|&nbsp; <code>Independent Architecture</code>
   <br/>
-  <sub>Distributed Multi-Vendor Commerce Platform with Two-Phase Stock Reservation</sub>
+  <sub>Distributed E-Commerce Backend with Two-Phase Stock Reservation</sub>
 </summary>
 
 <br/>
@@ -283,18 +281,18 @@ Core engineering systems showcasing production-deployed distributed microservice
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #f0883e;">
-      <b>Purpose:</b> Multi-vendor distributed commerce mesh engineered independently to eliminate inventory race conditions and overselling during high-concurrency checkouts.
+      <b>Purpose:</b> Multi-vendor distributed e-commerce backend built to explore microservice coordination, service discovery, and concurrency control during flash sales.
       <br/><br/>
       <b>Key Metrics:</b>
       <br/>
-      • <b>8 Spring Boot 3.3 microservices</b> engineered solo from ground up<br/>
+      • <b>8 Spring Boot 3.3 microservices</b> communicating via REST and OpenFeign<br/>
       • <b>Two-phase reservation locks</b> preventing duplicate sales on the final unit<br/>
-      • <b>60-second background auto-sweeper</b> releasing abandoned stock holds after <b>15 minutes</b><br/>
-      • <b>Netflix Eureka discovery</b> (<code>:8761</code>) with Spring Cloud Gateway JWT claims forwarding
+      • <b>Automated background sweeper</b> releasing abandoned cart holds after 15 minutes<br/>
+      • <b>Netflix Eureka discovery</b> (<code>:8761</code>) with Spring Cloud Gateway and JWT auth forwarding
       <br/><br/>
-      <b>Problem Solved:</b> Flash sales trigger severe distributed race conditions, causing inventory overselling and orphaned stock holds when checkouts are abandoned midway.
+      <b>Problem Solved:</b> High-concurrency flash sales frequently trigger inventory race conditions, resulting in oversold products or permanently locked items when shoppers abandon checkout midway.
       <br/><br/>
-      <b>How It Differs:</b> Replaces single-table database locks with a distributed <b>Two-Phase Stock Reservation state machine</b> (<code>PENDING</code> $\rightarrow$ <code>COMMITTED</code> / <code>RELEASED</code>), automated background sweeper daemons, Stripe Card/UPI HMAC webhooks, and a Pinterest-inspired React 18 storefront.
+      <b>How It Works:</b> Handles inventory holds through a two-phase reservation state machine (PENDING to COMMITTED or RELEASED), scheduled background tasks to clean up stale holds, Stripe webhook verification for payments, and a React 18 storefront.
       <br/><br/>
       <b>Stack:</b> Java 17 · Spring Boot 3.3 · Spring Cloud · PostgreSQL · React 18 · TypeScript · Vite · Stripe · Docker
       <br/><br/>
@@ -314,9 +312,9 @@ Core engineering systems showcasing production-deployed distributed microservice
 
 <details id="zerohour">
 <summary>
-  <b>ZeroHour</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>Shipped in 24h</code> &nbsp;|&nbsp; <code>Google Vibe2Ship</code>
+  <b>ZeroHour</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>Shipped in 24h</code> &nbsp;|&nbsp; <code>Google × Coding Ninjas</code>
   <br/>
-  <sub>Autonomous Multi-Agent AI Crisis Scheduling Companion & Productivity Engine</sub>
+  <sub>Multi-Agent Deadline Organizer & Calendar Scheduling App</sub>
 </summary>
 
 <br/>
@@ -324,20 +322,20 @@ Core engineering systems showcasing production-deployed distributed microservice
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
-      <b>Purpose:</b> Autonomous multi-agent crisis companion built and deployed end-to-end in <b>24 hours</b> at CodingNinjas × Google Hackathon, transforming chaotic stacked deadlines into executable calendars.
+      <b>Purpose:</b> Task organizer built and deployed in 24 hours during the Google × Coding Ninjas hackathon to turn unstructured assignment files and syllabus sheets into actionable calendar events.
       <br/><br/>
       <b>Key Metrics:</b>
       <br/>
-      • <b>Shipped in 24 hours</b> end-to-end at national hackathon<br/>
-      • <b>4 coordinated autonomous AI agents</b> working in an orchestration pipeline<br/>
-      • <b>Real-time Server-Sent Events (SSE)</b> streaming thought chains directly to UI<br/>
-      • <b>Multimodal document parsing</b> via Gemini API with automatic Google Calendar slot allocation
+      • <b>Shipped in 24 hours</b> from idea to live deployment<br/>
+      • <b>4-stage AI pipeline</b> for document extraction, prioritization, scheduling, and notifications<br/>
+      • <b>Server-Sent Events (SSE)</b> streaming intermediate reasoning steps directly to the UI<br/>
+      • <b>Gemini API integration</b> parsing syllabus PDFs and images with automatic Google Calendar slot allocation
       <br/><br/>
-      <b>Problem Solved:</b> Resolves student and professional deadline anxiety and paralysis when confronting multiple sudden deadlines across unstructured files (syllabi, PDFs, photos).
+      <b>Problem Solved:</b> Students often have deadlines scattered across syllabus PDFs, chat messages, and images, leading to missed assignments and planning fatigue.
       <br/><br/>
-      <b>How It Differs:</b> Replaces passive checklists and single LLM prompts with a <b>4-agent swarm</b> (<code>Planner</code> $\rightarrow$ <code>Prioritizer</code> $\rightarrow$ <code>Scheduler`</code> $\rightarrow$ <code>Nudge</code>) that reasons live in-browser via SSE and synchronizes schedule slots into Google Calendar with automated deadline nudge alerts.
+      <b>How It Works:</b> Breaks schedule extraction into a 4-step pipeline (Planner, Prioritizer, Scheduler, Nudge) that streams progress to the client via SSE and syncs scheduled study blocks into Google Calendar.
       <br/><br/>
-      <b>Stack:</b> React · Spring Boot · Gemini Multimodal API · Google Calendar API · Firebase · Railway · SSE
+      <b>Stack:</b> React · Spring Boot · Gemini API · Google Calendar API · Firebase · Railway · SSE
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
       <a href="https://zerohour-a84d3.web.app/"><img src="https://img.shields.io/badge/Live_Application-000000?style=flat-square&logo=firebase&logoColor=white" alt="Live App"/></a>
@@ -355,9 +353,9 @@ Core engineering systems showcasing production-deployed distributed microservice
 
 <details id="repomind">
 <summary>
-  <b>RepoMind</b> &nbsp;|&nbsp; <code>HACKATHON SUBMITTED</code> &nbsp;|&nbsp; <code>IBM Bob 2.0</code> &nbsp;|&nbsp; <code>GitHub Action Bot</code>
+  <b>RepoMind</b> &nbsp;|&nbsp; <code>PRIZE WINNER · $100 REWARD</code> &nbsp;|&nbsp; <code>IBM Bob 2.0</code> &nbsp;|&nbsp; <code>GitHub Action Bot</code>
   <br/>
-  <sub>Whole-Repository AI Pull Request Blast-Radius & Merge Risk Analyzer</sub>
+  <sub>Repository-Aware Pull Request Risk Analyzer and Review Bot</sub>
 </summary>
 
 <br/>
@@ -365,18 +363,18 @@ Core engineering systems showcasing production-deployed distributed microservice
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #58a6ff;">
-      <b>Purpose:</b> Code review co-pilot that reasons across the entire repository graph — rather than merely staged diff lines — to detect downstream regressions and risk before merge.
+      <b>Purpose:</b> Code review assistant that evaluates pull requests by analyzing the repository dependency graph rather than looking at diff lines in isolation.
       <br/><br/>
       <b>Key Metrics:</b>
       <br/>
-      • <b>IBM Bob 2.0 Hackathon submission</b><br/>
+      • <b>IBM Bob 2.0 Hackathon Winner:</b> Selected among 20 winners for the $100 Participant Reward via lablab.ai<br/>
       • <b>Zero-touch CI integration</b> via drop-in <code>.github/workflows</code> Action<br/>
-      • <b>3-tier automated risk scoring</b> (Low / Medium / High) with plain-language blast-radius explanations<br/>
+      • <b>3-tier automated risk scoring</b> (Low, Medium, High) with blast-radius breakdowns<br/>
       • <b>Auto-generated test stub suggestions</b> for code paths uncovered by the diff
       <br/><br/>
-      <b>Problem Solved:</b> Code reviewers evaluate pull requests in isolation, missing breaking changes introduced into downstream services or dependent function calls.
+      <b>Problem Solved:</b> Reviewing PR diffs line-by-line often misses regressions introduced into dependent services, classes, or database queries elsewhere in the repo.
       <br/><br/>
-      <b>How It Differs:</b> Connects IBM Bob's semantic code reasoning with an automated GitHub Action to trace the full abstract dependency graph across the entire repo, posting risk summaries and concrete JUnit test stubs directly as PR comments.
+      <b>How It Works:</b> Uses the IBM Bob API to traverse dependencies across the codebase, assesses the impact radius of changes, and automatically posts risk summaries with JUnit test stubs as GitHub PR comments.
       <br/><br/>
       <b>Stack:</b> Java 17 · Spring Boot 3 · IBM Bob API · GitHub Actions
       <br/><br/>
@@ -396,7 +394,7 @@ Core engineering systems showcasing production-deployed distributed microservice
 <summary>
   <b>SkyCheck</b> &nbsp;|&nbsp; <code>INNOVENT SUBMISSION</code> &nbsp;|&nbsp; <code>Offline-First PWA</code> &nbsp;|&nbsp; <code>Tata InnoVent 2026</code>
   <br/>
-  <sub>Offline-First Edge AI Visual Structural Inspection Progressive Web Application</sub>
+  <sub>Offline-First Visual Structural Inspection Progressive Web App</sub>
 </summary>
 
 <br/>
@@ -404,18 +402,18 @@ Core engineering systems showcasing production-deployed distributed microservice
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #f0883e;">
-      <b>Purpose:</b> Offline-first industrial safety audit PWA allowing field inspectors to perform real-time structural defect audits in remote zones with zero internet connectivity.
+      <b>Purpose:</b> Offline-first web application designed for field engineers inspecting industrial infrastructure (bridges, towers, pipes) in areas with poor or absent connectivity.
       <br/><br/>
       <b>Key Metrics:</b>
       <br/>
       • <b>Tata Technologies InnoVent submission</b><br/>
-      • <b>Real-time in-browser edge inference</b> on live camera feeds<br/>
-      • <b>Zero network dependency</b> during field operations<br/>
-      • <b>Dexie.js IndexedDB storage</b> with cascading ID reconciliation to cloud PostgreSQL
+      • <b>Client-side image analysis</b> on live camera feeds<br/>
+      • <b>Complete offline capability</b> with zero network requirement in the field<br/>
+      • <b>Dexie.js IndexedDB storage</b> with automatic sync upon reconnection
       <br/><br/>
-      <b>Problem Solved:</b> Field engineers inspecting high-voltage power lines, bridges, and pipelines often work in zero-connectivity areas where cloud AI tools fail.
+      <b>Problem Solved:</b> Field inspections of physical infrastructure often occur in remote areas where cloud-based tools cannot load or save data.
       <br/><br/>
-      <b>How It Differs:</b> Executes computer vision classification on camera feeds entirely inside the browser to detect corrosion and micro-cracks. Data is stored locally in IndexedDB, automatically syncing with PostgreSQL when internet connectivity returns.
+      <b>How It Works:</b> Performs defect detection directly in the browser, stores high-resolution inspection logs and photos locally in IndexedDB, and automatically syncs records to PostgreSQL once internet access is restored.
       <br/><br/>
       <b>Stack:</b> React PWA · Dexie.js · Gemini Vision API · Spring Boot · PostgreSQL · Tailwind CSS
       <br/><br/>
@@ -437,7 +435,7 @@ Core engineering systems showcasing production-deployed distributed microservice
 <summary>
   <b>SkillShare</b> &nbsp;|&nbsp; <code>LIVE DEPLOYED</code> &nbsp;|&nbsp; <code>Haversine Geolocation</code> &nbsp;|&nbsp; <code>Docker Alpine</code>
   <br/>
-  <sub>Hyper-Local Collaborative Skill Matching Platform with Dynamic Proximity Discovery</sub>
+  <sub>Location-Based Skill Exchange and Collaborator Matching Platform</sub>
 </summary>
 
 <br/>
@@ -445,18 +443,18 @@ Core engineering systems showcasing production-deployed distributed microservice
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
-      <b>Purpose:</b> Hyper-local peer skill exchange application matching builders, designers, and developers based on geographic proximity and complementary skill sets.
+      <b>Purpose:</b> Peer skill exchange application connecting students and developers nearby based on geographic proximity and complementary skill sets.
       <br/><br/>
       <b>Key Metrics:</b>
       <br/>
-      • <b>Production deployment</b> live on Vercel and containerized environments<br/>
-      • <b>10km to 100km dynamic Haversine radius expansion</b> when local density is low<br/>
+      • <b>Live deployment</b> on Vercel and containerized cloud environments<br/>
+      • <b>Dynamic Haversine distance search</b> with automatic radius expansion (10km to 100km)<br/>
       • <b>Multi-stage Docker Alpine build</b> with optimized JRE runtime footprint<br/>
       • <b>OAuth2 + JWT authentication</b> via JWKS verification
       <br/><br/>
-      <b>Problem Solved:</b> Online learning platforms lack local physical accountability, while local meetups lack targeted matchmaking based on verified technical proficiencies.
+      <b>Problem Solved:</b> Remote learning lacks in-person accountability, while generic social meetups make it difficult to find collaborators with matching technical interests.
       <br/><br/>
-      <b>How It Differs:</b> Combines a native Haversine spatial calculation algorithm with dynamic geographic radius expansion and proficiency score fallbacks for intuitive collaborator matching.
+      <b>How It Works:</b> Calculates geographic distances between users using the Haversine formula, automatically widening the search boundary if local matches are sparse, and ranks profiles based on skill complementarity.
       <br/><br/>
       <b>Stack:</b> Java · Spring Boot · Spring Security · React 19 · PostgreSQL · Docker · Vercel
       <br/><br/>
@@ -473,59 +471,109 @@ Core engineering systems showcasing production-deployed distributed microservice
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  VERIFIED ACHIEVEMENTS & TRACK RECORD                              -->
+<!--  OPEN SOURCE JOURNEY                                               -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-### VERIFIED HONORS & TRACK RECORD &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
+### OPEN SOURCE JOURNEY &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
+
+Upstream open-source contributions merged into production engines and developer infrastructure.
+
+<br/>
+
+<details open id="open-source-journey">
+<summary>
+  <b>Beacon Notification Engine</b> &nbsp;|&nbsp; <code>UPSTREAM MERGED</code> &nbsp;|&nbsp; <code>Spring Boot 4 · Java 21</code> &nbsp;|&nbsp; <code>XERJ Corpus Selection</code>
+  <br/>
+  <sub>Production-grade transactional notification engine with multi-channel provider failover</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
+      <b>Repository:</b> <a href="https://github.com/AbdulmalikAlayande/beacon"><b>AbdulmalikAlayande/beacon</b></a> (Transactionally-safe notification system for Spring Boot).
+      <br/><br/>
+      <b>Accepted & Merged Contributions:</b>
+      <br/>
+      • <b>Provider Circuit Breaker (<a href="https://github.com/AbdulmalikAlayande/beacon/pull/21">PR #21</a> · Merged):</b> Implemented <code>DefaultProviderCircuitBreaker</code> in <code>core.resilience</code>. Built a thread-safe 3-state finite state machine (<code>CLOSED</code>, <code>OPEN</code>, <code>HALF_OPEN</code>) with per-provider state isolation and deterministic <code>Clock</code> injection. Prevents thread pool exhaustion and cascading latency during upstream provider downtime.
+      <br/>
+      • <b>Maven Library Packaging Fix (<a href="https://github.com/AbdulmalikAlayande/beacon/pull/22">PR #22</a> · Merged · Co-Author):</b> Resolved Spring Boot repackaging behavior on <code>beacon-api</code> so downstream modules can compile cleanly against installed artifacts.
+      <br/>
+      • <b>Selected for XERJ Corpus Hub:</b> Implementation selected for inclusion in the XERJ public Corpus Hub as an open reference solution for coding agents.
+      <br/><br/>
+      <b>Stack:</b> Java 21 · Spring Boot 4.0.6 · ConcurrentHashMap · Maven · JUnit 5
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/21"><img src="https://img.shields.io/badge/PR_#21-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 21"/></a>
+      &nbsp;
+      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/22"><img src="https://img.shields.io/badge/PR_#22-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 22"/></a>
+      &nbsp;
+      <a href="https://github.com/AbdulmalikAlayande/beacon"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  HONORS & TRACK RECORD                                             -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### HONORS & TRACK RECORD &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 <div align="center">
 
-| Achievement / Milestone | Organization / Event | Engineering Impact | Year |
+| Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
-| **TriageNet Production Launch (v1.3.0)** | Public Health Cloud | 111 government hospitals across 24 districts · 89/89 test suites (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
-| **ShopFlow 8-Microservices Solo Ship** | Independent Build | Engineered 8 Spring Boot microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration | 2026 |
-| **IBM Bob 2.0 Hackathon** | IBM | RepoMind submitted: PR blast-radius risk analyzer with full repository dependency reasoning & auto GitHub Action bot | 2026 |
-| **24-Hour Hackathon Ship** | CodingNinjas × Google | Built + deployed ZeroHour (multi-agent AI app) in 24 hours end-to-end | 2026 |
-| **Tata Technologies InnoVent** | Tata Technologies | SkyCheck PWA: Edge AI defect inspection with offline IndexedDB sync submitted | 2026 |
-| **Software Engineering Simulation** | JPMorgan Chase (Forage) | Kafka event streaming · REST API integration · H2 database architecture | 2026 |
-| **Academic Standing (SGPA 8.83 · CGPA 8.05)** | Asansol Engineering College | B.Tech CSBS (Computer Science & Business Systems) | 2027 |
+| **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
+| **Open Source Upstream (Beacon Engine)** | AbdulmalikAlayande/beacon | Merged core resilience circuit breaker ([PR #21](https://github.com/AbdulmalikAlayande/beacon/pull/21)) and build fix ([PR #22](https://github.com/AbdulmalikAlayande/beacon/pull/22)) | 2026 |
+| **XERJ Corpus Hub Selection** | XERJ Org | Selected for public reference index: DefaultProviderCircuitBreaker implementation (Java 21) | 2026 |
+| **TriageNet v1.3.0 Release** | Public Health Cloud | 111 government hospitals across 24 districts · 89 passing tests (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
+| **ShopFlow 8-Microservices Architecture** | Independent Build | Built 8 Spring Boot microservices with two-phase inventory holds and Stripe payments | 2026 |
+| **24-Hour Hackathon Ship** | Coding Ninjas × Google | ZeroHour: Built and deployed a 4-agent task organizer in 24 hours | 2026 |
+| **Tata Technologies InnoVent** | Tata Technologies | SkyCheck PWA: Offline-first structural defect inspection with IndexedDB sync | 2026 |
+| **Software Engineering Simulation** | JPMorgan Chase (Forage) | Kafka event streaming, REST API integration, and H2 database architecture | 2026 |
+| **Academic Standing (SGPA 8.83 · CGPA 8.05)** | Asansol Engineering College | B.Tech in Computer Science & Business Systems (CSBS, 2023 - 2027) | 2027 |
 
 </div>
 
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  WHY HIRE ME // CORE ADVANTAGES                                    -->
+<!--  ENGINEERING HIGHLIGHTS                                            -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-### CORE ENGINEERING ADVANTAGES &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
+### ENGINEERING HIGHLIGHTS &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
 <div align="center">
 
-| Advantage | Tangible Evidence Across Shipped Code |
+| Focus Area | Practical Implementation in Projects |
 |:---|:---|
-| **Zero-to-Ship Velocity** | Shipped a complete multi-agent crisis companion in **24 hours** ([ZeroHour](https://github.com/PG300604/ZeroHour)) and engineered an **8-microservice mesh solo** ([ShopFlow](https://github.com/PG300604/ShopFLow)) with zero shortcuts. |
-| **Security-First Architecture** | Practical experience implementing Ed25519 digital signatures, HttpOnly cookie authentication, and **0 Trivy CVEs** on production containers ([TriageNet](https://github.com/PG300604/TriageNet)). |
-| **Distributed Systems Depth** | Production use of two-phase commit reservation locks, Netflix Eureka service discovery, and Redis 7.2 sub-50ms pub/sub with TTL expiration. |
-| **Test-Driven Reliability** | **89/89 tests passing** on TriageNet with 100% green automated CI pipelines across Linux and Windows runners. |
+| **Fast Prototyping & Shipping** | Shipped a multi-agent scheduling app in 24 hours ([ZeroHour](https://github.com/PG300604/ZeroHour)) and engineered an 8-service microservice backend ([ShopFlow](https://github.com/PG300604/ShopFLow)) from scratch. |
+| **Security & Best Practices** | Implemented Ed25519 digital signature baselines, HttpOnly cookie authentication, and verified container builds with 0 Trivy CVEs ([TriageNet](https://github.com/PG300604/TriageNet)). |
+| **Distributed Systems** | Practical experience with two-phase inventory holds, Netflix Eureka service discovery, and Redis 7.2 pub/sub messaging with TTL keys. |
+| **Testing & CI/CD** | 89 automated tests on TriageNet with clean GitHub Actions pipelines running on both Linux and Windows environments. |
 
 </div>
 
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  GROWTH HORIZON (2026-2027)                                        -->
+<!--  CURRENT FOCUS & LEARNING                                          -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-### TECHNICAL HORIZON (2026–2027) &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
+### CURRENT FOCUS & LEARNING &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
 <div align="center">
 
-| Focus Domain | High-Impact Milestones & Toolchain |
+| Domain | Focus & Toolchain |
 |:---|:---|
-| **High-Throughput Streaming** | Deepening event-driven architectures with **Apache Kafka**, partition rebalancing, and CDC (Debezium). |
-| **Autonomous Agent Orchestration** | Production agent networks using **Model Context Protocol (MCP)**, multi-agent consensus, and structured tool calling. |
-| **Cloud-Native Infrastructure** | Hardened container deployments with **Kubernetes (K8s)**, Helm charts, and GraalVM AOT native compilation. |
+| **Event Streaming** | Deepening practical experience with Apache Kafka, consumer groups, partition management, and change data capture (Debezium). |
+| **AI Systems & Tooling** | Developing workflows using Model Context Protocol (MCP), structured schemas, and automated agent loops. |
+| **Container Orchestration** | Deploying services with Kubernetes (K8s), Helm charts, and Ahead-of-Time compilation via GraalVM. |
 
 </div>
 
@@ -550,7 +598,7 @@ Core engineering systems showcasing production-deployed distributed microservice
 <br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  FOOTER                                                            -->
+<!--  FOOTER / CONTACT MATRIX                                           -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -573,24 +621,21 @@ Core engineering systems showcasing production-deployed distributed microservice
 
 <br/><br/>
 
-<img src="./assets/art/pin1.jpg" align="right" width="300" alt="Coding Philosophy" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
+<img src="./assets/art/pin1.jpg" align="right" width="300" alt="Workstation notes" style="margin-left: 24px; margin-bottom: 20px; border-radius: 8px;" />
 
 <div align="left">
 
-### CODER'S CREED &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
-
-> *"Code is read far more often than it is written. Build with mathematical rigor, design from first principles, and ship with audacity."*
+### GET IN TOUCH &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 - **Location**: Jharkhand, India
-- **Core Domain**: Distributed Systems & Applied AI Engineering
-- **Current Status**: Open to Software Engineering (SDE) & AI Systems Internships (Summer/Fall 2026)
-- **Direct Dispatch**: [priyanshughosh97@gmail.com](mailto:priyanshughosh97@gmail.com) · [@PGhosh3006](https://x.com/PGhosh3006) · [@priyanshu30ghosh](https://www.instagram.com/priyanshu30ghosh/)
+- **Availability**: Open to Software Engineering (SDE) and Backend Internships
+- **Email**: [priyanshughosh97@gmail.com](mailto:priyanshughosh97@gmail.com)
+- **Profiles**: [LinkedIn](https://www.linkedin.com/in/priyanshu-ghosh-/) · [LeetCode](https://leetcode.com/u/priyanshughosh30/) · [GitHub](https://github.com/PG300604)
+- **Socials**: [@PGhosh3006](https://x.com/PGhosh3006) on X · [@priyanshu30ghosh](https://www.instagram.com/priyanshu30ghosh/) on Instagram
 
 </div>
 
 <br clear="all"/>
 <br/>
-
-
 
 </div>
