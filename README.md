@@ -50,8 +50,8 @@
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 - **Emergency Healthcare Tech**: Engineered [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), a statewide dispatch OS actively mapping 111 government hospitals across all 24 districts of Jharkhand with 108 ambulance green wave routing.
-- **Distributed Commerce**: Built [ShopFlow](https://github.com/PG300604/ShopFLow) solo — an 8-microservice mesh featuring two-phase stock reservation locks, Eureka discovery, and Redis sub-50ms pub/sub.
-- **Applied AI Agents**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × CodingNinjas hackathon — a 4-agent SSE pipeline converting chaotic multi-format deadlines into scheduled calendar workflows.
+- **Distributed Commerce**: Built [ShopFlow](https://github.com/PG300604/ShopFLow) solo | an 8-microservice mesh featuring two-phase stock reservation locks, Eureka discovery, and Redis sub-50ms pub/sub.
+- **Applied AI Agents**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × CodingNinjas hackathon | a 4-agent SSE pipeline converting chaotic multi-format deadlines into scheduled calendar workflows.
 - **Automated Verification**: Rigorous testing across every project (89/89 green tests on TriageNet, 0 Trivy CVEs on Docker images).
 
 <br clear="all"/>
@@ -61,7 +61,7 @@
 
 ### VISION &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
-- **Real-World Impact Over Hype**: Software should solve high-stakes infrastructure bottlenecks — whether cutting hospital admission delays or preventing flash-sale inventory deadlocks.
+- **Real-World Impact Over Hype**: Software should solve high-stakes infrastructure bottlenecks | whether cutting hospital admission delays or preventing flash-sale inventory deadlocks.
 - **Guiding Tenet**: **Humanity first, technology second.** Engineering systems that save time, reduce anxiety, and protect lives.
 - **Open Standards**: Building resilient, inspectable, and auditable open-source tooling for public welfare.
 
