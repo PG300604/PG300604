@@ -56,6 +56,27 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 
 <br/>
 
+```text
+┌──[ SYS.RECON // NETWORK DAEMON v0.7.1 ]─────────────────────────────────────┐
+│ HOST: priyanshu.mesh         ARCH: x86_64 / Linux          STATUS: [ACTIVE] │
+│ KERNEL: 6.8.0-generic        UPTIME: 99.98%                RTT: 1.42ms      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ PORT       STATE    PROTO      SERVICE        SUBSYSTEM / RUNTIME           │
+│ 22/tcp     OPEN     SSH-2.0    OpenSSH 9.6    Zero-Trust Ed25519 Tunnel     │
+│ 80/tcp     OPEN     HTTP/1.1   Nginx Edge     Reverse-Proxy Upstream        │
+│ 443/tcp    OPEN     TLSv1.3    HTTPS Core     AES-256-GCM Secure Edge       │
+│ 5432/tcp   OPEN     Postgres   Database       PostgreSQL 16 + pgvector      │
+│ 6379/tcp   OPEN     RESP3      Redis Store    Distributed State & PubSub    │
+│ 8080/tcp   OPEN     HTTP/2     Spring Boot    TriageNet v1.3.0 Dispatch     │
+│ 8081/tcp   OPEN     HTTP/2     Cloud Gateway  ShopFlow Distributed Mesh     │
+│ 11434/tcp  OPEN     HTTP/1.1   Ollama / MCP   DeepSeek & Llama Agent Core   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ [✓] 8 SERVICES HEALTHY · ZERO TRIVY CVEs · MEMORY INTEGRITY VERIFIED        │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  SOCIAL MATRIX (FRAMED TERMINAL GRID)                              -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
@@ -128,6 +149,33 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 <br/><br/>
 
 <img height="175" src="https://streak-stats.demolab.com?user=PG300604&theme=dark&background=0d1117&border=30363d&ring=39d353&fire=f0883e&currStreakLabel=39d353&sideLabels=8b949e&dates=8b949e&currStreakNum=39d353&sideNums=58a6ff" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+```text
+  ┌──[ MON-01: CLUSTER HEALTH ]───┐         ┌──[ MON-02: CVE AUDIT ]────────┐  
+  │ CPU [████████████░░░░]  74.2% │         │ RAM  [██████████████░░] 88.4% │  
+  │ NET [▲ 1.4 GB/s  ▼ 2.8 GB/s]  │         │ DISK [/dev/nvme0n1]     1.2TB │  
+  └──┬────────────────────────────┘         └──┬────────────────────────────┘  
+     │   ┌─────────────────────────────────────┐   │                           
+     └───┤  [>] TRIAGENET: 111 HOSPITALS SYNC  │───┘                           
+         │  [>] SHOPFLOW: 8 SPRING APIS MESHED │                               
+         │  [>] ZERO-HOUR: 24H AGENT PIPELINE  │                               
+         │  [>] LEETCODE: DAILY STREAK ACTIVE  │                               
+         └─────────────────┬───────────────────┘                               
+                     ┌─────┴─────┐                                             
+        ┌────────────┴───────────┴────────────┐                                
+        │  [ESC] [F1-F12]   [PRT] [INS] [DEL] │   < CODING AT 3:00 AM >        
+        │  [TAB] Q W E R T Y U I O P [ { ] }  │   "Distributed consensus       
+        │  [CAPS] A S D F G H J K L : " [RET] │    meets algorithmic rigor."   
+        │  [SHFT] Z X C V B N M < > ? [SHIFT] │                                
+        │  [CTRL] [ALT] [_____SPACE_____] [▼] │                                
+        └─────────────────────────────────────┘                                
+```
 
 </div>
 
@@ -540,8 +588,18 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 
 <br/><br/>
 
-```
-"Code is read far more often than it is written. Build with mathematical rigor, ship with audacity."
+```text
+             .  *        .    ✦       *          .     *       .  ✦            
+      *             .               *        .               *                 
+             ┌──────────────────────────────────────────────┐        .         
+       .     │  ✦   P R I Y A N S H U   //   C R E E D  ✦   │                  
+             └──────────────────────────────────────────────┘   *        .     
+        *         .              *              ✦                 .            
+   "Code is read far more often than it is written. Build with mathematical    
+    rigor, design from first principles, and ship with audacity."              
+                                                                               
+          ✦        ✧       .       ✦        *       ✧        .        ✦        
+    [ 111 HOSPITALS DISPATCHED ] · [ 8 SERVICES MESHED ] · [ 100% GREEN CI ]   
 ```
 
 <br/>
