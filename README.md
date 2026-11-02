@@ -1,119 +1,249 @@
-<!-- ╔══════════════════════════════════════════════════════════════════╗ -->
-<!-- ║  README.md — PG300604 GitHub Profile                           ║ -->
-<!-- ║  Theme: Deep Ocean · Glow Aesthetic · React Dark               ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════╝ -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Priyanshu%20Ghosh&fontSize=48&fontColor=ffffff&fontAlignY=34&desc=Full%20Stack%20Java%20Developer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20AI%20Agent%20Architect&descAlignY=56&descSize=16&descColor=79b8ff&animation=fadeIn" width="100%"/>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  HEADER BANNER (Retro Pixel Matrix // Neo-Terminal Aesthetic)       -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<img src="./assets/header.svg" width="100%" alt="Priyanshu Ghosh Banner" />
+
+<br/><br/>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  TYPING TELEMETRY                                                 -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=1000&color=39D353&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=50&lines=Distributed+Systems+%C2%B7+Zero-Trust+Cryptography+%C2%B7+Autonomous+AI+Agents;Architected+TriageNet+v1.3.0+%E2%80%94+Statewide+Emergency+OS+(111+Hospitals);Engineered+HashWatch+%E2%80%94+Zero-Trust+Ed25519+Cryptographic+FIM;Shipped+8+Spring+Boot+Distributed+Microservices+Solo+(ShopFlow);Built+%26+Shipped+Production+Multi-Agent+AI+Platform+in+24+Hours;100%25+Green+Test-Driven+Rigor+%C2%B7+Zero+Trivy+CVEs+%C2%B7+Open+to+SDE+Internships" alt="Typing Telemetry" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=79B8FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=75&lines=Architecting+Zero-Trust+Cryptographic+FIM+for+HashWatch;Shipping+TriageNet+v1.3.0+Statewide+Healthcare+OS;Shipping+distributed+Spring+Boot+microservices+solo;Architecting+Dijkstra+%2B+Hungarian+algorithms+for+TriageNet;Shipping+production+AI+agents+in+24+hours;Open+to+SDE+Internships+%E2%80%94+let's+build+something" alt="Typing SVG" />
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  HIGH-CONTRAST METRIC PILLS                                       -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<a href="#-flagship-systems-architecture"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-8-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+&nbsp;
+<a href="https://triagenet-frontend.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-5-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
+&nbsp;
+<a href="#-zerohour--multi-agent-crisis-companion"><img src="https://img.shields.io/badge/FASTEST_SHIP-24_HOURS-f0883e?style=for-the-badge&labelColor=0d1117&color=bd561d" alt="Fastest Ship"/></a>
+&nbsp;
+<a href="#-verified-honors--track-record"><img src="https://img.shields.io/badge/HACKATHONS-3_SUBMITTED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Competitions"/></a>
+&nbsp;
+<a href="#-hashwatch--cryptographically-signed-file-integrity-monitoring"><img src="https://img.shields.io/badge/TEST_COVERAGE-100%25_GREEN-3fb950?style=for-the-badge&labelColor=0d1117&color=238636" alt="100% Green CI"/></a>
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  EDITORIAL IDENTITY SECTION (WHO I AM // WHAT I DO // VISION)      -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### WHO I AM &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
+
+Hey, I'm **Priyanshu** — a West Bengal-based Systems & AI Engineer obsessed with building high-throughput distributed backends, zero-trust cryptographic security, and autonomous multi-agent systems. I work at the intersection of high-concurrency Java microservices, modern reactive frontends, and applied AI agents, and I write about what I build and learn from first principles.
+
+### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
+
+I build production-grade distributed architectures, zero-trust cryptographic baselines (Ed25519 asymmetric signatures & streaming SHA-256), and state-wide dispatch platforms that solve real-world emergency infrastructure problems. Obsessed with high velocity (shipped full multi-agent platforms in 24 hours), 100% automated test suites (89/89 tests green), and zero-compromise systems design.
+
+### VISION &nbsp; <img src="./assets/divider.svg" width="60%" height="12" align="center" alt="divider" />
+
+My goal is to design resilient computational foundations that push digital infrastructure further ahead than it was yesterday. Whether routing emergency ambulances during the golden hour ([TriageNet](https://github.com/PG300604/TriageNet)) or sealing enterprise file systems against silent tampering ([HashWatch](https://github.com/PG300604/HashWatch)), technology must serve humanity with mathematical precision and unwavering reliability. **Humanity first, technology second.**
+
+### BEYOND CODE &nbsp; <img src="./assets/divider.svg" width="52%" height="12" align="center" alt="divider" />
+
+Competitive algorithmic problem solving ([LeetCode](https://github.com/PG300604/LeetCode-Solutions)), exploring cryptographic protocols & distributed consensus, listening to ambient electronic & synth soundscapes, and thinking from first principles — that's me outside of production code.
 
 <br/>
 
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  SOCIAL MATRIX (FRAMED TERMINAL GRID)                              -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-<img src="https://img.shields.io/badge/Projects_Shipped-8-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Live_Deployments-5-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Fastest_Ship-24hrs-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Competitions-3-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
-&nbsp;
-<img src="https://img.shields.io/badge/AI_Agents_Built-9+-79b8ff?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Microservices-8-4fcea6?style=for-the-badge&labelColor=0d1117&color=1a56db"/>
+<table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <thead>
+    <tr style="border-bottom: 1px solid #30363d;">
+      <th align="center" width="8%" style="color: #6e7681; font-family: monospace;">::</th>
+      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">LinkedIn</th>
+      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Portfolio</th>
+      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Gmail</th>
+      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">GitHub</th>
+      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">LeetCode</th>
+      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">X (Twitter)</th>
+      <th align="center" width="8%" style="color: #6e7681; font-family: monospace;">::</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="color: #39d353; font-family: monospace; font-size: 16px;">[::]</td>
+      <td align="center" style="padding: 12px 6px;">
+        <a href="https://www.linkedin.com/in/priyanshu-ghosh-pg3006/"><img src="./assets/icons/linkedin.svg" width="48" height="48" alt="LinkedIn" /></a>
+      </td>
+      <td align="center" style="padding: 12px 6px;">
+        <a href="https://shipwithpriyanshu.vercel.app/"><img src="./assets/icons/portfolio.svg" width="48" height="48" alt="Portfolio" /></a>
+      </td>
+      <td align="center" style="padding: 12px 6px;">
+        <a href="mailto:priyanshu.ghosh.dev@gmail.com"><img src="./assets/icons/gmail.svg" width="48" height="48" alt="Gmail" /></a>
+      </td>
+      <td align="center" style="padding: 12px 6px;">
+        <a href="https://github.com/PG300604"><img src="./assets/icons/github.svg" width="48" height="48" alt="GitHub" /></a>
+      </td>
+      <td align="center" style="padding: 12px 6px;">
+        <a href="https://github.com/PG300604/LeetCode-Solutions"><img src="./assets/icons/leetcode.svg" width="48" height="48" alt="LeetCode" /></a>
+      </td>
+      <td align="center" style="padding: 12px 6px;">
+        <a href="https://x.com/"><img src="./assets/icons/x.svg" width="48" height="48" alt="X (Twitter)" /></a>
+      </td>
+      <td align="center" style="color: #39d353; font-family: monospace; font-size: 16px;">[::]</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
 <br/>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  3D ISOMETRIC CONTRIBUTION SKYLINE & TELEMETRY                     -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### ENGINEERING METRICS & 3D SKYLINE &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
+
+<div align="center">
+
+<img src="./assets/isometric-contrib.svg" width="100%" alt="3D Isometric Contribution Skyline & Radar Telemetry" />
+
+<br/><br/>
+
+<img height="175" src="https://github-readme-stats-vercel-lake.vercel.app/api?username=PG300604&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=30363d&title_color=39d353&text_color=c9d1d9&icon_color=58a6ff&show=reviews,discussions_started&ring_color=39d353&rank_icon=percentile" alt="GitHub Stats" />
+&nbsp;&nbsp;
+<img height="175" src="https://github-readme-stats-vercel-lake.vercel.app/api/top-langs/?username=PG300604&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=30363d&title_color=39d353&text_color=c9d1d9&langs_count=8&hide=html,css&card_width=320" alt="Top Languages" />
+
+<br/><br/>
+
+<img height="175" src="https://streak-stats.demolab.com?user=PG300604&theme=dark&background=0d1117&border=30363d&ring=39d353&fire=f0883e&currStreakLabel=39d353&sideLabels=8b949e&dates=8b949e&currStreakNum=39d353&sideNums=58a6ff" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  SKILL SET (4x8 = 32 CUSTOM DARK TILES GRID)                       -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### SKILL SET &nbsp; <img src="./assets/divider.svg" width="65%" height="12" align="center" alt="divider" />
+
+<div align="center">
+
+<img src="./assets/skills.svg" width="100%" alt="Curated Skill Set Matrix" />
+
+<br/><br/>
+
+| Domain | Core Competencies & Toolchain |
+|:---|:---|
+| **Backend & Microservices** | Java 21/17 · Spring Boot 3.3.13 · Spring Cloud Gateway · Spring Security · Hibernate/JPA · Maven · Virtual Threads |
+| **Zero-Trust Cryptography** | Ed25519 (RFC 8032) · Streaming SHA-256 (64 KB Chunks) · SunEC JCA · Signature-Pinned Baselines · Quartz Scheduler |
+| **Distributed Architecture** | Netflix Eureka Discovery · 2-Phase Stock Reservation Locks · Redis 7.2 Sub-50ms Pub/Sub · OpenFeign RPC |
+| **Applied AI & Agent Swarms** | Gemini Multimodal API · Autonomous Agent Teams (Planner/Prioritizer/Scheduler/Nudge) · Sigmoid Acuity Logistic Regression · SSE Streaming |
+| **Databases & Spatial GIS** | PostgreSQL 16 + PostGIS Spatial Engine · Redis 7.2 AOF In-Memory Broker · MySQL · Supabase · H2 · HikariCP |
+| **Frontend & Mobile UI** | React 19/18 · Next.js 16.4.1 (Turbopack, SSR) · TypeScript 5.7 · Vite · Tailwind CSS v4 · Leaflet 3D · Flutter · Kotlin · Jetpack Compose |
+| **DevOps, Security & Cloud** | Docker Compose · Render Cloud · Nginx Reverse Proxy · Aqua Trivy (0 CVEs) · GitHub Actions CI/CD · Vercel · Railway |
+
+</div>
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  DEPLOYMENT STATUS MONITOR                                         -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### DEPLOYMENT STATUS MONITOR &nbsp; <img src="./assets/divider.svg" width="46%" height="12" align="center" alt="divider" />
 
 <div align="center">
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  ◉  DEPLOYMENT STATUS MONITOR                              [ LIVE · 2026 ] │
-├─────────────────────┬──────────────┬─────────────────────────┬──────────────┤
-│  SERVICE            │  STATUS      │  STACK                  │  UPTIME      │
-├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
-│  HashWatch          │  ● SPRINT 2  │  Java 17 · Ed25519 · DB │  Final Yr    │
-│  TriageNet          │  ● v1.3.0    │  Java 17 · Next · Redis │  Live Cloud  │
-│  ShopFlow           │  ● SHIPPED   │  Java 17 · Spring Cloud │  v1.0 Live   │
-│  RepoMind           │  ● SUBMITTED │  IBM Bob · GH Actions   │  Hackathon   │
-│  SkillShare         │  ● LIVE      │  Spring Boot · React    │  Deployed    │
-│  ZeroHour           │  ● LIVE      │  Gemini AI · React      │  Deployed    │
-│  SkyCheck PWA       │  ● LIVE      │  React PWA · Java       │  Deployed    │
-├─────────────────────┼──────────────┼─────────────────────────┼──────────────┤
-│  ACTIVE REPOS       │  10+         │  LANGUAGES              │  8+          │
-│  FRAMEWORKS         │  15+         │  OPEN TO INTERN         │  YES         │
-└─────────────────────┴──────────────┴─────────────────────────┴──────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  ◉  ENTERPRISE SYSTEMS & CLOUD PRODUCTION MONITOR                    [ STATUS: GREEN ] │
+├─────────────────────────┬──────────────┬─────────────────────────────┬─────────────────┤
+│  SERVICE / SYSTEM       │  STATUS      │  CORE ARCHITECTURE          │  DEPLOYMENT     │
+├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
+│  TriageNet Platform     │  ● v1.3.0    │  Java 17 · Next 16 · Redis  │  Live on Render │
+│  HashWatch FIM          │  ● SPRINT 2  │  Ed25519 · SHA-256 · Quartz │  Lead Final Yr  │
+│  ShopFlow Mesh          │  ● SHIPPED   │  8 Microservices · 2PC Lock │  v1.0 Live      │
+│  RepoMind Analyzer      │  ● SUBMITTED │  IBM Bob API · CI Action    │  IBM Hackathon  │
+│  ZeroHour AI            │  ● SHIPPED   │  Gemini AI · Multi-Agent    │  24-Hr Ship     │
+│  SkyCheck PWA           │  ● SUBMITTED │  Dexie.js · Edge Vision PWA │  Tata InnoVent  │
+│  SkillShare             │  ● LIVE      │  Haversine Geo · Docker     │  Live on Vercel │
+├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
+│  SHIPPED SYSTEMS: 8     │  CI: 100%    │  ACTIVE REPOSITORIES: 10+   │  INTERNSHIP: YES│
+└─────────────────────────┴──────────────┴─────────────────────────────┴─────────────────┘
 ```
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  FLAGSHIP SYSTEMS ARCHITECTURE (DEEP DIVES)                        -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### 🚀 FLAGSHIP SYSTEMS ARCHITECTURE &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
+
+<!-- ─── TriageNet ─── -->
+
+<details open>
+<summary><b>◆ TriageNet — AI-Powered Statewide Hospital Triage, 108 Dispatch & Spatial Resource Allocation Platform</b></summary>
 
 <br/>
 
-```java
-/**
- * @author   Priyanshu Ghosh
- * @college  Asansol Engineering College · CSBS · 2027
- * @status   Open to SDE Internships
- */
-@RestController
-public class Priyanshu {
+> **Status:** `v1.3.0 PRODUCTION SHIPPED` · **Type:** Flagship Healthcare OS · **Scale:** 111 Authentic Hospitals × 24 Districts × 6 RBAC Roles × 4 Core Engines · **Tests:** 89/89 Passing (100% Green CI) · **Security:** 0 Trivy CVEs · **Deployment:** Live on Render Cloud
 
-    private final String[] domains = {
-        "Distributed Microservices", "Zero-Trust Cryptography", "Backend APIs",
-        "Two-Phase Transactions", "Autonomous AI Agents", "Spatial Healthcare Systems"
-    };
+The most technically rigorous system I've architected. A **statewide healthcare emergency operating system** connecting **111 real government healthcare facilities across all 24 districts of Jharkhand** (RIMS Ranchi, MGM Jamshedpur, SNMMCH Dhanbad, 24 District Hospitals, and 80+ CHCs).
 
-    private final String record = "Production app shipped in 24 hours (ZeroHour · Hackathon)";
+```
+Core Engines:     SeverityScorer: Multivariate logistic regression (98.88% emergency recall across 4 Kaggle hospital datasets)
+                  TriageQueueService: Dynamic lock-free binary max-heap with wait-aging decay (E = S + λ√W)
+                  HungarianMatcher: Optimal O(V³) Kuhn-Munkres bipartite ICU bed & surgical specialist allocator
+                  DijkstraRouter: Dynamic congestion shortest-path highway routing with ITMS 108 Green Wave preemption
 
-    @GetMapping("/stack")
-    public Map<String, String[]> getStack() {
-        return Map.of(
-            "backend",  new String[]{"Java 21/17", "Spring Boot 3.3.13", "Spring Cloud", "Spring Security", "Hibernate/JPA", "Maven"},
-            "crypto",   new String[]{"Ed25519 (RFC 8032)", "SHA-256 Streaming", "SunEC JCA", "Zero-Trust Baselines"},
-            "ai",       new String[]{"Gemini API", "Multi-Agent Systems", "Sigmoid Acuity Regression", "SSE Streaming"},
-            "database", new String[]{"PostgreSQL 16 + PostGIS", "Redis 7.2 Pub/Sub", "MySQL", "H2 In-Memory", "Supabase"},
-            "frontend", new String[]{"React 19/18", "Next.js 16.4.1", "TypeScript 5.7", "Vite", "Tailwind v4", "Leaflet 3D"},
-            "devops",   new String[]{"Docker Compose", "Nginx Reverse Proxy", "Render Cloud", "GitHub Actions CI", "Trivy"}
-        );
-    }
-}
+108 Dispatch:     4-Stage Golden Hour Emergency Pipeline
+                  Incident Ingestion → Bipartite Specialist Matching → Sub-50ms Bed Hold TTL Lock
+                  → In-Flight Telemetry with Real-Time GPS Tracking, Digital Trauma Voucher & Green Corridor Preemption
+
+Infrastructure:   Spring Boot 3.3.13 backend (Java 17 Temurin, Virtual Threads concurrency, zero Python runtime)
+                  Next.js 16.4.1 App Router frontend (React 19 SSR, Turbopack, 23 routes, Tailwind v4, Leaflet 3D)
+                  Redis 7.2 In-Memory Broker (sub-50ms GPS Pub/Sub, STOMP relay, 30-min bed hold TTL, AOF durability)
+                  Nginx Reverse Proxy with SSL termination, keepalive connection pooling, and token-bucket rate limiting
+                  PostgreSQL 16 + PostGIS spatial persistence with Row-Level Security (RLS) policies
+                  Multi-Platform Mobile Companion (Flutter Android APK, iOS package, native Jetpack background service)
 ```
 
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<br/>
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=300&height=35&lines=Projects" alt="Projects"/>
-</div>
+| Architectural Highlight | Implementation Detail |
+|:---|:---|
+| **4 Hand-Built Engines** | `SeverityScorer`, `TriageQueueService`, `HungarianMatcher`, and `DijkstraRouter` implemented natively in Java without external solver libraries |
+| **24-District Coverage** | Authentic public health infrastructure covering 111 government hospitals with real OpenRouteService distance matrices |
+| **ITMS 108 Green Wave** | Municipal traffic control gateway overrides corridor traffic lights along NH-33/GT Road to `ALL_GREEN` for in-transit trauma ambulances |
+| **Redis 7.2 Telemetry** | Sub-50ms GPS streaming (`/topic/ambulance-telemetry`), WebSocket STOMP relay, and 30-minute auto-release bed hold locks |
+| **Guest Sandbox Console** | Zero-login simulated command sandbox (`/control`) allows external evaluators to stress-test mass-casualty triage safely |
 
 <br/>
 
-<!-- ─── HashWatch (Final Year Project) ─── -->
+[**Launch Live Cloud Demo →**](https://triagenet-frontend.onrender.com) &nbsp;|&nbsp; [**Download v1.3.0 Release Packages →**](https://github.com/PG300604/TriageNet/releases/tag/v1.3.0) &nbsp;|&nbsp; [**View Code Repository →**](https://github.com/PG300604/TriageNet)
+
+</details>
+
+<br/>
+
+<!-- ─── HashWatch ─── -->
 
 <details>
-<summary><b>◆ HashWatch — Cryptographically Signed File Integrity & Baseline Monitoring System</b></summary>
+<summary><b>◆ HashWatch — Cryptographically Signed File Integrity & Baseline Monitoring System (FYP Lead)</b></summary>
 
 <br/>
 
-> **Status:** `SPRINT 2 ACTIVE` · **Type:** Final Year Project (Lead) · **Scale:** Zero-Trust Cryptography × 30s Quartz Scheduler × Dual DB · **Tests:** 33/33 Passing
+> **Status:** `SPRINT 2 ACTIVE` · **Role:** Final Year Project Lead · **Architecture:** Zero-Trust Cryptography × 30s Quartz Scheduler × Dual Persistence · **Tests:** 33/33 Passing
 
 A modern enterprise File Integrity Monitoring (FIM) system engineered to solve the classical **Baseline Poisoning Attack** seen in traditional tools like Tripwire and AIDE. Uses **asymmetric Edwards-curve digital signatures (Ed25519)** and **64 KB buffered streaming SHA-256** to mathematically guarantee file authenticity without relying on trusted database media.
 
@@ -131,108 +261,19 @@ Scheduler:        Resilient Quartz Job with @DisallowConcurrentExecution
                   Misfire handling with execution duration telemetry
                   State-transition alert gating eliminating 30-second polling alert fatigue
 
-Architecture:     Dual-Profile persistence: H2 in-memory (dev) + PostgreSQL 16 (prod)
-                  HikariCP connection pool with schema migration defaults
-                  Full academic benchmarking suite against published research papers (snaproot, Bernstein)
-
 Testing Health:   33/33 automated tests passing (Comparison, Repositories, Scheduler, Crypto)
 ```
 
-**Key Innovations & Technical Highlights:**
-
-| Feature | Detail |
-|---|---|
+| Architectural Highlight | Implementation Detail |
+|:---|:---|
 | **Zero-Trust Baselines** | Verifies Ed25519 signature before comparing disk bytes; detects and alerts database tampering (`SIGNATURE_INVALID`) |
 | **Triple-Lock Envelope** | Binds `HashWatch:v1:<normalizedPath>:<sha256Hex>:<fileSizeBytes>` to stop cross-file DB signature swaps |
 | **Fingerprint Pinning** | Enforces active public key SHA-256 fingerprint verification against stored `publicKeyId` |
-| **In-Place Monitoring** | Non-intrusive monitoring leaving disk files in place with 0% storage bloat |
 | **Batch Fault Isolation** | Per-file isolated execution ensures transient locks never interrupt scans of remaining files |
-| **Enterprise Readiness** | Centralized Docker deployment for banks/cloud servers with REST API and Web Dashboard |
-
-<p>
-<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ed25519-0284c7?style=for-the-badge&logo=shield&logoColor=white"/>
-<img src="https://img.shields.io/badge/SHA--256-0284c7?style=for-the-badge&logo=lock&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Quartz_Scheduler-D22128?style=for-the-badge&logo=clock&logoColor=white"/>
-<img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tests-33%2F33_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
-</p>
-
-[**View Code →**](https://github.com/PG300604/HashWatch)
-
-</details>
 
 <br/>
 
-<!-- ─── TriageNet ─── -->
-
-<details>
-<summary><b>◆ TriageNet — AI-Powered State-Wide Hospital Triage, 108 Dispatch & Spatial Resource Allocation Platform</b></summary>
-
-<br/>
-
-> **Status:** `v1.3.0 PRODUCTION SHIPPED` · **Type:** Flagship Healthcare Platform · **Scale:** 111+ Authentic Hospitals × 24 Districts × 6 RBAC Roles × 4 Core Algorithms · **Tests:** 89/89 Passing (100% Green CI) · **Deployment:** Live on Render Cloud
-
-The most technically ambitious platform I've built. A **state-wide healthcare emergency operating system** connecting **111 real government healthcare facilities across all 24 districts of Jharkhand** (RIMS Ranchi, MGM Jamshedpur, SNMMCH Dhanbad, 24 District Hospitals, and 80+ CHCs). Features multivariate logistic acuity scoring, Kuhn-Munkres optimal bipartite ICU bed allocation, Dijkstra shortest-path highway routing with municipal ITMS 108 Green Wave traffic signal preemption, cross-platform Android/iOS Mobile Companion Suite, Guest Sandbox simulation mode, and **hardened enterprise infrastructure** with Docker Compose, Nginx reverse proxy, PostgreSQL 16 + PostGIS, Redis 7.2 Pub/Sub telemetry, and Spring Boot 3.3.13.
-
-```
-Core Algorithms:  SeverityScorer: Multivariate logistic regression (98.88% recall across 4 Kaggle hospital datasets)
-                  TriageQueueService: Dynamic lock-free binary max-heap with wait-aging decay (E = S + λ√W)
-                  HungarianMatcher: Optimal O(V³) Kuhn-Munkres bipartite ICU bed & surgical specialist allocator
-                  DijkstraRouter: Dynamic congestion shortest-path highway routing with ITMS 108 Green Wave preemption
-
-108 Dispatch:     4-Stage Golden Hour Emergency Pipeline
-                  Incident Ingestion → Bipartite Specialist Matching → Sub-50ms Bed Hold TTL Lock
-                  → In-Flight Telemetry with Real-Time GPS Tracking, Digital Trauma Voucher & Green Corridor Preemption
-
-Infrastructure:   Spring Boot 3.3.13 backend (Java 17 Temurin, Virtual Threads concurrency, zero Python runtime)
-                  Next.js 16.4.1 App Router frontend (React 19 SSR, Turbopack, 23 routes, Tailwind v4, Leaflet 3D)
-                  Redis 7.2 In-Memory Broker (sub-50ms GPS Pub/Sub, STOMP relay, 30-min bed hold TTL, AOF durability)
-                  Nginx Reverse Proxy with SSL termination, keepalive connection pooling, and rate limiting
-                  PostgreSQL 16 + PostGIS spatial persistence with Row-Level Security (RLS) policies
-                  Multi-Platform Mobile Companion (Flutter Android APK, iOS package, native Jetpack background service)
-
-Security & Safety: 3-Tier Multi-Layer Governance: Clinical (Sepsis/Shock alerts) + Operational (FIDO2, Dual-Control)
-                  Zero-Email BIP-39 Offline Credentials · Token-bucket rate limiting (10 req/s/IP) · Aqua Trivy 0 CVEs
-                  Dual-Mode Architecture: Non-mutating Guest Sandbox Mode vs Authenticated Clinical Multi-Tenant Portal
-
-Testing & CI/CD:  89/89 automated backend tests passing across integration, security, and algorithms
-                  GitHub Actions CI with 3 parallel jobs: Maven test, Next.js build, Trivy offline scan
-                  Official GitHub Release v1.3.0 with Android APK, iOS package, executable JAR & SHA256 checksums
-```
-
-**Key Architectural Highlights & Innovations:**
-
-| Feature | Detail |
-|---|---|
-| **4 Hand-Built Engines** | `SeverityScorer`, `TriageQueueService`, `HungarianMatcher`, and `DijkstraRouter` implemented natively without external solver or runtime Python dependencies |
-| **24-District Coverage** | Authentic public health infrastructure covering all 111 government hospitals and CHCs across Jharkhand with real ORS distance matrices |
-| **ITMS 108 Green Wave** | Municipal traffic control gateway overrides corridor traffic lights along NH-33/GT Road to `ALL_GREEN` for in-transit trauma ambulances |
-| **Redis 7.2 Telemetry** | Sub-50ms GPS streaming (`/topic/ambulance-telemetry`), WebSocket STOMP relay, and 30-minute auto-release bed hold locks |
-| **Multi-Dataset ML Validation** | Empirical evaluation across 4 authentic Kaggle hospital datasets (General, ESI, KTAS, NHAMCS) proving 98.88% emergency recall |
-| **Guest Sandbox Console** | Zero-login simulated command sandbox (`/control`) allows external evaluators to stress-test mass-casualty triage safely |
-| **Zero-Trust Security** | FIDO2 hardware tokens, dual-control supervisor signoffs, BIP-39 offline auth, PostgreSQL RLS, and 0 Trivy CVEs |
-| **89/89 Tests Green** | 100% automated test coverage verified on both Linux (Fedora) and Windows 11 host runners |
-
-<p>
-<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3.3.13-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js_16.4.1-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL_16_+_PostGIS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis_7.2_Pub%2FSub-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
-<img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Release-v1.3.0-blue?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Deployment-Render_Live-4fcea6?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/Trivy-0_Vulnerabilities-00ADD8?style=for-the-badge&logo=aquasec&logoColor=white"/>
-<img src="https://img.shields.io/badge/CI%2FCD-100%25_Green-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tests-89%2F89_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"/>
-</p>
-
-[**Launch Live Cloud Demo →**](https://triagenet-frontend.onrender.com) · [**Download v1.3.0 Release Packages →**](https://github.com/PG300604/TriageNet/releases/tag/v1.3.0) · [**View Code →**](https://github.com/PG300604/TriageNet)
+[**View Code Repository →**](https://github.com/PG300604/HashWatch)
 
 </details>
 
@@ -245,7 +286,7 @@ Testing & CI/CD:  89/89 automated backend tests passing across integration, secu
 
 <br/>
 
-> **Status:** `v1.0 SHIPPED` · **Type:** Distributed Microservices · **Scale:** 8 Services × Two-Phase Locks × Stripe Card/UPI × Pinterest Editorial UI
+> **Status:** `v1.0 SHIPPED` · **Architecture:** 8 Distributed Spring Boot Microservices · Two-Phase Stock Reservation · Stripe Card/UPI Modal · Pinterest Editorial UI
 
 An enterprise-grade, distributed multi-vendor commerce platform engineered entirely from the ground up as an independent solo full-stack project. Solves distributed commerce race conditions, prevents overselling during high-concurrency checkouts via **two-phase inventory reservation locks**, and delivers a clean **Pinterest-inspired minimalist editorial 3-column storefront**.
 
@@ -260,31 +301,16 @@ API Gateway         →  Spring Cloud Gateway (:8080) + JWT Claims Forwarding + 
 Discovery Mesh      →  Netflix Eureka Server (:8761) + Dynamic Heartbeats
 ```
 
-**Engineering Highlights:**
-
 | Feature | Detail |
-|---|---|
-| **Two-Phase Inventory Lock** | Optimistic reservation locks (`physical - pendingReserved`) prevent overselling when multiple shoppers checkout the final unit simultaneously. |
-| **Auto-Sweeper Worker** | Scheduled 60-second background worker automatically releases orphaned `PENDING` stock holds after 15 minutes of payment abandonment. |
-| **Stripe Payment Modal & Webhooks** | Embedded Credit/Debit Card and UPI modal with cryptographic HMAC signature verification and resilient client fallback (`#SF-XXXXXX`). |
-| **Multi-Vendor Partitioning** | Strict role-based scoping ensuring sellers manage independent product lines, restock quantities, and inspect vendor-scoped earnings tables. |
-| **Pinterest Editorial UI** | High-performance React 18 + Vite frontend with 3-column editorial grid, live swatches, size filters, drawer cart, and native Indian Rupee (₹) formatting. |
-| **Complete System Documentation** | Full structural technical whitepaper with DFD Levels 0/1/2, database ERD, finite state machines, and 7-slide executive PDF. |
+|:---|:---|
+| **Two-Phase Inventory Lock** | Optimistic reservation locks (`physical - pendingReserved`) prevent overselling when multiple shoppers checkout simultaneously |
+| **Auto-Sweeper Worker** | Scheduled 60-second background worker automatically releases orphaned `PENDING` stock holds after 15 minutes of payment abandonment |
+| **Stripe HMAC Webhooks** | Embedded Credit/Debit Card and UPI modal with cryptographic HMAC signature verification and resilient fallback |
+| **Pinterest Editorial UI** | High-performance React 18 + Vite frontend with 3-column editorial grid, live swatches, size filters, and drawer cart |
 
-<p>
-<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Cloud-2023-blue?style=for-the-badge&logo=spring"/>
-<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript_5-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-</p>
+<br/>
 
-[**View Architecture Docs →**](https://github.com/PG300604/ShopFLow/blob/main/docs/SYSTEM_DOCUMENTATION.md) · [**View Code →**](https://github.com/PG300604/ShopFLow)
+[**View Architecture Whitepaper →**](https://github.com/PG300604/ShopFLow/blob/main/docs/SYSTEM_DOCUMENTATION.md) &nbsp;|&nbsp; [**View Code Repository →**](https://github.com/PG300604/ShopFLow)
 
 </details>
 
@@ -293,83 +319,26 @@ Discovery Mesh      →  Netflix Eureka Server (:8761) + Dynamic Heartbeats
 <!-- ─── RepoMind ─── -->
 
 <details>
-<summary><b>◆ RepoMind — AI-Powered PR Blast-Radius & Risk Analyzer (IBM Bob 2.0 Hackathon)</b></summary>
+<summary><b>◆ RepoMind — AI-Powered PR Blast-Radius & Merge Risk Analyzer (IBM Bob 2.0 Hackathon)</b></summary>
 
 <br/>
 
-> **Status:** `SUBMITTED` · **Type:** Hackathon Project · **Event:** IBM Bob 2.0 Hackathon · **Stack:** IBM Bob API · GitHub Actions
+> **Status:** `SUBMITTED` · **Event:** IBM Bob 2.0 Hackathon · **Stack:** IBM Bob API · GitHub Actions · Spring Boot 3
 
-A PR review co-pilot that reasons across an entire codebase — not just the diff — to catch risk that reviewers usually miss. Built on **IBM Bob's API**, it traces the real dependency graph behind every changed file, scores merge risk, and flags missing test coverage automatically.
+A PR review co-pilot that reasons across an entire codebase — not just the diff — to catch risk that human reviewers miss. Built on **IBM Bob's API**, it traces the real dependency graph behind every changed file, scores merge risk, and flags missing test coverage automatically.
 
 ```
 Analysis Engine:  Bob API traces every file/function that depends on the changed code,
                   mapping the true "blast radius" of a PR before it merges
-
-Risk Scoring:     Low / Medium / High risk classification with a plain-language
-                  explanation of what could break and why
-
-Test Coverage:    Auto-generated test stub suggestions for code paths left
-                  uncovered by the current diff
-
+Risk Scoring:     Low / Medium / High risk classification with plain-language explanations
+Test Coverage:    Auto-generated test stub suggestions for uncovered code paths
 GitHub Action:    Drop-in workflow (.github/workflows) triggers on every PR open/sync,
-                  calls the analysis service, and posts the risk summary as a
-                  PR comment automatically — zero manual review step required
+                  posts risk summaries as PR comments automatically — zero manual review step
 ```
-
-**Engineering Highlights:**
-
-| Feature | Detail |
-|---|---|
-| **Full-Repo Reasoning** | Uses Bob's API to analyze the changed diff in the context of the whole repository, not just the isolated patch |
-| **Blast-Radius Mapping** | Identifies every downstream file/function affected by a change before merge |
-| **Zero-Touch Integration** | One workflow file added to any repo — no dashboard, no manual trigger, review happens automatically on every PR |
-| **Auto Test Suggestions** | Flags missing test coverage and drafts concrete test stubs for the changed code |
-
-<p>
-<img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/IBM_Bob_API-052FAD?style=for-the-badge&logo=ibm&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-</p>
-
-[**View Code →**](https://github.com/PG300604/REPOMIND-IBM_BOB2.0_HACKATHON_PROJ)
-
-</details>
 
 <br/>
 
-<!-- ─── SkillShare ─── -->
-
-<details>
-<summary><b>◆ SkillShare — Skill Matching Platform</b></summary>
-
-<br/>
-
-> **Status:** `LIVE` · **Type:** Full Stack · **Deployed**
-
-A Tinder-style web app that connects users with nearby collaborators based on shared skills — built with a **custom geolocation engine**.
-
-```
-Algorithm:  Haversine Formula
-Radius:     10km → 100km (dynamic expansion)
-Fallback:   Global top profiles by proficiency score
-Auth:       OAuth2 + JWT via JWKS endpoint
-ORM:        Spring Data JPA + Hibernate
-DB:         PostgreSQL (prod) · H2 (dev/test)
-Deploy:     Multi-stage Docker → JRE Alpine
-```
-
-<p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-</p>
-
-[**Live App →**](https://skillshare-app-vercel-xv9i.vercel.app/) · [**View Code →**](https://github.com/PG300604/skillshare-app-vercel)
+[**View Code Repository →**](https://github.com/PG300604/REPOMIND-IBM_BOB2.0_HACKATHON_PROJ)
 
 </details>
 
@@ -378,34 +347,25 @@ Deploy:     Multi-stage Docker → JRE Alpine
 <!-- ─── ZeroHour ─── -->
 
 <details>
-<summary><b>◆ ZeroHour — Multi-Agent AI Productivity Platform</b></summary>
+<summary><b>◆ ZeroHour — Multi-Agent AI Crisis Companion (Shipped in 24 Hours)</b></summary>
 
 <br/>
 
-> **Status:** `SHIPPED` · **Built in:** 24 hours · **Event:** CodingNinjas × Google Vibe2Ship
+> **Status:** `PRODUCTION LIVE` · **Velocity:** Shipped in 24 hours · **Event:** CodingNinjas × Google Vibe2Ship Hackathon
 
 Built and deployed **end-to-end in 24 hours** at a national hackathon. A multi-agent AI crisis companion that turns impossible deadlines into managed schedules — automatically.
 
 ```
 Pipeline:   PlannerAgent → PrioritizerAgent → SchedulerAgent → NudgeAgent
-Stream:     Real-time SSE (watch agents think live)
-Input:      PDFs · Syllabi · Photos (Gemini multimodal)
+Stream:     Real-time SSE (watch agents think live in browser)
+Input:      PDFs · Syllabi · Photos (Gemini Multimodal API)
 Calendar:   Google Calendar API (auto-schedule + sync)
 Alerts:     Gmail API (deadline nudge emails)
-Security:   CSRF · IDOR mitigation · 30-day sessions
 ```
 
-<p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Calendar-4285F4?style=for-the-badge&logo=googlecalendar&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
-<img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white"/>
-<img src="https://img.shields.io/badge/SSE-FF6600?style=for-the-badge&logo=reactivex&logoColor=white"/>
-</p>
+<br/>
 
-[**Live App →**](https://zerohour-a84d3.web.app/) · [**View Code →**](https://github.com/PG300604/ZeroHour)
+[**Launch Live Application →**](https://zerohour-a84d3.web.app/) &nbsp;|&nbsp; [**View Code Repository →**](https://github.com/PG300604/ZeroHour)
 
 </details>
 
@@ -414,238 +374,132 @@ Security:   CSRF · IDOR mitigation · 30-day sessions
 <!-- ─── SkyCheck ─── -->
 
 <details>
-<summary><b>◆ SkyCheck — AI Visual Structural Inspection PWA</b></summary>
+<summary><b>◆ SkyCheck — Offline-First AI Visual Structural Inspection PWA</b></summary>
 
 <br/>
 
-> **Status:** `SUBMITTED` · **Event:** Tata Technologies InnoVent 2026 · **Deployed**
+> **Status:** `SUBMITTED` · **Event:** Tata Technologies InnoVent 2026 · **Stack:** React PWA · Dexie.js · Gemini AI
 
-An offline-first PWA for industrial safety audits — **real-time AI defect classification** directly in the browser, no internet required.
+An offline-first PWA for industrial safety audits — **real-time AI defect classification** directly in the browser with zero internet connectivity required.
 
 ```
 AI Engine:  Edge inference via camera feed (in-browser)
-Classifies: Corrosion · Cracks · Normal (real-time)
-Offline:    Full audit capability via Dexie.js (IndexedDB)
+Classifies: Corrosion · Structural Cracks · Normal (real-time)
+Offline:    Full audit capability via Dexie.js (IndexedDB local store)
 Sync:       Cascading ID reconciliation → PostgreSQL
-Auth:       JWT + OTP password recovery via SMTP
 Reports:    Gemini-powered narrative maintenance briefs
 ```
 
-<p>
-<img src="https://img.shields.io/badge/React_PWA-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Dexie.js-1DA1F2?style=for-the-badge&logo=indexeddb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-</p>
+<br/>
 
-[**Live App →**](https://dist-five-gules-45.vercel.app/) · [**View Code →**](https://github.com/PG300604/SkyCheck)
+[**Launch Live Application →**](https://dist-five-gules-45.vercel.app/) &nbsp;|&nbsp; [**View Code Repository →**](https://github.com/PG300604/SkyCheck)
 
 </details>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  VERIFIED ACHIEVEMENTS & TRACK RECORD                              -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-<br/>
+### 🏆 VERIFIED HONORS & TRACK RECORD &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=300&height=35&lines=Tech+Stack" alt="Tech Stack"/>
+
+| Achievement / Milestone | Organization / Event | Engineering Impact | Year |
+|:---|:---|:---|:---:|
+| **TriageNet Production Launch (v1.3.0)** | Public Health Cloud | 111 government hospitals across 24 districts · 89/89 test suites (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
+| **HashWatch Project Lead** | Academic Research FYP | Architected Zero-Trust FIM system with Ed25519 digital signatures & 64 KB streaming SHA-256 · 33/33 test suites passing | 2026 |
+| **ShopFlow 8-Microservices Solo Ship** | Independent Build | Engineered 8 Spring Boot microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration | 2026 |
+| **IBM Bob 2.0 Hackathon** | IBM | RepoMind submitted: PR blast-radius risk analyzer with full repository dependency reasoning & auto GitHub Action bot | 2026 |
+| **24-Hour Hackathon Ship** | CodingNinjas × Google | Built + deployed ZeroHour (multi-agent AI app) in 24 hours end-to-end | 2026 |
+| **Tata Technologies InnoVent** | Tata Technologies | SkyCheck PWA: Edge AI defect inspection with offline IndexedDB sync submitted | 2026 |
+| **Software Engineering Simulation** | JPMorgan Chase (Forage) | Kafka event streaming · REST API integration · H2 database architecture | 2026 |
+| **Academic Standing (SGPA 8.83 · CGPA 8.05)** | Asansol Engineering College | B.Tech CSBS (Computer Science & Business Systems) | 2027 |
+
 </div>
 
 <br/>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,postgres,mysql,docker,git,github&theme=dark&perline=9" alt="Row 1"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=vercel,maven,firebase,kotlin,androidstudio,py,vscode,figma,tailwind&theme=dark&perline=9" alt="Row 2"/>
-</div>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  WHY HIRE ME // CORE ADVANTAGES                                    -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-<br/>
+### 💡 CORE ENGINEERING ADVANTAGES &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
 <div align="center">
 
-| Layer | Technologies |
+| Advantage | Tangible Evidence Across Shipped Code |
 |:---|:---|
-| **Backend & Microservices** | Java 21/17 · Spring Boot 3.3.13 · Spring Cloud · Spring Security · Hibernate/JPA · Maven |
-| **Cryptography & FIM** | Ed25519 (RFC 8032) · Streaming SHA-256 · SunEC JCA · Zero-Trust Baselines · Quartz |
-| **Distributed Mesh** | Netflix Eureka · Spring Cloud API Gateway · OpenFeign · Two-Phase Stock Locks |
-| **AI & ML Systems** | Gemini API · Multi-Agent Systems · Sigmoid Acuity Logistic Regression · scikit-learn · SSE Streaming |
-| **Database & Persistence** | PostgreSQL 16 + PostGIS · Redis 7.2 Pub/Sub & TTL · MySQL · Supabase · H2 · HikariCP |
-| **Frontend & UI** | React 19/18 · Next.js 16.4.1 · TypeScript 5.7 · Vite · Tailwind v4 · Leaflet 3D · Framer Motion |
-| **DevOps & Cloud** | Docker Compose · Render.com Cloud · Nginx Reverse Proxy · Trivy Security (0 CVEs) · GitHub Actions CI · Vercel · Railway |
-| **Mobile** | Flutter · Kotlin · Jetpack Compose · Android APK & iOS Companion |
+| ⚡ **Extreme Zero-to-Ship Velocity** | Shipped a full multi-agent crisis app in **24 hours** (ZeroHour) and engineered **8 microservices solo** (ShopFlow) with zero shortcuts. |
+| 🛡️ **Zero-Trust Security Discipline** | Proven track record in Ed25519 cryptography (HashWatch), 22-vector security audits with HttpOnly JWTs, and **0 Trivy CVEs** (TriageNet). |
+| 🏗️ **Distributed Systems Depth** | Hands-on mastery of two-phase inventory reservation locks, Netflix Eureka discovery meshes, and Redis 7.2 sub-50ms distributed pub/sub & TTL locks. |
+| 🧪 **100% Test-Driven Reliability** | **33/33** tests on HashWatch · **89/89** tests on TriageNet · 100% green CI testing with edge-case mathematical proofs. |
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  GROWTH HORIZON (2026-2027)                                        -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-<br/>
+### 🔭 TECHNICAL HORIZON (2026–2027) &nbsp; <img src="./assets/divider.svg" width="42%" height="12" align="center" alt="divider" />
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=300&height=35&lines=Contributions" alt="Contributions"/>
+
+| Focus Domain | High-Impact Milestones & Toolchain |
+|:---|:---|
+| **High-Throughput Streaming** | Deepening event-driven architectures with **Apache Kafka**, partition rebalancing, and CDC (Debezium). |
+| **Autonomous Agent Orchestration** | Production agent networks using **Model Context Protocol (MCP)**, multi-agent consensus, and structured tool calling. |
+| **Cloud-Native Infrastructure** | Hardened container deployments with **Kubernetes (K8s)**, Helm charts, and GraalVM AOT native compilation. |
+
 </div>
 
 <br/>
 
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  CONTRIBUTION SNAKE ANIMATION                                      -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+### CONTRIBUTION ACTIVITY &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
+
 <div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PG300604/PG300604/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PG300604/PG300604/output/github-contribution-grid-snake.svg" />
   <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/PG300604/PG300604/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
-</div>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<br/>
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=300&height=35&lines=GitHub+Metrics" alt="Metrics"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img height="180" src="https://github-readme-stats-vercel-lake.vercel.app/api?username=PG300604&show_icons=true&theme=react&bg_color=0d1117&border_color=1a56db&title_color=79b8ff&text_color=8fa3c0&icon_color=4fcea6&show=reviews,discussions_started&ring_color=79b8ff&rank_icon=percentile" />
-&nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats-vercel-lake.vercel.app/api/top-langs/?username=PG300604&layout=compact&theme=react&bg_color=0d1117&border_color=1a56db&title_color=79b8ff&text_color=8fa3c0&langs_count=8&hide=html,css&card_width=320" />
-</div>
-
-<br/>
-
-<div align="center">
-<img height="180" src="https://streak-stats.demolab.com?user=PG300604&theme=react&background=0d1117&border=1a56db&ring=79b8ff&fire=4fcea6&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=79b8ff&sideNums=4fcea6" />
-</div>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<br/>
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=300&height=35&lines=Achievements" alt="Achievements"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-| Achievement | Details | Year |
-|:---|:---|:---:|
-| **TriageNet Production Cloud Launch (v1.3.0)** | 111 government hospitals × 24 districts · 89/89 test suites (100% CI Green) · Production release live on Render.com · Guest Sandbox mode · Mobile companion suite (APK/IPA) · Spring Boot 3.3.13 · Next.js 16.4.1 · Redis 7.2 sub-50ms telemetry · Nginx reverse proxy · Trivy 0 CVEs · Level 0/1 DFD Manim animations | 2026 |
-| **HashWatch Project Lead** | Architected Zero-Trust FIM system with Ed25519 digital signatures, 64 KB streaming SHA-256, and Quartz scheduler · 33/33 test suites passing · Final Year Project | 2026 |
-| **ShopFlow v1.0 Shipped Solo** | Engineered 8 Spring Boot 3.3.1 microservices solo · Two-phase inventory reservation state machine · Stripe card & UPI integration · Pinterest editorial React UI · 7-slide system architecture whitepaper | 2026 |
-| **RepoMind Submitted** | PR risk analyzer built on IBM Bob's API for the IBM Bob 2.0 Hackathon · blast-radius dependency mapping · auto GitHub Action PR review | 2026 |
-| **24-Hour Ship** | Built + deployed ZeroHour (multi-agent AI app) at CodingNinjas × Google Hackathon | 2026 |
-| **Tata InnoVent Submission** | SkyCheck PWA — AI-powered industrial inspection submitted to Tata Technologies InnoVent | 2026 |
-| **JPMorgan Job Simulation** | Software Engineering Simulation — Kafka · REST APIs · H2 Integration via Forage | 2026 |
-| **SGPA 8.83 · CGPA 8.05** | B.Tech CSBS — Asansol Engineering College | Ongoing |
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<br/>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  LET'S BUILD SOMETHING // FOOTER                                   -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=450&height=35&lines=Honors+%C2%B7+Perks+%C2%B7+Growth+Trajectory" alt="Honors and Growth"/>
-</div>
 
-<br/>
-
-<!-- GitHub Honors & Official Badges -->
-<div align="center">
-
-<img src="https://img.shields.io/badge/GitHub_Honor-Pull_Shark_x2-0969da?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Pull Shark"/>
-&nbsp;
-<img src="https://img.shields.io/badge/GitHub_Honor-Quickdraw-bf8700?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Quickdraw"/>
-&nbsp;
-<img src="https://img.shields.io/badge/GitHub_Honor-YOLO-8250df?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="YOLO"/>
+<img src="./assets/divider.svg" width="80%" height="12" alt="divider" />
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=PG300604&theme=onedark&no-frame=false&no-bg=true&margin-w=4" width="88%" alt="GitHub Trophies"/>
-
-</div>
+<a href="https://shipwithpriyanshu.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-shipwithpriyanshu.vercel.app-39d353?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/priyanshu-ghosh-pg3006/"><img src="https://img.shields.io/badge/LINKEDIN-priyanshu--ghosh--pg3006-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn"/></a>
+&nbsp;
+<a href="mailto:priyanshu.ghosh.dev@gmail.com"><img src="https://img.shields.io/badge/GMAIL-priyanshu.ghosh.dev-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Gmail"/></a>
 
 <br/><br/>
 
-<div align="center">
-
-### 💡 Core Engineering Perks & Why Hire Me
-
-| Perk / Advantage | Proven Impact Across Shipped Code |
-|:---|:---|
-| ⚡ **Extreme Zero-to-Ship Velocity** | Shipped a full multi-agent crisis app in **24 hours** (ZeroHour) and engineered **8 microservices solo** (ShopFlow) with zero shortcuts. |
-| 🛡️ **Security-First Architecture** | Proven track record in Zero-Trust Ed25519 cryptography (HashWatch) and 22-vector security audits with HttpOnly JWTs & 0 Trivy CVEs (TriageNet). |
-| 🏗️ **Distributed Systems Depth** | Hands-on mastery of two-phase inventory reservation locks, Netflix Eureka discovery meshes, and Redis 7.2 sub-50ms distributed pub/sub & TTL locks. |
-| 🧪 **Test-Driven Reliability** | **33/33** tests on HashWatch · **89/89** tests on TriageNet · 100% green CI testing with rigorous edge-case coverage. |
-
-</div>
+```
+"Code is read far more often than it is written. Build with mathematical rigor, ship with audacity."
+```
 
 <br/>
 
-<div align="center">
-
-### 🚀 Technical Horizon & Growth Trajectory (2026–2027)
-
-| Focus Area | Target Milestones & Technologies |
-|:---|:---|
-| **High-Throughput Streaming** | Deepening event-driven pipelines with **Apache Kafka**, partition rebalancing, and CDC (Debezium). |
-| **Autonomous AI Agents** | Production orchestration using **Model Context Protocol (MCP)**, multi-agent consensus, and structured tool calling. |
-| **Cloud Native Infrastructure** | Hardened container deployments with **Kubernetes (K8s)**, Helm charts, and GraalVM AOT native compilation. |
+<img src="./assets/header.svg" width="60%" alt="Footer Seal" />
 
 </div>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="3px"/>
-
-<br/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=2000&color=79B8FF&center=true&vCenter=true&width=350&height=35&lines=Let's+Build+Something" alt="Contact"/>
-
-<br/><br/>
-
-<a href="https://shipwithpriyanshu.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/priyanshu-ghosh-pg3006/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:priyanshu.ghosh.dev@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
-&nbsp;
-<a href="https://github.com/PG300604">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-&nbsp;
-<a href="https://github.com/PG300604/LeetCode-Solutions">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-</a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/PROFILE_VIEWS-1.2k+-1a56db?style=for-the-badge&logo=eye&logoColor=white&labelColor=0d1117" alt="Profile Views"/>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3500&pause=1200&color=4A6080&center=true&vCenter=true&width=500&lines=%22Code+is+read+more+often+than+it+is+written%22;Thanks+for+scrolling+this+far+%F0%9F%91%80" alt="footer" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" width="100%"/>
