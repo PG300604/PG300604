@@ -505,9 +505,9 @@ Upstream open-source contributions merged into production engines and developer 
       <b>Stack:</b> Java 21 · Spring Boot 4.0.6 · ConcurrentHashMap · Maven · JUnit 5
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
-      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/21"><img src="https://img.shields.io/badge/PR_#21-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 21"/></a>
+      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/21"><img src="https://img.shields.io/badge/PR_%2321-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 21"/></a>
       &nbsp;
-      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/22"><img src="https://img.shields.io/badge/PR_#22-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 22"/></a>
+      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/22"><img src="https://img.shields.io/badge/PR_%2322-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 22"/></a>
       &nbsp;
       <a href="https://github.com/AbdulmalikAlayande/beacon"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
     </td>
