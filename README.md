@@ -6,15 +6,15 @@
 
 <img src="./assets/header.svg" width="100%" alt="Priyanshu Ghosh Banner" />
 
-<br/><br/>
+<br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  TYPING TELEMETRY                                                 -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=1000&color=39D353&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=50&lines=AI+Engineer+%C2%B7+Full+Stack+Engineer+%C2%B7+Distributed+Systems;Architected+TriageNet+v1.3.0+%E2%80%94+Statewide+Emergency+OS+(111+Hospitals);Shipped+8+Spring+Boot+Distributed+Microservices+Solo+(ShopFlow);Built+%26+Shipped+Production+Multi-Agent+AI+Platform+in+24+Hours;100%25+Green+Test-Driven+Rigor+%C2%B7+Zero+Trivy+CVEs+%C2%B7+Open+to+SDE+Internships" alt="Typing Telemetry" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=AI+Engineer+%C2%B7+Full+Stack+Engineer+%C2%B7+Distributed+Systems;Architected+TriageNet+v1.3.0+%E2%80%94+Statewide+Emergency+OS+(111+Hospitals)" alt="Typing Telemetry" />
 
-<br/>
+<br/><br/>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  HIGH-CONTRAST METRIC PILLS                                       -->
