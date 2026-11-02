@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  HEADER BANNER (Retro Pixel Matrix // Neo-Terminal Aesthetic)       -->
+<!--  HEADER BANNER (Fedora / Sway Wayland Rice Aesthetic)               -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/header.svg" width="100%" alt="Priyanshu Ghosh Banner" />
+<img src="./assets/header.png" width="100%" alt="Priyanshu Ghosh - AI & Full Stack Engineer" style="border-radius: 8px;" />
 
 <br/>
 
