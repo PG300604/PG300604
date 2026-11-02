@@ -40,20 +40,29 @@
 
 ### WHO I AM &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
 
-Hey, I'm **Priyanshu** — a Jharkhand-based AI Engineer & Full Stack Engineer obsessed with building high-throughput distributed backends, zero-trust security architectures, and autonomous multi-agent systems. I work at the intersection of high-concurrency Java microservices, modern reactive frontends, and applied AI agents, and I write about what I build and learn from first principles.
+- **Systems & AI Engineer** from Jharkhand, India.
+- Focus on **high-throughput distributed backends**, microservice orchestration, and applied autonomous AI agent networks.
+- Specialize in **Java 21/17 (Spring Boot 3.3)**, reactive frontends (Next.js 16/React 19), and zero-trust container security.
+- Strong advocate of test-driven engineering, clean architecture, and building from first principles.
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="55%" height="12" align="center" alt="divider" />
 
-I build production-grade distributed architectures, high-performance backends, and state-wide dispatch platforms that solve real-world emergency infrastructure problems. Obsessed with high velocity (shipped full multi-agent platforms in 24 hours), 100% automated test suites (89/89 tests green), and zero-compromise systems design.
+- **Emergency Healthcare Tech**: Engineered [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), a statewide dispatch OS actively mapping 111 government hospitals across all 24 districts of Jharkhand with 108 ambulance green wave routing.
+- **Distributed Commerce**: Built [ShopFlow](https://github.com/PG300604/ShopFLow) solo — an 8-microservice mesh featuring two-phase stock reservation locks, Eureka discovery, and Redis sub-50ms pub/sub.
+- **Applied AI Agents**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × CodingNinjas hackathon — a 4-agent SSE pipeline converting chaotic multi-format deadlines into scheduled calendar workflows.
+- **Automated Verification**: Rigorous testing across every project (89/89 green tests on TriageNet, 0 Trivy CVEs on Docker images).
 
 ### VISION &nbsp; <img src="./assets/divider.svg" width="60%" height="12" align="center" alt="divider" />
 
-My goal is to design resilient computational foundations that push digital infrastructure further ahead than it was yesterday. Whether routing emergency ambulances during the golden hour ([TriageNet](https://github.com/PG300604/TriageNet)) or orchestrating high-concurrency distributed microservices ([ShopFlow](https://github.com/PG300604/ShopFLow)), technology must serve humanity with mathematical precision and unwavering reliability. **Humanity first, technology second.**
+- **Real-World Impact Over Hype**: Software should solve high-stakes infrastructure bottlenecks — whether cutting hospital admission delays or preventing flash-sale inventory deadlocks.
+- **Guiding Tenet**: **Humanity first, technology second.** Engineering systems that save time, reduce anxiety, and protect lives.
+- **Open Standards**: Building resilient, inspectable, and auditable open-source tooling for public welfare.
 
 ### BEYOND CODE &nbsp; <img src="./assets/divider.svg" width="52%" height="12" align="center" alt="divider" />
 
-Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priyanshughosh30/)), exploring cryptographic protocols & distributed consensus, listening to ambient electronic & synth soundscapes, and thinking from first principles — that's me outside of production code.
-
+- **Algorithmic Practice**: Consistent problem solving on [LeetCode](https://leetcode.com/u/priyanshughosh30/) covering graphs, dynamic programming, and concurrency.
+- **Technical Curiosity**: Diving into cryptographic signature schemes (Ed25519), distributed consensus mechanisms, and Linux kernel internals.
+- **Off the Screen**: Ambient electronic soundscapes, mechanical keyboards, and exploring mathematics from first principles.
 <br/>
 
 <div align="center">
@@ -491,10 +500,10 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 
 | Advantage | Tangible Evidence Across Shipped Code |
 |:---|:---|
-| **Zero-to-Ship Velocity** | Shipped a full multi-agent crisis app in **24 hours** (ZeroHour) and engineered **8 microservices solo** (ShopFlow) with zero shortcuts. |
-| **Security-First Architecture** | Proven track record in Ed25519 cryptography, 22-vector security audits with HttpOnly JWTs, and **0 Trivy CVEs** (TriageNet). |
-| **Distributed Systems Depth** | Hands-on mastery of two-phase inventory reservation locks, Netflix Eureka discovery meshes, and Redis 7.2 sub-50ms distributed pub/sub & TTL locks. |
-| **100% Test-Driven Reliability** | **89/89 tests** on TriageNet · 100% green CI testing with rigorous edge-case coverage and automated verification. |
+| **Zero-to-Ship Velocity** | Shipped a complete multi-agent crisis companion in **24 hours** ([ZeroHour](https://github.com/PG300604/ZeroHour)) and engineered an **8-microservice mesh solo** ([ShopFlow](https://github.com/PG300604/ShopFLow)) with zero shortcuts. |
+| **Security-First Architecture** | Practical experience implementing Ed25519 digital signatures, HttpOnly cookie authentication, and **0 Trivy CVEs** on production containers ([TriageNet](https://github.com/PG300604/TriageNet)). |
+| **Distributed Systems Depth** | Production use of two-phase commit reservation locks, Netflix Eureka service discovery, and Redis 7.2 sub-50ms pub/sub with TTL expiration. |
+| **Test-Driven Reliability** | **89/89 tests passing** on TriageNet with 100% green automated CI pipelines across Linux and Windows runners. |
 
 </div>
 
