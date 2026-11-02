@@ -56,24 +56,9 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 
 <br/>
 
-```text
-┌──[ SYS.RECON // NETWORK DAEMON v0.7.1 ]─────────────────────────────────────┐
-│ HOST: priyanshu.mesh         ARCH: x86_64 / Linux          STATUS: [ACTIVE] │
-│ KERNEL: 6.8.0-generic        UPTIME: 99.98%                RTT: 1.42ms      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ PORT       STATE    PROTO      SERVICE        SUBSYSTEM / RUNTIME           │
-│ 22/tcp     OPEN     SSH-2.0    OpenSSH 9.6    Zero-Trust Ed25519 Tunnel     │
-│ 80/tcp     OPEN     HTTP/1.1   Nginx Edge     Reverse-Proxy Upstream        │
-│ 443/tcp    OPEN     TLSv1.3    HTTPS Core     AES-256-GCM Secure Edge       │
-│ 5432/tcp   OPEN     Postgres   Database       PostgreSQL 16 + pgvector      │
-│ 6379/tcp   OPEN     RESP3      Redis Store    Distributed State & PubSub    │
-│ 8080/tcp   OPEN     HTTP/2     Spring Boot    TriageNet v1.3.0 Dispatch     │
-│ 8081/tcp   OPEN     HTTP/2     Cloud Gateway  ShopFlow Distributed Mesh     │
-│ 11434/tcp  OPEN     HTTP/1.1   Ollama / MCP   DeepSeek & Llama Agent Core   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ [✓] 8 SERVICES HEALTHY · ZERO TRIVY CVEs · MEMORY INTEGRITY VERIFIED        │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/art/pin4.jpg" width="460" alt="Cyber Recon Portscanner Terminal" style="border-radius: 8px;" />
+</div>
 
 <br/>
 
@@ -83,41 +68,41 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 
 <div align="center">
 
-<table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+<table align="center" border="0" cellspacing="0" cellpadding="10" style="border-collapse: collapse;">
   <thead>
-    <tr style="border-bottom: 1px solid #30363d;">
-      <th align="center" width="8%" style="color: #6e7681; font-family: monospace;">::</th>
-      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">LinkedIn</th>
-      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Portfolio</th>
-      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Gmail</th>
-      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">GitHub</th>
-      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">LeetCode</th>
-      <th align="center" width="14%" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">X (Twitter)</th>
-      <th align="center" width="8%" style="color: #6e7681; font-family: monospace;">::</th>
+    <tr>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">LinkedIn</th>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">X (Twitter)</th>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Instagram</th>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Gmail</th>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">Portfolio</th>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">GitHub</th>
+      <th align="center" style="color: #c9d1d9; font-family: monospace; font-size: 13px;">LeetCode</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" style="color: #39d353; font-family: monospace; font-size: 16px;">[::]</td>
-      <td align="center" style="padding: 12px 6px;">
-        <a href="https://www.linkedin.com/in/priyanshu-ghosh-/"><img src="./assets/icons/linkedin.svg" width="48" height="48" alt="LinkedIn" /></a>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="https://www.linkedin.com/in/priyanshu-ghosh-/" title="LinkedIn"><img src="./assets/icons/linkedin.svg" width="40" height="40" alt="LinkedIn" /></a>
       </td>
-      <td align="center" style="padding: 12px 6px;">
-        <a href="https://shipwithpriyanshu.vercel.app/"><img src="./assets/icons/portfolio.svg" width="48" height="48" alt="Portfolio" /></a>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="https://x.com/PGhosh3006" title="X (Twitter)"><img src="./assets/icons/x.svg" width="40" height="40" alt="X (Twitter)" /></a>
       </td>
-      <td align="center" style="padding: 12px 6px;">
-        <a href="mailto:priyanshughosh97@gmail.com"><img src="./assets/icons/gmail.svg" width="48" height="48" alt="Gmail" /></a>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="https://www.instagram.com/priyanshu30ghosh/" title="Instagram (@priyanshu30ghosh)"><img src="./assets/icons/instagram.svg" width="40" height="40" alt="Instagram" /></a>
       </td>
-      <td align="center" style="padding: 12px 6px;">
-        <a href="https://github.com/PG300604"><img src="./assets/icons/github.svg" width="48" height="48" alt="GitHub" /></a>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="mailto:priyanshughosh97@gmail.com" title="Gmail"><img src="./assets/icons/gmail.svg" width="40" height="40" alt="Gmail" /></a>
       </td>
-      <td align="center" style="padding: 12px 6px;">
-        <a href="https://leetcode.com/u/priyanshughosh30/"><img src="./assets/icons/leetcode.svg" width="48" height="48" alt="LeetCode" /></a>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="https://shipwithpriyanshu.vercel.app/" title="Portfolio Website"><img src="./assets/icons/portfolio.svg" width="40" height="40" alt="Portfolio" /></a>
       </td>
-      <td align="center" style="padding: 12px 6px;">
-        <a href="https://x.com/PGhosh3006"><img src="./assets/icons/x.svg" width="48" height="48" alt="X (Twitter)" /></a>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="https://github.com/PG300604" title="GitHub"><img src="./assets/icons/github.svg" width="40" height="40" alt="GitHub" /></a>
       </td>
-      <td align="center" style="color: #39d353; font-family: monospace; font-size: 16px;">[::]</td>
+      <td align="center" style="padding: 10px 14px;">
+        <a href="https://leetcode.com/u/priyanshughosh30/" title="LeetCode Profile"><img src="./assets/icons/leetcode.svg" width="40" height="40" alt="LeetCode" /></a>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -155,28 +140,7 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 <br/>
 
 <div align="center">
-
-```text
-  ┌──[ MON-01: CLUSTER HEALTH ]───┐         ┌──[ MON-02: CVE AUDIT ]────────┐  
-  │ CPU [████████████░░░░]  74.2% │         │ RAM  [██████████████░░] 88.4% │  
-  │ NET [▲ 1.4 GB/s  ▼ 2.8 GB/s]  │         │ DISK [/dev/nvme0n1]     1.2TB │  
-  └──┬────────────────────────────┘         └──┬────────────────────────────┘  
-     │   ┌─────────────────────────────────────┐   │                           
-     └───┤  [>] TRIAGENET: 111 HOSPITALS SYNC  │───┘                           
-         │  [>] SHOPFLOW: 8 SPRING APIS MESHED │                               
-         │  [>] ZERO-HOUR: 24H AGENT PIPELINE  │                               
-         │  [>] LEETCODE: DAILY STREAK ACTIVE  │                               
-         └─────────────────┬───────────────────┘                               
-                     ┌─────┴─────┐                                             
-        ┌────────────┴───────────┴────────────┐                                
-        │  [ESC] [F1-F12]   [PRT] [INS] [DEL] │   < CODING AT 3:00 AM >        
-        │  [TAB] Q W E R T Y U I O P [ { ] }  │   "Distributed consensus       
-        │  [CAPS] A S D F G H J K L : " [RET] │    meets algorithmic rigor."   
-        │  [SHFT] Z X C V B N M < > ? [SHIFT] │                                
-        │  [CTRL] [ALT] [_____SPACE_____] [▼] │                                
-        └─────────────────────────────────────┘                                
-```
-
+  <img src="./assets/art/pin3.jpg" width="480" alt="Retro Developer Battlestation" style="border-radius: 8px;" />
 </div>
 
 <br/>
@@ -232,6 +196,12 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 └─────────────────────────┴──────────────┴─────────────────────────────┴─────────────────┘
 ```
 
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/art/pin2.jpg" width="460" alt="Cyber Hands & Matrix Code Stream" style="border-radius: 8px;" />
 </div>
 
 <br/>
@@ -585,22 +555,14 @@ Competitive algorithmic problem solving ([LeetCode](https://leetcode.com/u/priya
 <a href="https://leetcode.com/u/priyanshughosh30/"><img src="https://img.shields.io/badge/LEETCODE-priyanshughosh30-ffa116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0d1117" alt="LeetCode"/></a>
 &nbsp;
 <a href="https://x.com/PGhosh3006"><img src="https://img.shields.io/badge/X-PGhosh3006-f0f6fc?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117" alt="X"/></a>
+&nbsp;
+<a href="https://www.instagram.com/priyanshu30ghosh/"><img src="https://img.shields.io/badge/INSTAGRAM-priyanshu30ghosh-e4405f?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117" alt="Instagram"/></a>
 
 <br/><br/>
 
-```text
-             .  *        .    ✦       *          .     *       .  ✦            
-      *             .               *        .               *                 
-             ┌──────────────────────────────────────────────┐        .         
-       .     │  ✦   P R I Y A N S H U   //   C R E E D  ✦   │                  
-             └──────────────────────────────────────────────┘   *        .     
-        *         .              *              ✦                 .            
-   "Code is read far more often than it is written. Build with mathematical    
-    rigor, design from first principles, and ship with audacity."              
-                                                                               
-          ✦        ✧       .       ✦        *       ✧        .        ✦        
-    [ 111 HOSPITALS DISPATCHED ] · [ 8 SERVICES MESHED ] · [ 100% GREEN CI ]   
-```
+<div align="center">
+  <img src="./assets/art/pin1.jpg" width="440" alt="Coding Philosophy" style="border-radius: 8px;" />
+</div>
 
 <br/>
 
