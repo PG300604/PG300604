@@ -113,7 +113,11 @@ Competitive algorithmic problem solving ([LeetCode](https://github.com/PG300604/
 
 <div align="center">
 
-<img src="./assets/isometric-contrib.svg" width="100%" alt="3D Isometric Contribution Skyline & Radar Telemetry" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Isometric Contribution Skyline & Radar Telemetry" />
+</picture>
 
 <br/><br/>
 
