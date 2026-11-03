@@ -43,7 +43,7 @@
 ### WHO I AM &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 - **Full Stack & Backend Developer** based in Jharkhand, India.
-- Pre-final year CSBS student at Asansol Engineering College (2023 - 2027).
+- Final year CSBS student at Asansol Engineering College (2023 - 2027).
 - Focus on **Java (Spring Boot 3.3)** backends, distributed microservices, and applied AI tools.
 - Comfortable building across the stack with Next.js, React, PostgreSQL, and Redis.
 
