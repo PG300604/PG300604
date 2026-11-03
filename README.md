@@ -269,7 +269,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <!-- ─── 2. AegisBrain ─── -->
 
-<details open id="aegis-brain">
+<details id="aegis-brain">
 <summary>
   <b>AegisBrain</b> &nbsp;|&nbsp; <code>SHIPPED v0.1.0</code> &nbsp;|&nbsp; <code>Zero-Dependency Daemon</code> &nbsp;|&nbsp; <code>&lt; 50ms Recall · &le; 400 Tokens</code>
   <br/>
