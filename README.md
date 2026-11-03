@@ -20,7 +20,7 @@
 <!--  HIGH-CONTRAST METRIC PILLS                                       -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-7+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-8+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
 &nbsp;
 <a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-UPSTREAM_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
 &nbsp;
@@ -480,6 +480,76 @@ Upstream open-source contributions merged into production engines and developer 
 
 <br/>
 
+<details open id="open-source-journey-a2a">
+<summary>
+  <b>a2a-hub (Agent-to-Agent Gateway)</b> &nbsp;|&nbsp; <code>UPSTREAM MERGED</code> &nbsp;|&nbsp; <code>AppSec Hardening · Spring Security · Caffeine</code>
+  <br/>
+  <sub>Enterprise Agent-to-Agent API Gateway: DoS mitigation, trusted proxy CIDR validation, and fail-fast Docker encryption boot validation</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
+      <b>Repository:</b> <a href="https://github.com/oscarbol09/a2a-hub"><b>oscarbol09/a2a-hub</b></a> (Enterprise agent-to-agent gateway and orchestration hub).
+      <br/><br/>
+      <b>Accepted & Merged Contributions:</b>
+      <br/>
+      • <b>AppSec: IP Spoofing Prevention & Memory-Exhaustion DoS Hardening in RateLimitFilter (<a href="https://github.com/oscarbol09/a2a-hub/pull/37">PR #37</a> · Merged):</b> Hardened the core rate limiter against adversarial evasion and denial-of-service. Bounded bucket storage via Caffeine (<code>maximumSize + expireAfterAccess</code>) removing the memory exhaustion attack vector under flood conditions. Added strict <code>remoteAddr</code> verification against trusted proxy CIDRs before inspecting <code>X-Forwarded-For</code> headers to eliminate header spoofing. Enforced filter ordering by placing <code>ApiKeyAuthFilter</code> (<code>@Order(10)</code>) before <code>RateLimitFilter</code> (<code>@Order(20)</code>) to ensure invalid auth fails fast before allocating state, backed by comprehensive unit tests.
+      <br/>
+      • <b>Docker Compose Boot Encryption Key Crash Fix (<a href="https://github.com/oscarbol09/a2a-hub/pull/35">PR #35</a> · Merged):</b> Fixed a startup crash during <code>docker compose up</code> by scoping strict fail-fast validation to production/staging profiles instead of inverting <code>!isDevOrTest</code>. Added payload bounds checks, key entropy validation, and compound profile test coverage (<code>prod-us-east</code>, <code>aws-staging</code>).
+      <br/><br/>
+      <b>Stack:</b> Java 21 · Spring Boot · Spring Security · Caffeine Cache · Docker Compose · JUnit 5
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/oscarbol09/a2a-hub/pull/37"><img src="https://img.shields.io/badge/PR_%2337-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 37"/></a>
+      &nbsp;
+      <a href="https://github.com/oscarbol09/a2a-hub/pull/35"><img src="https://img.shields.io/badge/PR_%2335-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 35"/></a>
+      &nbsp;
+      <a href="https://github.com/oscarbol09/a2a-hub"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
+<details open id="open-source-journey-aegis">
+<summary>
+  <b>AegisBrain</b> &nbsp;|&nbsp; <code>AUTHOR & MAINTAINER</code> &nbsp;|&nbsp; <code>Python Stdlib · SQLite WAL + FTS5</code> &nbsp;|&nbsp; <code>GPLv3</code>
+  <br/>
+  <sub>Zero-dependency local neural memory bus and agent orchestrator with sub-50ms instant recall, Caffeinate wake-lock, and WhatsApp remote bridge</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #38bdf8;">
+      <b>Repository:</b> <a href="https://github.com/PG300604/aegis-brain"><b>PG300604/aegis-brain</b></a> (Zero-UI neural memory bus and agent orchestrator).
+      <br/><br/>
+      <b>Core Innovations:</b>
+      <br/>
+      • <b>Instant Sub-50ms Recall:</b> Replaced multi-megabyte agent transcript crawling (25k-60k tokens) with SQLite FTS5 queries in WAL mode, returning context in under 50ms with less than 100 tokens (95%+ token reduction).
+      <br/>
+      • <b>Native Caffeinate & Remote WhatsApp Bridge:</b> Cross-platform wake-lock (Win32 <code>SetThreadExecutionState</code> AwayMode, macOS <code>caffeinate</code>, Linux <code>systemd-inhibit</code>) and zero-dependency Twilio WhatsApp bridge for mobile command execution, git actions, artifact inspection, and remote power control.
+      <br/>
+      • <b>Deterministic Context Governor:</b> Compact workspace snapshot bounded at &le; 400 tokens to maximize LLM prompt cache hits.
+      <br/><br/>
+      <b>Stack:</b> Python 3.10+ (Zero external dependencies) · SQLite3 WAL + FTS5 · Twilio WhatsApp API · Win32 ctypes
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/Repository-PG300604%2Faegis--brain-1f6feb?style=flat-square&logo=github&logoColor=white" alt="AegisBrain Repo"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
 <details open id="open-source-journey">
 <summary>
   <b>Beacon Notification Engine</b> &nbsp;|&nbsp; <code>UPSTREAM MERGED</code> &nbsp;|&nbsp; <code>Spring Boot 4 · Java 21</code> &nbsp;|&nbsp; <code>XERJ Corpus Selection</code>
@@ -529,6 +599,8 @@ Upstream open-source contributions merged into production engines and developer 
 | Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
+| **Open Source Upstream (a2a-hub)** | oscarbol09/a2a-hub | Merged AppSec IP-spoofing and DoS rate limit hardening ([PR #37](https://github.com/oscarbol09/a2a-hub/pull/37)) and Docker Compose boot crash fix ([PR #35](https://github.com/oscarbol09/a2a-hub/pull/35)) | 2026 |
+| **AegisBrain Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<50ms recall, 95%+ token savings), Caffeinate, and WhatsApp bridge | 2026 |
 | **Open Source Upstream (Beacon Engine)** | AbdulmalikAlayande/beacon | Merged core resilience circuit breaker ([PR #21](https://github.com/AbdulmalikAlayande/beacon/pull/21)) and build fix ([PR #22](https://github.com/AbdulmalikAlayande/beacon/pull/22)) | 2026 |
 | **XERJ Corpus Hub Selection** | XERJ Org | Selected for public reference index: DefaultProviderCircuitBreaker implementation (Java 21) | 2026 |
 | **TriageNet v1.3.0 Release** | Public Health Cloud | 111 government hospitals across 24 districts · 89 passing tests (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
