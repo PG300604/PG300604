@@ -267,7 +267,51 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <br/>
 
-<!-- ─── 2. ShopFlow ─── -->
+<!-- ─── 2. AegisBrain ─── -->
+
+<details open id="aegis-brain">
+<summary>
+  <b>AegisBrain</b> &nbsp;|&nbsp; <code>SHIPPED v0.1.0</code> &nbsp;|&nbsp; <code>Zero-Dependency Daemon</code> &nbsp;|&nbsp; <code>&lt; 50ms Recall · &le; 400 Tokens</code>
+  <br/>
+  <sub>Local Neural Memory Bus, Wake-Lock Caffeinate, and Telegram / WhatsApp Remote Control for Autonomous Coding Agents</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #38bdf8;">
+      <b>Purpose:</b> Zero-overhead local neural memory bus and background daemon for AI coding agents (Antigravity, Claude Code, Codex, Cursor) replacing heavy log-parsing token waste with deterministic instant retrieval.
+      <br/><br/>
+      <b>Key Metrics &amp; Engineering Specifications:</b>
+      <br/>
+      • <b>&lt; 50ms retrieval latency</b> across multi-threaded SQLite WAL virtual tables via FTS5 inverted indexing<br/>
+      • <b>&gt; 95% token reduction:</b> Bounded memory lookups require &lt; 100 tokens vs 25,000 to 60,000 tokens for traditional agent session-log crawling<br/>
+      • <b>&le; 400 token deterministic context budget:</b> Workspace governor bounds git diffs, branch state, and commits to maximize LLM prompt-cache hit rates<br/>
+      • <b>0 external runtime dependencies:</b> Operates strictly on Python standard library modules (<code>sqlite3</code>, <code>ctypes</code>, <code>http.server</code>, <code>urllib</code>)<br/>
+      • <b>&lt; 25 MB RAM footprint</b> and &lt; 50ms cold boot time on host machine
+      <br/><br/>
+      <b>Core Features:</b>
+      <br/>
+      • <b>Native Caffeinate Wake-Lock:</b> Cross-platform idle prevention via Win32 <code>kernel32.SetThreadExecutionState</code> AwayMode pulse threads, macOS <code>caffeinate -i</code>, and Linux <code>systemd-inhibit</code>.<br/>
+      • <b>Telegram &amp; WhatsApp Remote Bridge:</b> Remote shell execution, git workflow dispatch, artifact inspection, and safety shutdown right from mobile without public IP or port forwarding.<br/>
+      • <b>Ephemeral Stealth Mode:</b> Zero-disk logging option bypassing disk writes for sensitive client projects.
+      <br/><br/>
+      <b>Stack:</b> Python 3.10+ · SQLite3 (WAL + FTS5) · Win32 ctypes · Telegram Bot API · Twilio WhatsApp API
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/Repository-PG300604%2Faegis--brain-1f6feb?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
+      &nbsp;
+      <a href="https://github.com/PG300604/aegis-brain#benchmarks"><img src="https://img.shields.io/badge/Benchmarks-Sub--50ms-10b981?style=flat-square" alt="Benchmarks"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
+<!-- ─── 3. ShopFlow ─── -->
 
 <details id="shopflow">
 <summary>
@@ -308,7 +352,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <br/>
 
-<!-- ─── 3. ZeroHour ─── -->
+<!-- ─── 4. ZeroHour ─── -->
 
 <details id="zerohour">
 <summary>
@@ -508,40 +552,6 @@ Upstream open-source contributions merged into production engines and developer 
       <a href="https://github.com/oscarbol09/a2a-hub/pull/35"><img src="https://img.shields.io/badge/PR_%2335-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 35"/></a>
       &nbsp;
       <a href="https://github.com/oscarbol09/a2a-hub"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<br/>
-
-<details open id="open-source-journey-aegis">
-<summary>
-  <b>AegisBrain</b> &nbsp;|&nbsp; <code>AUTHOR & MAINTAINER</code> &nbsp;|&nbsp; <code>Python Stdlib · SQLite WAL + FTS5</code> &nbsp;|&nbsp; <code>GPLv3</code>
-  <br/>
-  <sub>Zero-dependency local neural memory bus and agent orchestrator with sub-50ms instant recall, Caffeinate wake-lock, and WhatsApp remote bridge</sub>
-</summary>
-
-<br/>
-
-<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
-  <tr>
-    <td style="padding: 14px 18px; border-left: 4px solid #38bdf8;">
-      <b>Repository:</b> <a href="https://github.com/PG300604/aegis-brain"><b>PG300604/aegis-brain</b></a> (Zero-UI neural memory bus and agent orchestrator).
-      <br/><br/>
-      <b>Core Innovations:</b>
-      <br/>
-      • <b>Instant Sub-50ms Recall:</b> Replaced multi-megabyte agent transcript crawling (25k-60k tokens) with SQLite FTS5 queries in WAL mode, returning context in under 50ms with less than 100 tokens (95%+ token reduction).
-      <br/>
-      • <b>Native Caffeinate & Remote WhatsApp Bridge:</b> Cross-platform wake-lock (Win32 <code>SetThreadExecutionState</code> AwayMode, macOS <code>caffeinate</code>, Linux <code>systemd-inhibit</code>) and zero-dependency Twilio WhatsApp bridge for mobile command execution, git actions, artifact inspection, and remote power control.
-      <br/>
-      • <b>Deterministic Context Governor:</b> Compact workspace snapshot bounded at &le; 400 tokens to maximize LLM prompt cache hits.
-      <br/><br/>
-      <b>Stack:</b> Python 3.10+ (Zero external dependencies) · SQLite3 WAL + FTS5 · Twilio WhatsApp API · Win32 ctypes
-      <br/><br/>
-      <b>Direct Links:</b> &nbsp;
-      <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/Repository-PG300604%2Faegis--brain-1f6feb?style=flat-square&logo=github&logoColor=white" alt="AegisBrain Repo"/></a>
     </td>
   </tr>
 </table>
