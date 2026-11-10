@@ -20,15 +20,17 @@
 <!--  HIGH-CONTRAST METRIC PILLS                                       -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-8+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-9+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+&nbsp;
+<a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/AEGIS_BRAIN-v2.4.0_RELEASED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="AegisBrain v2.4.0"/></a>
 &nbsp;
 <a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-UPSTREAM_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
 &nbsp;
-<a href="https://triagenet-frontend.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-5-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
+<a href="https://aegis-brain-alpha.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-6-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
 &nbsp;
 <a href="#honors--track-record"><img src="https://img.shields.io/badge/HACKATHONS-PRIZE_WINNER-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Hackathon Winner"/></a>
 &nbsp;
-<a href="#triagenet-v130"><img src="https://img.shields.io/badge/TEST_COVERAGE-100%25_GREEN-3fb950?style=for-the-badge&labelColor=0d1117&color=238636" alt="100% Green CI"/></a>
+<a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/TEST_COVERAGE-286%2F286_PASSED-3fb950?style=for-the-badge&labelColor=0d1117&color=238636" alt="100% Green CI"/></a>
 
 </div>
 
@@ -49,6 +51,7 @@
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
+- **Autonomous AI Engineering**: Architected and released [AegisBrain v2.4.0](https://github.com/PG300604/aegis-brain), a 100% local neural memory bus (<25ms SQLite FTS5) and 3-tier token arbitrage engine for AI coding assistants (Google Antigravity, Claude Code, OpenAI Codex, Aider), saving 85–92% frontier tokens with 286/286 passing automated tests.
 - **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
 - **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
 - **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
@@ -191,6 +194,7 @@
 ├─────────────────────────┬──────────────┬─────────────────────────────┬─────────────────┤
 │  SERVICE / SYSTEM       │  STATUS      │  CORE ARCHITECTURE          │  DEPLOYMENT     │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
+│  AegisBrain Engine      │  v2.4.0 LIVE │  Python 3.12 · FTS5 · Daemon│  Vercel / OSS   │
 │  TriageNet Platform     │  v1.3.0 LIVE │  Java 17 · Next 16 · Redis  │  Render Cloud   │
 │  ShopFlow Mesh          │  SHIPPED     │  8 Microservices · 2PC Lock │  Docker Cloud   │
 │  ZeroHour AI            │  SHIPPED     │  Gemini AI · 4-Agent SSE    │  Firebase / Rwy │
@@ -198,7 +202,7 @@
 │  SkyCheck PWA           │  SUBMITTED   │  Dexie.js · Edge Vision PWA │  Tata InnoVent  │
 │  SkillShare             │  LIVE        │  Haversine Geo · Docker     │  Vercel Cloud   │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
-│  SHIPPED SYSTEMS: 7+    │  CI: 100%    │  ACTIVE REPOSITORIES: 10+   │  INTERNSHIP: YES│
+│  SHIPPED SYSTEMS: 8+    │  CI: 100%    │  ACTIVE REPOSITORIES: 12+   │  INTERNSHIP: YES│
 └─────────────────────────┴──────────────┴─────────────────────────────┴─────────────────┘
 ```
 
@@ -223,7 +227,47 @@ A selection of projects focusing on backend systems, distributed architectures, 
 <br clear="all"/>
 <br/>
 
-<!-- ─── 1. TriageNet ─── -->
+<!-- ─── 1. AegisBrain v2.4.0 ─── -->
+
+<details open id="aegis-brain-v240">
+<summary>
+  <b>AegisBrain v2.4.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>286/286 Tests Passing</code> &nbsp;|&nbsp; <code>100% Local Neural Memory & Token Arbitrage</code>
+  <br/>
+  <sub>Sub-Second Neural Memory Bus (&lt;25ms FTS5) & 3-Tier Agent Orchestration Engine (GPLv3)</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
+      <b>Purpose:</b> Production-grade autonomous engine and local memory bus designed to eliminate <b>context amnesia</b> and stop burning expensive frontier model tokens on repetitive boilerplate code, unit test scaffolding, and large session transcript crawling across <b>Google Antigravity, Anthropic Claude Code, OpenAI Codex, and Aider</b>.
+      <br/><br/>
+      <b>Key Metrics:</b>
+      <br/>
+      • <b>Sub-25ms Neural Memory Retrieval:</b> 18.2ms SQLite FTS5 index queries on local SSD (vs 8,500ms+ unindexed transcript crawling)<br/>
+      • <b>286/286 automated tests passing:</b> 100% green test suite across syntax, isolation, security, and rollback verification<br/>
+      • <b>85%–92% Token Arbitrage Savings:</b> Frontier models orchestrate architectural invariants while local Tier 3 workers (Ollama Qwen2.5-Coder / Hermes) synthesize raw code drafts for free<br/>
+      • <b>Zero-Residue Rollback:</b> SHA-256 snapshot reflex engine reversibly tracks and restores host configuration files with 0 leftover residue<br/>
+      • <b>Lightweight 24/7 Daemon:</b> Asynchronous local HTTP daemon on 127.0.0.1:8765 using ~35MB RAM (&lt;0.1% CPU) with Telegram remote bridge (@HHAACLIBot)
+      <br/><br/>
+      <b>Problem Solved:</b> AI coding assistants suffer from context amnesia between restarts or spend 50k+ tokens crawling multi-megabyte JSONL transcripts just to recall past decisions. Additionally, spending frontier API credits on mechanical boilerplate is costly. AegisBrain provides deterministic sub-second memory injection (&le;400 tokens) and an automated 4-decision quality architecture gate (Karpathy Simplicity, Unslop filter, AST Security check, Dual-environment tests).
+      <br/><br/>
+      <b>Stack:</b> Python 3.12 · SQLite FTS5 (WAL mode) · FastAPI / asyncio · Telegram Bot API · PowerShell & Bash Core · Pytest
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://aegis-brain-alpha.vercel.app"><img src="https://img.shields.io/badge/Live_Documentation-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Docs"/></a>
+      &nbsp;
+      <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/Repository-161b22?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
+<!-- ─── 2. TriageNet ─── -->
 
 <details open id="triagenet-v130">
 <summary>
