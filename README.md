@@ -20,13 +20,13 @@
 <!--  HIGH-CONTRAST METRIC PILLS                                       -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-9+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-10+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
 &nbsp;
 <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/AEGIS_BRAIN-v2.4.0_RELEASED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="AegisBrain v2.4.0"/></a>
 &nbsp;
 <a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-UPSTREAM_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
 &nbsp;
-<a href="https://aegis-brain-alpha.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-6-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
+<a href="https://aegis-brain-alpha.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-7+-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
 &nbsp;
 <a href="#honors--track-record"><img src="https://img.shields.io/badge/HACKATHONS-PRIZE_WINNER-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Hackathon Winner"/></a>
 &nbsp;
@@ -51,11 +51,13 @@
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
-- **Autonomous AI Engineering**: Architected and released [AegisBrain v2.4.0](https://github.com/PG300604/aegis-brain), a 100% local neural memory bus (<25ms SQLite FTS5) and 3-tier token arbitrage engine for AI coding assistants (Google Antigravity, Claude Code, OpenAI Codex, Aider), saving 85–92% frontier tokens with 286/286 passing automated tests.
+- **Autonomous AI Engineering**: Architected and released [AegisBrain v2.4.0](https://github.com/PG300604/aegis-brain), a 100% local neural memory bus (<25ms SQLite FTS5) and 3-tier token arbitrage engine for AI coding assistants (Google Antigravity, Claude Code, OpenAI Codex, Aider), saving 85–92% frontier tokens with 286/286 passing automated tests and multi-worker governance (DeepSeek, Hermes, Claude, Codex).
+- **Personal Desktop Agents**: Built and deployed **Zoe Agent**, an always-on 24/7 personal executive companion running locally in Windows with Qwen2.5-Coder cognition, Win32 AwayMode daemon integration, voice talkback, and sub-millisecond FTS5 knowledge retrieval.
 - **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
 - **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
 - **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
-- **Testing & Quality**: Writing comprehensive unit/integration test suites (89 passing tests on TriageNet) and maintaining clean container vulnerability scans.
+- **Upstream Open-Source Contributions**: Contributed AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35), resilience circuit breakers to `beacon` (PR #21, #22, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
+- **Testing & Quality**: Writing comprehensive unit/integration test suites (286 passing tests on AegisBrain, 89 on TriageNet) and maintaining clean container vulnerability scans.
 
 <br clear="all"/>
 <br/>
@@ -195,14 +197,15 @@
 │  SERVICE / SYSTEM       │  STATUS      │  CORE ARCHITECTURE          │  DEPLOYMENT     │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
 │  AegisBrain Engine      │  v2.4.0 LIVE │  Python 3.12 · FTS5 · Daemon│  Vercel / OSS   │
+│  Zoe Desktop Agent      │  v1.0 LIVE   │  Qwen2.5 · Win32 · Daemon   │  Local Workstn  │
 │  TriageNet Platform     │  v1.3.0 LIVE │  Java 17 · Next 16 · Redis  │  Render Cloud   │
 │  ShopFlow Mesh          │  SHIPPED     │  8 Microservices · 2PC Lock │  Docker Cloud   │
 │  ZeroHour AI            │  SHIPPED     │  Gemini AI · 4-Agent SSE    │  Firebase / Rwy │
-│  RepoMind Analyzer      │  SUBMITTED   │  IBM Bob API · GitHub Bot   │  IBM Hackathon  │
+│  RepoMind Analyzer      │  PRIZE WINNER│  IBM Bob API · GitHub Bot   │  IBM Hackathon  │
 │  SkyCheck PWA           │  SUBMITTED   │  Dexie.js · Edge Vision PWA │  Tata InnoVent  │
 │  SkillShare             │  LIVE        │  Haversine Geo · Docker     │  Vercel Cloud   │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
-│  SHIPPED SYSTEMS: 8+    │  CI: 100%    │  ACTIVE REPOSITORIES: 12+   │  INTERNSHIP: YES│
+│  SHIPPED SYSTEMS: 10+   │  CI: 100%    │  ACTIVE REPOSITORIES: 14+   │  INTERNSHIP: YES│
 └─────────────────────────┴──────────────┴─────────────────────────────┴─────────────────┘
 ```
 
@@ -311,42 +314,37 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <br/>
 
-<!-- ─── 2. AegisBrain ─── -->
+<!-- ─── 3. Zoe Agent ─── -->
 
-<details id="aegis-brain">
+<details open id="zoe-agent">
 <summary>
-  <b>AegisBrain</b> &nbsp;|&nbsp; <code>SHIPPED v0.1.0</code> &nbsp;|&nbsp; <code>Zero-Dependency Daemon</code> &nbsp;|&nbsp; <code>&lt; 50ms Recall · &le; 400 Tokens</code>
+  <b>Zoe Agent v1.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>Local Desktop Voice Copilot</code> &nbsp;|&nbsp; <code>Sub-15MB Idle Footprint</code>
   <br/>
-  <sub>Local Neural Memory Bus, Wake-Lock Caffeinate, and Telegram / WhatsApp Remote Control for Autonomous Coding Agents</sub>
+  <sub>Always-On Hands-Free Desktop Executive Companion, Local Qwen2.5-Coder Cognition &amp; SQLite FTS5 Knowledge Vault</sub>
 </summary>
 
 <br/>
 
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
-    <td style="padding: 14px 18px; border-left: 4px solid #38bdf8;">
-      <b>Purpose:</b> Zero-overhead local neural memory bus and background daemon for AI coding agents (Antigravity, Claude Code, Codex, Cursor) replacing heavy log-parsing token waste with deterministic instant retrieval.
+    <td style="padding: 14px 18px; border-left: 4px solid #a855f7;">
+      <b>Purpose:</b> Personal, always-on executive companion and hands-free desktop voice agent running locally in Windows 11. Listens for her acoustic wake word ("Zoe") without keyboard shortcuts, window switching, or cloud dependence.
       <br/><br/>
       <b>Key Metrics &amp; Engineering Specifications:</b>
       <br/>
-      • <b>&lt; 50ms retrieval latency</b> across multi-threaded SQLite WAL virtual tables via FTS5 inverted indexing<br/>
-      • <b>&gt; 95% token reduction:</b> Bounded memory lookups require &lt; 100 tokens vs 25,000 to 60,000 tokens for traditional agent session-log crawling<br/>
-      • <b>&le; 400 token deterministic context budget:</b> Workspace governor bounds git diffs, branch state, and commits to maximize LLM prompt-cache hit rates<br/>
-      • <b>0 external runtime dependencies:</b> Operates strictly on Python standard library modules (<code>sqlite3</code>, <code>ctypes</code>, <code>http.server</code>, <code>urllib</code>)<br/>
-      • <b>&lt; 25 MB RAM footprint</b> and &lt; 50ms cold boot time on host machine
+      • <b>Hands-Free Wake Word Detection:</b> Continuous RMS energy threshold acoustic gate running silently at &lt; 0.1% CPU and sub-15MB RAM idle footprint<br/>
+      • <b>Local Cognition:</b> High-cognition reasoning via Ollama <code>qwen2.5-coder:7b</code> with strict two-sentence verbal clarity constraints<br/>
+      • <b>Sub-Millisecond Neural Knowledge Retrieval:</b> Integrated with <code>companion.db</code> FTS5 inverted index for instant architectural and routine lookup<br/>
+      • <b>Instant Vision Awareness:</b> Native Windows .NET <code>CopyFromScreen</code> screen capture (&lt;50ms, 0 GPU overhead) for multimodal code inspection and debugging<br/>
+      • <b>Action Approval State Machine:</b> Two-step vocal preview and confirmation protocol for calendar mutations and OS macro actions<br/>
+      • <b>Single-Poller Daemon Integration:</b> Unified with the 24/7 Aegis daemon (<code>http://127.0.0.1:8765</code>) to eliminate Telegram HTTP 409 poller collisions
       <br/><br/>
-      <b>Core Features:</b>
-      <br/>
-      • <b>Native Caffeinate Wake-Lock:</b> Cross-platform idle prevention via Win32 <code>kernel32.SetThreadExecutionState</code> AwayMode pulse threads, macOS <code>caffeinate -i</code>, and Linux <code>systemd-inhibit</code>.<br/>
-      • <b>Telegram &amp; WhatsApp Remote Bridge:</b> Remote shell execution, git workflow dispatch, artifact inspection, and safety shutdown right from mobile without public IP or port forwarding.<br/>
-      • <b>Ephemeral Stealth Mode:</b> Zero-disk logging option bypassing disk writes for sensitive client projects.
-      <br/><br/>
-      <b>Stack:</b> Python 3.10+ · SQLite3 (WAL + FTS5) · Win32 ctypes · Telegram Bot API · Twilio WhatsApp API
+      <b>Stack:</b> Python 3.12 · Ollama (Qwen2.5-Coder) · SQLite3 WAL + FTS5 · Windows SpeechRecognition · Win32 ctypes · Google Calendar API
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
-      <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/Repository-PG300604%2Faegis--brain-1f6feb?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
+      <a href="https://github.com/PG300604/OpenJarvis"><img src="https://img.shields.io/badge/Repository-161b22?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
       &nbsp;
-      <a href="https://github.com/PG300604/aegis-brain#benchmarks"><img src="https://img.shields.io/badge/Benchmarks-Sub--50ms-10b981?style=flat-square" alt="Benchmarks"/></a>
+      <a href="https://github.com/PG300604/OpenJarvis/blob/main/docs/ARCHITECTURE.md"><img src="https://img.shields.io/badge/Architecture_Docs-a855f7?style=flat-square&logo=readme&logoColor=white" alt="Docs"/></a>
     </td>
   </tr>
 </table>
@@ -568,6 +566,38 @@ Upstream open-source contributions merged into production engines and developer 
 
 <br/>
 
+<details open id="open-source-journey-spring-ai">
+<summary>
+  <b>spring-ai (Spring Framework GenAI Ecosystem)</b> &nbsp;|&nbsp; <code>UPSTREAM CONTRIBUTION</code> &nbsp;|&nbsp; <code>GenAI Observation Telemetry · ChatOptions</code>
+  <br/>
+  <sub>Spring Framework GenAI Engine: Missing request observation telemetry conventions and ChatOptions builder parameter preservation</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
+      <b>Repository:</b> <a href="https://github.com/spring-projects/spring-ai"><b>spring-projects/spring-ai</b></a> (Official Spring ecosystem GenAI integration engine).
+      <br/><br/>
+      <b>Active Contribution &amp; Architecture:</b>
+      <br/>
+      • <b>GenAI Request Attributes Observation Telemetry (<a href="https://github.com/spring-projects/spring-ai/pull/7308">PR #7308</a> · Open / Commented):</b> Hardened OpenTelemetry and Micrometer observation conventions across the Spring AI chat abstractions. Resolved missing GenAI request attributes in observational telemetry documentation (<code>spring-ai-docs</code>) and addressed parameter drop in <code>ChatOptions.Builder&lt;?&gt;</code> (retaining <code>choiceCount</code>, <code>reasoningLevel</code>, and <code>outputType</code> during build cycles in <code>spring-ai-model</code>).
+      <br/><br/>
+      <b>Stack:</b> Java 21 · Spring Boot 3/4 · Micrometer Observation · OpenTelemetry · Antora · JUnit 5
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/spring-projects/spring-ai/pull/7308"><img src="https://img.shields.io/badge/PR_%237308-Active_Review-238636?style=flat-square&logo=github&logoColor=white" alt="PR 7308"/></a>
+      &nbsp;
+      <a href="https://github.com/spring-projects/spring-ai"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
 <details open id="open-source-journey-a2a">
 <summary>
   <b>a2a-hub (Agent-to-Agent Gateway)</b> &nbsp;|&nbsp; <code>UPSTREAM MERGED</code> &nbsp;|&nbsp; <code>AppSec Hardening · Spring Security · Caffeine</code>
@@ -653,8 +683,10 @@ Upstream open-source contributions merged into production engines and developer 
 | Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
+| **Open Source Upstream (Spring AI)** | spring-projects/spring-ai | GenAI request attributes observation conventions & ChatOptions builder preservation ([PR #7308](https://github.com/spring-projects/spring-ai/pull/7308)) | 2026 |
 | **Open Source Upstream (a2a-hub)** | oscarbol09/a2a-hub | Merged AppSec IP-spoofing and DoS rate limit hardening ([PR #37](https://github.com/oscarbol09/a2a-hub/pull/37)) and Docker Compose boot crash fix ([PR #35](https://github.com/oscarbol09/a2a-hub/pull/35)) | 2026 |
-| **AegisBrain Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<50ms recall, 95%+ token savings), Caffeinate, and WhatsApp bridge | 2026 |
+| **AegisBrain v2.4.0 Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<25ms recall, 85-92% token arbitrage savings, 286/286 tests), released on r/LocalLLaMA & r/selfhosted | 2026 |
+| **Zoe Personal Desktop Agent** | Independent Build | Built always-on hands-free desktop executive companion in `P:\vault` with local Qwen2.5-Coder cognition, Win32 daemon, and FTS5 knowledge vault | 2026 |
 | **Open Source Upstream (Beacon Engine)** | AbdulmalikAlayande/beacon | Merged core resilience circuit breaker ([PR #21](https://github.com/AbdulmalikAlayande/beacon/pull/21)) and build fix ([PR #22](https://github.com/AbdulmalikAlayande/beacon/pull/22)) | 2026 |
 | **XERJ Corpus Hub Selection** | XERJ Org | Selected for public reference index: DefaultProviderCircuitBreaker implementation (Java 21) | 2026 |
 | **TriageNet v1.3.0 Release** | Public Health Cloud | 111 government hospitals across 24 districts · 89 passing tests (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
