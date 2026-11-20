@@ -55,7 +55,7 @@
 - **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
 - **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
 - **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
-- **Upstream Open-Source Contributions**: Contributed AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35), resilience circuit breakers to `beacon` (PR #21, #22, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
+- **Upstream Open-Source Contributions**: Contributed native MCP server catalog integration for Instantly to `pipeshub-ai` (PR #6170, Merged), AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35, Merged), resilience circuit breakers to `beacon` (PR #21, #22, Merged, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
 - **Testing & Quality**: Writing comprehensive unit/integration test suites (286 passing tests on AegisBrain, 89 on TriageNet) and maintaining clean container vulnerability scans.
 
 <br clear="all"/>
@@ -562,6 +562,44 @@ A selection of projects focusing on backend systems, distributed architectures, 
 ### OPEN SOURCE JOURNEY &nbsp; <img src="./assets/divider.svg" width="38%" height="12" align="center" alt="divider" />
 
 Upstream open-source contributions merged into production engines and developer infrastructure.
+
+<br/>
+
+<details open id="open-source-journey-pipeshub">
+<summary>
+  <b>PipesHub (Enterprise AI Search & Agent Workspace)</b> &nbsp;|&nbsp; <code>UPSTREAM MERGED</code> &nbsp;|&nbsp; <code>Model Context Protocol (MCP) · Next.js · Python</code>
+  <br/>
+  <sub>PipesHub Enterprise AI Platform: Instantly MCP server catalog integration with Streamable HTTP and OAuth 2.0 DCR & PKCE S256</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
+      <b>Repository:</b> <a href="https://github.com/pipeshub-ai/pipeshub-ai"><b>pipeshub-ai/pipeshub-ai</b></a> (Open-source enterprise AI search and agent workspace platform).
+      <br/><br/>
+      <b>Accepted & Merged Contribution (<a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170">PR #6170</a> · Merged):</b>
+      <br/>
+      • <b>Instantly MCP Server Catalog Template & Dual Authentication:</b> Engineered native catalog integration for Instantly (<code>instantly.ai</code>) as an official hosted remote server over Streamable HTTP. Designed dual-mode authentication supporting per-user OAuth 2.0 with RFC 7591 Dynamic Client Registration (DCR) and PKCE S256 alongside an explicit API token fallback (<code>Authorization: Bearer &lt;key&gt;</code>) for direct credential access.
+      <br/>
+      • <b>Frontend Connector Resolution & Brand Integration:</b> Integrated Instantly's official SVG brand asset, registered connector types in Next.js Radix UI, and configured whole-word fuzzy matching rules to resolve custom and catalog servers.
+      <br/>
+      • <b>Zero-Flaw Dual-Stack Test Coverage:</b> Built comprehensive unit tests achieving 100% pass rate across Python registry auto-discovery (<code>test_registry.py</code>) and TypeScript icon/connector resolution (<code>mcp-server-icon.test.tsx</code>, <code>connector-icon.test.ts</code>), verified with authentic Playwright DOM desktop captures.
+      <br/><br/>
+      <b>Stack:</b> Python 3.12 · Next.js 16 · React 19 · Model Context Protocol (MCP) · Streamable HTTP · OAuth 2.0 (DCR/PKCE) · Vitest · Pytest
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170"><img src="https://img.shields.io/badge/PR_%236170-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 6170"/></a>
+      &nbsp;
+      <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6139"><img src="https://img.shields.io/badge/Issue_%236139-Resolved-58a6ff?style=flat-square&logo=github&logoColor=white" alt="Issue 6139"/></a>
+      &nbsp;
+      <a href="https://github.com/pipeshub-ai/pipeshub-ai"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
 
 <br/>
 
