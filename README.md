@@ -720,6 +720,7 @@ Upstream open-source contributions merged into production engines and developer 
 | Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
+| **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration with Streamable HTTP & OAuth 2.0 DCR/PKCE ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) | 2026 |
 | **Open Source Upstream (Spring AI)** | spring-projects/spring-ai | GenAI request attributes observation conventions & ChatOptions builder preservation ([PR #7308](https://github.com/spring-projects/spring-ai/pull/7308)) | 2026 |
 | **Open Source Upstream (a2a-hub)** | oscarbol09/a2a-hub | Merged AppSec IP-spoofing and DoS rate limit hardening ([PR #37](https://github.com/oscarbol09/a2a-hub/pull/37)) and Docker Compose boot crash fix ([PR #35](https://github.com/oscarbol09/a2a-hub/pull/35)) | 2026 |
 | **AegisBrain v2.4.0 Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<25ms recall, 85-92% token arbitrage savings, 286/286 tests), released on r/LocalLLaMA & r/selfhosted | 2026 |
