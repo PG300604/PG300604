@@ -51,13 +51,10 @@
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
-- **Autonomous AI Engineering**: Architected and released [AegisBrain v2.4.0](https://github.com/PG300604/aegis-brain), a 100% local neural memory bus (<25ms SQLite FTS5) and 3-tier token arbitrage engine for AI coding assistants (Google Antigravity, Claude Code, OpenAI Codex, Aider), saving 85–92% frontier tokens with 286/286 passing automated tests and multi-worker governance (DeepSeek, Hermes, Claude, Codex).
-- **Zero-Trust Cryptography & FIM**: Architected and shipped [HashWatch](https://github.com/PG300604/HashWatch), a cryptographic File Integrity Monitoring platform with Ed25519 digital signatures and streaming SHA-256 (1.95 GB/s throughput, 92/92 automated tests passing, 100% green CI) eliminating database baseline poisoning attacks.
-- **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
-- **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
-- **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
-- **Upstream Open-Source Contributions**: Contributed native MCP server catalog integration and knowledge scope collections architecture to `pipeshub-ai` (PR #6170 Merged, #6336), AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35 Merged), resilience circuit breakers to `beacon` (PR #21, #22 Merged, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
-- **Testing & Quality**: Writing comprehensive unit/integration test suites (286 passing tests on AegisBrain, 92 on HashWatch, 89 on TriageNet) and maintaining clean container vulnerability scans.
+- **Autonomous AI & Agent Systems**: Building local neural memory buses, MCP tooling, and multi-agent token arbitrage engines ([AegisBrain](#aegis-brain-v240)).
+- **Zero-Trust Cryptography & Security**: Engineering tamper-evident digital signature baselines and streaming verification to prevent database poisoning ([HashWatch](#hashwatch)).
+- **Distributed Backends & Healthcare Systems**: Designing resilient Java/Spring Boot microservices, emergency triage routing, and concurrency control ([TriageNet](#triagenet-v130) · [ShopFlow](#shopflow)).
+- **Upstream Open-Source Engineering**: Contributing production features, MCP catalog integrations, and resilience/security patches to enterprise repositories ([PipesHub](#open-source-journey-pipeshub) · [Spring AI](#open-source-journey-spring-ai) · [a2a-hub](#open-source-journey-a2a)).
 
 <br clear="all"/>
 <br/>
