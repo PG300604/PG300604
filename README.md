@@ -12,7 +12,7 @@
 <!--  TYPING TELEMETRY                                                 -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=Backend+%26+AI+Systems+Engineer+%C2%B7+Distributed+Systems+%C2%B7+Java;Architecting+AegisBrain+%26+contributing+to+enterprise+AI+systems;Open+to+Software+Engineering%2C+Backend+%26+AI+Roles" alt="Typing Telemetry" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=Backend+%26+AI+Systems+Engineer+%C2%B7+Distributed+Systems+%C2%B7+Java;Architecting+AegisBrain+%26+HashWatch+Zero-Trust+FIM;Contributing+to+Enterprise+AI+Platforms+(PipesHub%2C+Spring+AI);Open+to+Software+Engineering%2C+Backend+%26+AI+Roles" alt="Typing Telemetry" />
 
 <br/><br/>
 
@@ -20,7 +20,7 @@
 <!--  HIGH-CONTRAST METRIC PILLS                                       -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-9+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
+<a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-10+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
 &nbsp;
 <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/AEGIS_BRAIN-v2.4.0_RELEASED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="AegisBrain v2.4.0"/></a>
 &nbsp;
@@ -52,11 +52,12 @@
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
 - **Autonomous AI Engineering**: Architected and released [AegisBrain v2.4.0](https://github.com/PG300604/aegis-brain), a 100% local neural memory bus (<25ms SQLite FTS5) and 3-tier token arbitrage engine for AI coding assistants (Google Antigravity, Claude Code, OpenAI Codex, Aider), saving 85–92% frontier tokens with 286/286 passing automated tests and multi-worker governance (DeepSeek, Hermes, Claude, Codex).
+- **Zero-Trust Cryptography & FIM**: Architected and shipped [HashWatch](https://github.com/PG300604/HashWatch), a cryptographic File Integrity Monitoring platform with Ed25519 digital signatures and streaming SHA-256 (1.95 GB/s throughput, 92/92 automated tests passing, 100% green CI) eliminating database baseline poisoning attacks.
 - **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
 - **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
 - **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
 - **Upstream Open-Source Contributions**: Contributed native MCP server catalog integration and knowledge scope collections architecture to `pipeshub-ai` (PR #6170 Merged, #6336), AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35 Merged), resilience circuit breakers to `beacon` (PR #21, #22 Merged, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
-- **Testing & Quality**: Writing comprehensive unit/integration test suites (286 passing tests on AegisBrain, 89 on TriageNet) and maintaining clean container vulnerability scans.
+- **Testing & Quality**: Writing comprehensive unit/integration test suites (286 passing tests on AegisBrain, 92 on HashWatch, 89 on TriageNet) and maintaining clean container vulnerability scans.
 
 <br clear="all"/>
 <br/>
@@ -171,6 +172,7 @@
 | Domain | Core Technologies |
 |:---|:---|
 | **Backend Development** | Java 21/17, Spring Boot 3.3, Spring Cloud Gateway, Spring Security, Hibernate/JPA, Maven |
+| **Cryptography & Security** | Ed25519 (RFC 8032), SHA-256 Streaming, SunEC JCA, Zero-Trust Baselines, Fingerprint Pinning, Triple-Lock Envelopes |
 | **Distributed Systems** | Microservices, Netflix Eureka, Two-Phase Stock Reservation, Redis Pub/Sub, REST APIs, OpenFeign |
 | **AI & Agentic Systems** | Model Context Protocol (MCP), Agentic Workflows, RAG & Knowledge Scope Indexing, SQLite FTS5 Neural Memory Bus, Local LLM Token Arbitrage (Ollama, Hermes), Spring AI, Gemini API, SSE Streaming |
 | **Databases & Storage** | PostgreSQL, PostGIS (Geospatial), Redis, MySQL, Supabase, H2 |
@@ -196,6 +198,7 @@
 │  SERVICE / SYSTEM       │  STATUS      │  CORE ARCHITECTURE          │  DEPLOYMENT     │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
 │  AegisBrain Engine      │  v2.4.0 LIVE │  Python 3.12 · FTS5 · Daemon│  Vercel / OSS   │
+│  HashWatch FIM          │  SHIPPED     │  Java 21 · Ed25519 · H2/PG  │  Docker / CI    │
 │  TriageNet Platform     │  v1.3.0 LIVE │  Java 17 · Next 16 · Redis  │  Render Cloud   │
 │  ShopFlow Mesh          │  SHIPPED     │  8 Microservices · 2PC Lock │  Docker Cloud   │
 │  ZeroHour AI            │  SHIPPED     │  Gemini AI · 4-Agent SSE    │  Firebase / Rwy │
@@ -203,7 +206,7 @@
 │  SkyCheck PWA           │  SUBMITTED   │  Dexie.js · Edge Vision PWA │  Tata InnoVent  │
 │  SkillShare             │  LIVE        │  Haversine Geo · Docker     │  Vercel Cloud   │
 ├─────────────────────────┼──────────────┼─────────────────────────────┼─────────────────┤
-│  SHIPPED SYSTEMS: 9+    │  CI: 100%    │  ACTIVE REPOSITORIES: 13+   │  INTERNSHIP: YES│
+│  SHIPPED SYSTEMS: 10+   │  CI: 100%    │  ACTIVE REPOSITORIES: 14+   │  INTERNSHIP: YES│
 └─────────────────────────┴──────────────┴─────────────────────────────┴─────────────────┘
 ```
 
@@ -313,7 +316,54 @@ A selection of projects focusing on backend systems, distributed architectures, 
 <br/>
 
 
-<!-- ─── 3. ShopFlow ─── -->
+<!-- ─── 3. HashWatch ─── -->
+
+<details open id="hashwatch">
+<summary>
+  <b>HashWatch</b> &nbsp;|&nbsp; <code>SHIPPED v1.0.0</code> &nbsp;|&nbsp; <code>92/92 Tests Passing</code> &nbsp;|&nbsp; <code>Zero-Trust Cryptography</code>
+  <br/>
+  <sub>Cryptographically Signed File Integrity &amp; Baseline Monitoring System Eliminating Database Poisoning Attacks</sub>
+</summary>
+
+<br/>
+
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
+  <tr>
+    <td style="padding: 14px 18px; border-left: 4px solid #ff4d4d;">
+      <b>Purpose:</b> Cryptographically signed File Integrity and Baseline Monitoring (FIM) platform that defends enterprise filesystems against advanced persistent threats (APTs) and database baseline tampering by generating Edwards-curve digital signatures (<b>Ed25519, RFC 8032</b>) alongside streaming <b>SHA-256</b> hashes.
+      <br/><br/>
+      <b>Key Metrics &amp; Engineering Specifications:</b>
+      <br/>
+      • <b>92/92 automated tests passing (100% green CI)</b> across 12 test suites covering controllers, security, scheduling, cryptographic engine, and end-to-end tamper detection<br/>
+      • <b>1.95 GB/s streaming hash throughput:</b> Bounded memory streaming buffer (8 KB chunks, &lt; 64 KB heap cap) compliant with snaproot performance standards<br/>
+      • <b>38,620 signatures/sec verification rate</b> via SunEC JCA native hardware-accelerated Ed25519 cryptographic primitives<br/>
+      • <b>100% tamper detection:</b> Deterministic state-transition alerts on single-bit modifications, file substitutions, metadata drift, or unauthorized additions<br/>
+      • <b>0 baseline poisoning vulnerability:</b> Digital signatures mathematically prevent rogue database admins or SQL injectors from forging legitimate baselines without the private key
+      <br/><br/>
+      <b>Core Architecture &amp; Features:</b>
+      <br/>
+      • <b>Triple-Lock Canonical Envelope:</b> Hashes computed across deterministic tuples (<code>HashWatch:v1:&lt;normalized_path&gt;:&lt;sha256&gt;:&lt;size&gt;</code>) preventing path-traversal or length extension attacks.<br/>
+      • <b>5-State Integrity Lifecycle:</b> Automated evaluation across <code>VERIFIED</code>, <code>TAMPERED</code>, <code>MISSING</code>, <code>SIGNATURE_INVALID</code>, and <code>UNTRACKED</code> with transition-gated alert dispatch.<br/>
+      • <b>Dual-Engine Database &amp; Automated Polling:</b> Production PostgreSQL 16 Alpine with flyway migrations, seamless H2 in-memory test parity, and Quartz scheduled cron auditing.<br/>
+      • <b>Obsidian &amp; Electric Vermilion SOC Console:</b> Server-rendered Thymeleaf dashboard with live telemetry counters, tamper audit logs, and directory scope management.
+      <br/><br/>
+      <b>Stack:</b> Java 21 LTS / 17 LTS · Spring Boot 3.3.4 · Ed25519 (SunEC JCA) · PostgreSQL 16 · Thymeleaf · Quartz Scheduler · Docker Compose · GitHub Actions CI
+      <br/><br/>
+      <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/PG300604/HashWatch"><img src="https://img.shields.io/badge/Repository-PG300604%2FHashWatch-ff4d4d?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
+      &nbsp;
+      <a href="https://github.com/PG300604/HashWatch#automated-test-suite-matrix-9292-passing"><img src="https://img.shields.io/badge/Test_Suite-92%2F92_Passing-39d353?style=flat-square&logo=githubactions&logoColor=white" alt="Tests"/></a>
+      &nbsp;
+      <a href="https://github.com/PG300604/HashWatch#market-comparison--competitive-architecture"><img src="https://img.shields.io/badge/Architecture-Tripwire_vs_HashWatch-38bdf8?style=flat-square" alt="Architecture"/></a>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br/>
+
+<!-- ─── 4. ShopFlow ─── -->
 
 <details id="shopflow">
 <summary>
@@ -354,7 +404,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <br/>
 
-<!-- ─── 4. ZeroHour ─── -->
+<!-- ─── 5. ZeroHour ─── -->
 
 <details id="zerohour">
 <summary>
@@ -395,7 +445,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <br/>
 
-<!-- ─── 5. RepoMind ─── -->
+<!-- ─── 6. RepoMind ─── -->
 
 <details id="repomind">
 <summary>
@@ -426,45 +476,6 @@ A selection of projects focusing on backend systems, distributed architectures, 
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
       <a href="https://github.com/PG300604/REPOMIND-IBM_BOB2.0_HACKATHON_PROJ"><img src="https://img.shields.io/badge/Repository-161b22?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<br/>
-
-<!-- ─── 6. HashWatch ─── -->
-
-<details id="hashwatch">
-<summary>
-  <b>HashWatch</b> &nbsp;|&nbsp; <code>SHIPPED v1.0</code> &nbsp;|&nbsp; <code>80 Tests Passing</code> &nbsp;|&nbsp; <code>Zero-Trust Ed25519 Cryptography</code>
-  <br/>
-  <sub>Cryptographically Signed File Integrity &amp; Baseline Tamper Monitoring System</sub>
-</summary>
-
-<br/>
-
-<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
-  <tr>
-    <td style="padding: 14px 18px; border-left: 4px solid #f0883e;">
-      <b>Purpose:</b> Enterprise-grade File Integrity Monitoring (FIM) system engineered to guarantee absolute data authenticity across critical file systems under zero-trust assumptions.
-      <br/><br/>
-      <b>Key Metrics:</b>
-      <br/>
-      • <b>80/80 automated tests passing</b> across unit, cryptographic, and integration test suites<br/>
-      • <b>Native Ed25519 asymmetric digital signatures</b> (SunEC JCA RFC 8032) preventing baseline database tampering<br/>
-      • <b>Chunked streaming SHA-256 digests</b> consuming &lt;64 KB memory during multi-gigabyte file audits<br/>
-      • <b>5-state deterministic tamper detection FSM</b> with Quartz background audit scheduler
-      <br/><br/>
-      <b>Problem Solved:</b> Traditional FIM solutions store hash baselines in plain databases. When an attacker achieves root or database-level access, they rewrite database hashes to silently mask intrusions. HashWatch isolates disk tampering from database tampering via cryptographic signature pinning.
-      <br/><br/>
-      <b>How It Works:</b> Generates streaming SHA-256 digests signed with asymmetric Ed25519 keys, runs scheduled background audits via Quartz, and visualizes integrity states across a responsive Thymeleaf dashboard.
-      <br/><br/>
-      <b>Stack:</b> Java 21 · Spring Boot 3.3 · Spring Data JPA · PostgreSQL 16 · Quartz · Thymeleaf · Docker · GitHub Actions
-      <br/><br/>
-      <b>Direct Links:</b> &nbsp;
-      <a href="https://github.com/PG300604/HashWatch"><img src="https://img.shields.io/badge/Repository-161b22?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
     </td>
   </tr>
 </table>
@@ -721,6 +732,7 @@ Upstream open-source contributions merged into production engines and developer 
 
 | Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
+| **HashWatch Zero-Trust FIM Launch** | Independent Build | Architected cryptographic file integrity monitor with Ed25519 digital signatures, streaming SHA-256, and 100% green CI (92/92 tests) | 2026 |
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
 | **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) & Project Collections Picker ([Issue #6336](https://github.com/pipeshub-ai/pipeshub-ai/issues/6336)) | 2026 |
 | **Open Source Upstream (Spring AI)** | spring-projects/spring-ai | GenAI request attributes observation conventions & ChatOptions builder preservation ([PR #7308](https://github.com/spring-projects/spring-ai/pull/7308)) | 2026 |
@@ -750,9 +762,9 @@ Upstream open-source contributions merged into production engines and developer 
 | Focus Area | Practical Implementation in Projects |
 |:---|:---|
 | **Fast Prototyping & Shipping** | Shipped a multi-agent scheduling app in 24 hours ([ZeroHour](https://github.com/PG300604/ZeroHour)) and engineered an 8-service microservice backend ([ShopFlow](https://github.com/PG300604/ShopFLow)) from scratch. |
-| **Security & Best Practices** | Implemented Ed25519 digital signature baselines, HttpOnly cookie authentication, and verified container builds with 0 Trivy CVEs ([TriageNet](https://github.com/PG300604/TriageNet)). |
+| **Security & Cryptography** | Architected Ed25519 digital signature baselines eliminating database poisoning, streaming SHA-256 hashing, HttpOnly cookie auth, and 0 CVE container builds ([HashWatch](https://github.com/PG300604/HashWatch) · [TriageNet](https://github.com/PG300604/TriageNet)). |
 | **Distributed Systems** | Practical experience with two-phase inventory holds, Netflix Eureka service discovery, and Redis 7.2 pub/sub messaging with TTL keys. |
-| **Testing & CI/CD** | 89 automated tests on TriageNet with clean GitHub Actions pipelines running on both Linux and Windows environments. |
+| **Testing & CI/CD** | 286 automated tests on AegisBrain, 92 on HashWatch, and 89 on TriageNet with clean GitHub Actions CI/CD pipelines running cross-platform on Linux and Windows. |
 
 </div>
 
