@@ -12,7 +12,7 @@
 <!--  TYPING TELEMETRY                                                 -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=Full+Stack+Developer+%C2%B7+Distributed+Systems+%C2%B7+Java;Building+TriageNet+(111+Hospitals)+and+distributed+backends;Open+to+Software+Engineering+and+Backend+Internships" alt="Typing Telemetry" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=2000&color=39D353&center=true&multiline=true&repeat=true&width=800&height=48&lines=Backend+%26+AI+Systems+Engineer+%C2%B7+Distributed+Systems+%C2%B7+Java;Architecting+AegisBrain+%26+contributing+to+enterprise+AI+systems;Open+to+Software+Engineering%2C+Backend+%26+AI+Roles" alt="Typing Telemetry" />
 
 <br/><br/>
 
@@ -44,10 +44,10 @@
 
 ### WHO I AM &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
-- **Full Stack & Backend Developer** based in Jharkhand, India.
+- **Backend & AI Systems Engineer** based in Jharkhand, India.
 - Final year CSBS student at Asansol Engineering College (2023 - 2027).
-- Focus on **Java (Spring Boot 3.3)** backends, distributed microservices, and applied AI tools.
-- Comfortable building across the stack with Next.js, React, PostgreSQL, and Redis.
+- Focus on **Distributed Backends (Java / Spring Boot)** and **Agentic AI Systems (Model Context Protocol, RAG, Neural Memory)**.
+- Hands-on building and contributing to enterprise AI platforms (PipesHub, Spring AI, a2a-hub) with Python, Next.js, PostgreSQL, and Redis.
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
@@ -55,7 +55,7 @@
 - **Emergency Healthcare Routing**: Built [TriageNet v1.3.0](https://github.com/PG300604/TriageNet), mapping 111 government hospitals across all 24 districts of Jharkhand for patient triage and 108 ambulance dispatch.
 - **Distributed Systems**: Built [ShopFlow](https://github.com/PG300604/ShopFLow), an 8-microservice e-commerce backend with two-phase inventory holds to prevent overselling during checkout.
 - **AI Automation**: Shipped [ZeroHour](https://github.com/PG300604/ZeroHour) in 24 hours at the Google × Coding Ninjas hackathon, converting unstructured deadline docs into scheduled Google Calendar events.
-- **Upstream Open-Source Contributions**: Contributed native MCP server catalog integration for Instantly to `pipeshub-ai` (PR #6170, Merged), AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35, Merged), resilience circuit breakers to `beacon` (PR #21, #22, Merged, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
+- **Upstream Open-Source Contributions**: Contributed native MCP server catalog integration and knowledge scope collections architecture to `pipeshub-ai` (PR #6170 Merged, #6336), AppSec rate limiting and CI hardening to `a2a-hub` (PR #37, #35 Merged), resilience circuit breakers to `beacon` (PR #21, #22 Merged, selected for XERJ Corpus Hub), and GenAI observation telemetry conventions to `spring-ai` (PR #7308).
 - **Testing & Quality**: Writing comprehensive unit/integration test suites (286 passing tests on AegisBrain, 89 on TriageNet) and maintaining clean container vulnerability scans.
 
 <br clear="all"/>
@@ -172,8 +172,8 @@
 |:---|:---|
 | **Backend Development** | Java 21/17, Spring Boot 3.3, Spring Cloud Gateway, Spring Security, Hibernate/JPA, Maven |
 | **Distributed Systems** | Microservices, Netflix Eureka, Two-Phase Stock Reservation, Redis Pub/Sub, REST APIs, OpenFeign |
+| **AI & Agentic Systems** | Model Context Protocol (MCP), Agentic Workflows, RAG & Knowledge Scope Indexing, SQLite FTS5 Neural Memory Bus, Local LLM Token Arbitrage (Ollama, Hermes), Spring AI, Gemini API, SSE Streaming |
 | **Databases & Storage** | PostgreSQL, PostGIS (Geospatial), Redis, MySQL, Supabase, H2 |
-| **AI & LLM Integration** | Gemini API, Prompt Orchestration, Structured Outputs, Server-Sent Events (SSE) Streaming |
 | **Frontend & UI** | Next.js, React, TypeScript, Tailwind CSS, Vite, Leaflet |
 | **DevOps & Infrastructure** | Docker, Git & GitHub Actions (CI/CD), Nginx, Linux, Vercel, Render |
 
@@ -579,20 +579,22 @@ Upstream open-source contributions merged into production engines and developer 
     <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
       <b>Repository:</b> <a href="https://github.com/pipeshub-ai/pipeshub-ai"><b>pipeshub-ai/pipeshub-ai</b></a> (Open-source enterprise AI search and agent workspace platform).
       <br/><br/>
-      <b>Accepted & Merged Contribution (<a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170">PR #6170</a> · Merged):</b>
+      <b>Accepted & Active Contributions:</b>
       <br/>
-      • <b>Instantly MCP Server Catalog Template & Dual Authentication:</b> Engineered native catalog integration for Instantly (<code>instantly.ai</code>) as an official hosted remote server over Streamable HTTP. Designed dual-mode authentication supporting per-user OAuth 2.0 with RFC 7591 Dynamic Client Registration (DCR) and PKCE S256 alongside an explicit API token fallback (<code>Authorization: Bearer &lt;key&gt;</code>) for direct credential access.
+      • <b>Instantly MCP Server Catalog Template & Dual Authentication (<a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170">PR #6170</a> · Merged):</b> Engineered native catalog integration for Instantly (<code>instantly.ai</code>) as an official hosted remote server over Streamable HTTP. Designed dual-mode authentication supporting per-user OAuth 2.0 with RFC 7591 Dynamic Client Registration (DCR) and PKCE S256 alongside an explicit API token fallback (<code>Authorization: Bearer &lt;key&gt;</code>) for direct credential access.
+      <br/>
+      • <b>Project Setup Existing Collections Picker (<a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336">Issue #6336</a> · Active PR):</b> Engineered the collections selection and synchronization pipeline in project setup, enabling workspace collections to be attached directly to <code>knowledgeScope.kb</code>. Unblocked semantic knowledge retrieval and chat resources without requiring external connector apps, backed by unified serialized scope state machines and full 10-locale i18n parity.
       <br/>
       • <b>Frontend Connector Resolution & Brand Integration:</b> Integrated Instantly's official SVG brand asset, registered connector types in Next.js Radix UI, and configured whole-word fuzzy matching rules to resolve custom and catalog servers.
       <br/>
-      • <b>Zero-Flaw Dual-Stack Test Coverage:</b> Built comprehensive unit tests achieving 100% pass rate across Python registry auto-discovery (<code>test_registry.py</code>) and TypeScript icon/connector resolution (<code>mcp-server-icon.test.tsx</code>, <code>connector-icon.test.ts</code>), verified with authentic Playwright DOM desktop captures.
+      • <b>Zero-Flaw Dual-Stack Test Coverage:</b> Built comprehensive unit tests achieving 100% pass rate across Python registry auto-discovery (<code>test_registry.py</code>) and TypeScript icon/connector/collections resolution (<code>collections-card.test.tsx</code>, <code>mcp-server-icon.test.tsx</code>), verified with authentic Playwright DOM desktop captures.
       <br/><br/>
       <b>Stack:</b> Python 3.12 · Next.js 16 · React 19 · Model Context Protocol (MCP) · Streamable HTTP · OAuth 2.0 (DCR/PKCE) · Vitest · Pytest
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
       <a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170"><img src="https://img.shields.io/badge/PR_%236170-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 6170"/></a>
       &nbsp;
-      <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6139"><img src="https://img.shields.io/badge/Issue_%236139-Resolved-58a6ff?style=flat-square&logo=github&logoColor=white" alt="Issue 6139"/></a>
+      <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336"><img src="https://img.shields.io/badge/Issue_%236336-Resolved-58a6ff?style=flat-square&logo=github&logoColor=white" alt="Issue 6336"/></a>
       &nbsp;
       <a href="https://github.com/pipeshub-ai/pipeshub-ai"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
     </td>
@@ -720,7 +722,7 @@ Upstream open-source contributions merged into production engines and developer 
 | Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
-| **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration with Streamable HTTP & OAuth 2.0 DCR/PKCE ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) | 2026 |
+| **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) & Project Collections Picker ([Issue #6336](https://github.com/pipeshub-ai/pipeshub-ai/issues/6336)) | 2026 |
 | **Open Source Upstream (Spring AI)** | spring-projects/spring-ai | GenAI request attributes observation conventions & ChatOptions builder preservation ([PR #7308](https://github.com/spring-projects/spring-ai/pull/7308)) | 2026 |
 | **Open Source Upstream (a2a-hub)** | oscarbol09/a2a-hub | Merged AppSec IP-spoofing and DoS rate limit hardening ([PR #37](https://github.com/oscarbol09/a2a-hub/pull/37)) and Docker Compose boot crash fix ([PR #35](https://github.com/oscarbol09/a2a-hub/pull/35)) | 2026 |
 | **AegisBrain v2.4.0 Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<25ms recall, 85-92% token arbitrage savings, 286/286 tests), released on r/LocalLLaMA & r/selfhosted | 2026 |
