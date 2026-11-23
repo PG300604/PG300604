@@ -703,7 +703,7 @@ Upstream open-source contributions merged into production engines and developer 
       <br/>
       • <b>Maven Library Packaging Fix (<a href="https://github.com/AbdulmalikAlayande/beacon/pull/22">PR #22</a> · Merged · Co-Author):</b> Resolved Spring Boot repackaging behavior on <code>beacon-api</code> so downstream modules can compile cleanly against installed artifacts.
       <br/>
-      • <b>Selected for XERJ Corpus Hub:</b> Implementation selected for inclusion in the XERJ public Corpus Hub as an open reference solution for coding agents.
+      • <b>Selected for XERJ Corpus Hub:</b> Implementation selected for inclusion in the <a href="https://hub.xerj.org/contributors/PG300604"><b>XERJ Corpus Hub (Verified Contributor Page)</b></a> as an open reference solution for coding agents.
       <br/><br/>
       <b>Stack:</b> Java 21 · Spring Boot 4.0.6 · ConcurrentHashMap · Maven · JUnit 5
       <br/><br/>
@@ -711,6 +711,8 @@ Upstream open-source contributions merged into production engines and developer 
       <a href="https://github.com/AbdulmalikAlayande/beacon/pull/21"><img src="https://img.shields.io/badge/PR_%2321-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 21"/></a>
       &nbsp;
       <a href="https://github.com/AbdulmalikAlayande/beacon/pull/22"><img src="https://img.shields.io/badge/PR_%2322-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 22"/></a>
+      &nbsp;
+      <a href="https://hub.xerj.org/contributors/PG300604"><img src="https://img.shields.io/badge/XERJ_Corpus_Hub-Contributor_Page-38bdf8?style=flat-square&logo=openaccess&logoColor=white" alt="XERJ Contributor"/></a>
       &nbsp;
       <a href="https://github.com/AbdulmalikAlayande/beacon"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
     </td>
@@ -738,7 +740,7 @@ Upstream open-source contributions merged into production engines and developer 
 | **Open Source Upstream (a2a-hub)** | oscarbol09/a2a-hub | Merged AppSec IP-spoofing and DoS rate limit hardening ([PR #37](https://github.com/oscarbol09/a2a-hub/pull/37)) and Docker Compose boot crash fix ([PR #35](https://github.com/oscarbol09/a2a-hub/pull/35)) | 2026 |
 | **AegisBrain v2.4.0 Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<25ms recall, 85-92% token arbitrage savings, 286/286 tests), released on r/LocalLLaMA & r/selfhosted | 2026 |
 | **Open Source Upstream (Beacon Engine)** | AbdulmalikAlayande/beacon | Merged core resilience circuit breaker ([PR #21](https://github.com/AbdulmalikAlayande/beacon/pull/21)) and build fix ([PR #22](https://github.com/AbdulmalikAlayande/beacon/pull/22)) | 2026 |
-| **XERJ Corpus Hub Selection** | XERJ Org | Selected for public reference index: DefaultProviderCircuitBreaker implementation (Java 21) | 2026 |
+| **XERJ Corpus Hub Selection** | [XERJ Org](https://hub.xerj.org/contributors/PG300604) | Selected for public reference index: [DefaultProviderCircuitBreaker (PG300604)](https://hub.xerj.org/contributors/PG300604) | 2026 |
 | **TriageNet v1.3.0 Release** | Public Health Cloud | 111 government hospitals across 24 districts · 89 passing tests (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
 | **ShopFlow 8-Microservices Architecture** | Independent Build | Built 8 Spring Boot microservices with two-phase inventory holds and Stripe payments | 2026 |
 | **24-Hour Hackathon Ship** | Coding Ninjas × Google | ZeroHour: Built and deployed a 4-agent task organizer in 24 hours | 2026 |
