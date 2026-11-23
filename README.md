@@ -273,7 +273,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <!-- ─── 2. TriageNet ─── -->
 
-<details open id="triagenet-v130">
+<details id="triagenet-v130">
 <summary>
   <b>TriageNet v1.3.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>111 Hospitals</code> &nbsp;|&nbsp; <code>89/89 Tests Passing</code>
   <br/>
@@ -318,7 +318,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 
 <!-- ─── 3. HashWatch ─── -->
 
-<details open id="hashwatch">
+<details id="hashwatch">
 <summary>
   <b>HashWatch</b> &nbsp;|&nbsp; <code>SHIPPED v1.0.0</code> &nbsp;|&nbsp; <code>92/92 Tests Passing</code> &nbsp;|&nbsp; <code>Zero-Trust Cryptography</code>
   <br/>
