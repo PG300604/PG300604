@@ -327,7 +327,7 @@ A selection of projects focusing on backend systems, distributed architectures, 
 <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; background: #0d1117;">
   <tr>
     <td style="padding: 14px 18px; border-left: 4px solid #ff4d4d;">
-      <b>Role &amp; Leadership:</b> <b>Team Lead &amp; Core Architect</b> — Led a 4-engineer team across 5 agile sprints. Spearheaded cryptographic architecture (SunEC JCA Ed25519, streaming SHA-256), performance benchmark harnesses (1.95 GB/s throughput), and end-to-end CI/CD test automation (92/92 tests passing).
+      <b>Role &amp; Leadership:</b> <b>Team Lead &amp; Core Architect</b> — Led a 3-engineer team across 5 agile sprints. Spearheaded cryptographic architecture (SunEC JCA Ed25519, streaming SHA-256), performance benchmark harnesses (1.95 GB/s throughput), and end-to-end CI/CD test automation (92/92 tests passing).
       <br/><br/>
       <b>Purpose:</b> Cryptographically signed File Integrity and Baseline Monitoring (FIM) platform that defends enterprise filesystems against advanced persistent threats (APTs) and database baseline tampering by generating Edwards-curve digital signatures (<b>Ed25519, RFC 8032</b>) alongside streaming <b>SHA-256</b> hashes.
       <br/><br/>
@@ -731,7 +731,7 @@ Upstream open-source contributions merged into production engines and developer 
 
 | Milestone / Event | Organization | Details | Year |
 |:---|:---|:---|:---:|
-| **HashWatch Zero-Trust FIM Launch** | Team Lead & Architect | Led 4-engineer team developing zero-trust cryptographic file integrity monitor with Ed25519 signatures, streaming SHA-256, and 100% green CI (92/92 tests) | 2026 |
+| **HashWatch Zero-Trust FIM Launch** | Team Lead & Architect | Led 3-engineer team developing zero-trust cryptographic file integrity monitor with Ed25519 signatures, streaming SHA-256, and 100% green CI (92/92 tests) | 2026 |
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
 | **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) & Project Collections Picker ([Issue #6336](https://github.com/pipeshub-ai/pipeshub-ai/issues/6336)) | 2026 |
 | **Open Source Upstream (Spring AI)** | spring-projects/spring-ai | GenAI request attributes observation conventions & ChatOptions builder preservation ([PR #7308](https://github.com/spring-projects/spring-ai/pull/7308)) | 2026 |
