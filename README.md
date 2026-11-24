@@ -604,7 +604,7 @@ Upstream open-source contributions merged into production engines and developer 
       <b>Direct Links:</b> &nbsp;
       <a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170"><img src="https://img.shields.io/badge/PR_%236170-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 6170"/></a>
       &nbsp;
-      <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336"><img src="https://img.shields.io/badge/Issue_%236336-Merged-58a6ff?style=flat-square&logo=github&logoColor=white" alt="Issue 6336"/></a>
+      <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336"><img src="https://img.shields.io/badge/PR_%236170-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="Issue 6336"/></a>
       &nbsp;
       <a href="https://github.com/pipeshub-ai/pipeshub-ai"><img src="https://img.shields.io/badge/Upstream_Repo-161b22?style=flat-square&logo=github&logoColor=white" alt="Upstream Repo"/></a>
     </td>
