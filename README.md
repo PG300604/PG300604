@@ -24,7 +24,7 @@
 &nbsp;
 <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/AEGIS_BRAIN-v2.4.0_RELEASED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="AegisBrain v2.4.0"/></a>
 &nbsp;
-<a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-UPSTREAM_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
+<a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-6_PRS_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
 &nbsp;
 <a href="https://aegis-brain-alpha.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEPLOYMENTS-6+-58a6ff?style=for-the-badge&labelColor=0d1117&color=1f6feb" alt="Live Deployments"/></a>
 &nbsp;
@@ -577,9 +577,9 @@ Upstream open-source contributions merged into production engines and developer 
 
 <details open id="open-source-journey-pipeshub">
 <summary>
-  <b>PipesHub (Enterprise AI Search & Agent Workspace)</b> &nbsp;|&nbsp; <code>UPSTREAM MERGED</code> &nbsp;|&nbsp; <code>Model Context Protocol (MCP) · Next.js · Python</code>
+  <b>PipesHub (Enterprise AI Search & Agent Workspace)</b> &nbsp;|&nbsp; <code>2 PRS MERGED UPSTREAM</code> &nbsp;|&nbsp; <code>Model Context Protocol (MCP) · Next.js · Python</code>
   <br/>
-  <sub>PipesHub Enterprise AI Platform: Instantly MCP server catalog integration with Streamable HTTP and OAuth 2.0 DCR & PKCE S256</sub>
+  <sub>PipesHub Enterprise AI Platform: Project Collections Picker (#6349) &amp; Instantly MCP Server Catalog (#6170)</sub>
 </summary>
 
 <br/>
@@ -589,19 +589,21 @@ Upstream open-source contributions merged into production engines and developer 
     <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
       <b>Repository:</b> <a href="https://github.com/pipeshub-ai/pipeshub-ai"><b>pipeshub-ai/pipeshub-ai</b></a> (Open-source enterprise AI search and agent workspace platform).
       <br/><br/>
-      <b>Accepted & Active Contributions:</b>
+      <b>Accepted &amp; Merged Contributions:</b>
       <br/>
-      • <b>Instantly MCP Server Catalog Template & Dual Authentication (<a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170">PR #6170</a> · Merged):</b> Engineered native catalog integration for Instantly (<code>instantly.ai</code>) as an official hosted remote server over Streamable HTTP. Designed dual-mode authentication supporting per-user OAuth 2.0 with RFC 7591 Dynamic Client Registration (DCR) and PKCE S256 alongside an explicit API token fallback (<code>Authorization: Bearer &lt;key&gt;</code>) for direct credential access.
+      • <b>Project Setup Collections Picker &amp; Scope Serialization (<a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6349">PR #6349</a> · Merged · Resolves <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336">#6336</a>):</b> Built <code>CollectionsCard</code> with exhaustive cursor pagination and integrated it into Project Settings to bind workspace collections directly to <code>knowledgeScope.kb</code>. Unblocked chat resource retrieval without requiring external connector apps, unified connector/collection saves under a serialized <code>scopeSaver</code> with rollback, shipped full 10-locale i18n parity, and verified 53/53 frontend unit tests passing.
       <br/>
-      • <b>Project Setup Existing Collections Picker (<a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336">Issue #6336</a> · Active PR):</b> Engineered the collections selection and synchronization pipeline in project setup, enabling workspace collections to be attached directly to <code>knowledgeScope.kb</code>. Unblocked semantic knowledge retrieval and chat resources without requiring external connector apps, backed by unified serialized scope state machines and full 10-locale i18n parity.
+      • <b>Instantly MCP Server Catalog Template &amp; Dual Authentication (<a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170">PR #6170</a> · Merged):</b> Engineered native catalog integration for Instantly (<code>instantly.ai</code>) as an official hosted remote server over Streamable HTTP. Designed dual-mode authentication supporting per-user OAuth 2.0 with RFC 7591 Dynamic Client Registration (DCR) and PKCE S256 alongside an explicit API token fallback (<code>Authorization: Bearer &lt;key&gt;</code>) for direct credential access.
       <br/>
-      • <b>Frontend Connector Resolution & Brand Integration:</b> Integrated Instantly's official SVG brand asset, registered connector types in Next.js Radix UI, and configured whole-word fuzzy matching rules to resolve custom and catalog servers.
+      • <b>Frontend Connector Resolution &amp; Brand Integration:</b> Integrated Instantly's official SVG brand asset, registered connector types in Next.js Radix UI, and configured whole-word fuzzy matching rules to resolve custom and catalog servers.
       <br/>
-      • <b>Zero-Flaw Dual-Stack Test Coverage:</b> Built comprehensive unit tests achieving 100% pass rate across Python registry auto-discovery (<code>test_registry.py</code>) and TypeScript icon/connector/collections resolution (<code>collections-card.test.tsx</code>, <code>mcp-server-icon.test.tsx</code>), verified with authentic Playwright DOM desktop captures.
+      • <b>Zero-Flaw Dual-Stack Test Coverage:</b> Built comprehensive unit tests across Python registry auto-discovery (<code>test_registry.py</code>) and TypeScript UI suites (<code>collections-card.test.tsx</code>, <code>tools-mcp-card.test.tsx</code>, <code>mcp-server-icon.test.tsx</code>), verified with Playwright desktop captures.
       <br/><br/>
       <b>Stack:</b> Python 3.12 · Next.js 16 · React 19 · Model Context Protocol (MCP) · Streamable HTTP · OAuth 2.0 (DCR/PKCE) · Vitest · Pytest
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
+      <a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6349"><img src="https://img.shields.io/badge/PR_%236349-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 6349"/></a>
+      &nbsp;
       <a href="https://github.com/pipeshub-ai/pipeshub-ai/pull/6170"><img src="https://img.shields.io/badge/PR_%236170-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 6170"/></a>
       &nbsp;
       <a href="https://github.com/pipeshub-ai/pipeshub-ai/issues/6336"><img src="https://img.shields.io/badge/Issue_%236336-Completed-8957e5?style=flat-square&logo=github&logoColor=white" alt="Issue 6336"/></a>
@@ -697,20 +699,24 @@ Upstream open-source contributions merged into production engines and developer 
     <td style="padding: 14px 18px; border-left: 4px solid #39d353;">
       <b>Repository:</b> <a href="https://github.com/AbdulmalikAlayande/beacon"><b>AbdulmalikAlayande/beacon</b></a> (Transactionally-safe notification system for Spring Boot).
       <br/><br/>
-      <b>Accepted & Merged Contributions:</b>
+      <b>Accepted, Merged &amp; Active Contributions:</b>
       <br/>
       • <b>Provider Circuit Breaker (<a href="https://github.com/AbdulmalikAlayande/beacon/pull/21">PR #21</a> · Merged):</b> Implemented <code>DefaultProviderCircuitBreaker</code> in <code>core.resilience</code>. Built a thread-safe 3-state finite state machine (<code>CLOSED</code>, <code>OPEN</code>, <code>HALF_OPEN</code>) with per-provider state isolation and deterministic <code>Clock</code> injection. Prevents thread pool exhaustion and cascading latency during upstream provider downtime.
       <br/>
       • <b>Maven Library Packaging Fix (<a href="https://github.com/AbdulmalikAlayande/beacon/pull/22">PR #22</a> · Merged · Co-Author):</b> Resolved Spring Boot repackaging behavior on <code>beacon-api</code> so downstream modules can compile cleanly against installed artifacts.
       <br/>
+      • <b>Redis Deduplication Store (<a href="https://github.com/AbdulmalikAlayande/beacon/pull/24">PR #24</a> · Open):</b> Implemented <code>RedisDeduplicationStore</code> using atomic <code>SETNX</code> with TTL expiration for sub-millisecond idempotent notification delivery across multi-instance deployments.
+      <br/>
       • <b>Selected for XERJ Corpus Hub:</b> Implementation selected for inclusion in the <a href="https://hub.xerj.org/contributors/PG300604"><b>XERJ Corpus Hub (Verified Contributor Page)</b></a> as an open reference solution for coding agents.
       <br/><br/>
-      <b>Stack:</b> Java 21 · Spring Boot 4.0.6 · ConcurrentHashMap · Maven · JUnit 5
+      <b>Stack:</b> Java 21 · Spring Boot 4.0.6 · Redis · ConcurrentHashMap · Maven · JUnit 5
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
       <a href="https://github.com/AbdulmalikAlayande/beacon/pull/21"><img src="https://img.shields.io/badge/PR_%2321-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 21"/></a>
       &nbsp;
       <a href="https://github.com/AbdulmalikAlayande/beacon/pull/22"><img src="https://img.shields.io/badge/PR_%2322-Merged-238636?style=flat-square&logo=github&logoColor=white" alt="PR 22"/></a>
+      &nbsp;
+      <a href="https://github.com/AbdulmalikAlayande/beacon/pull/24"><img src="https://img.shields.io/badge/PR_%2324-Open-1f6feb?style=flat-square&logo=github&logoColor=white" alt="PR 24"/></a>
       &nbsp;
       <a href="https://hub.xerj.org/contributors/PG300604"><img src="https://img.shields.io/badge/XERJ_Corpus_Hub-Contributor_Page-38bdf8?style=flat-square&logo=openaccess&logoColor=white" alt="XERJ Contributor"/></a>
       &nbsp;
@@ -735,11 +741,11 @@ Upstream open-source contributions merged into production engines and developer 
 |:---|:---|:---|:---:|
 | **HashWatch Zero-Trust FIM Launch** | Team Lead & Architect | Led 3-engineer team developing zero-trust cryptographic file integrity monitor with Ed25519 signatures, streaming SHA-256, and 100% green CI (92/92 tests) | 2026 |
 | **IBM Bob 2.0 Hackathon Winner** | IBM & lablab.ai | **Winner ($100 Prize Award)** for RepoMind: PR dependency-graph risk analyzer bot | 2026 |
-| **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) & Project Collections Picker ([Issue #6336](https://github.com/pipeshub-ai/pipeshub-ai/issues/6336)) | 2026 |
+| **Open Source Upstream (PipesHub)** | pipeshub-ai/pipeshub-ai | Merged Instantly MCP catalog integration ([PR #6170](https://github.com/pipeshub-ai/pipeshub-ai/pull/6170)) & Project Collections Picker ([PR #6349](https://github.com/pipeshub-ai/pipeshub-ai/pull/6349), [Issue #6336](https://github.com/pipeshub-ai/pipeshub-ai/issues/6336), 53/53 tests) | 2026 |
 | **Open Source Upstream (Spring AI)** | spring-projects/spring-ai | GenAI request attributes observation conventions & ChatOptions builder preservation ([PR #7308](https://github.com/spring-projects/spring-ai/pull/7308)) | 2026 |
 | **Open Source Upstream (a2a-hub)** | oscarbol09/a2a-hub | Merged AppSec IP-spoofing and DoS rate limit hardening ([PR #37](https://github.com/oscarbol09/a2a-hub/pull/37)) and Docker Compose boot crash fix ([PR #35](https://github.com/oscarbol09/a2a-hub/pull/35)) | 2026 |
 | **AegisBrain v2.4.0 Architecture & Launch** | Independent Build | Built local neural memory bus with SQLite WAL + FTS5 (<25ms recall, 85-92% token arbitrage savings, 286/286 tests), released on r/LocalLLaMA & r/selfhosted | 2026 |
-| **Open Source Upstream (Beacon Engine)** | AbdulmalikAlayande/beacon | Merged core resilience circuit breaker ([PR #21](https://github.com/AbdulmalikAlayande/beacon/pull/21)) and build fix ([PR #22](https://github.com/AbdulmalikAlayande/beacon/pull/22)) | 2026 |
+| **Open Source Upstream (Beacon Engine)** | AbdulmalikAlayande/beacon | Merged core resilience circuit breaker ([PR #21](https://github.com/AbdulmalikAlayande/beacon/pull/21)) and build fix ([PR #22](https://github.com/AbdulmalikAlayande/beacon/pull/22)); active Redis deduplication store ([PR #24](https://github.com/AbdulmalikAlayande/beacon/pull/24)) | 2026 |
 | **XERJ Corpus Hub Selection** | [XERJ Org](https://hub.xerj.org/contributors/PG300604) | Selected for public reference index: [DefaultProviderCircuitBreaker (PG300604)](https://hub.xerj.org/contributors/PG300604) | 2026 |
 | **TriageNet v1.3.0 Release** | Public Health Cloud | 111 government hospitals across 24 districts · 89 passing tests (100% CI Green) · Live on Render Cloud · 0 Trivy CVEs | 2026 |
 | **ShopFlow 8-Microservices Architecture** | Independent Build | Built 8 Spring Boot microservices with two-phase inventory holds and Stripe payments | 2026 |
