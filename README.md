@@ -22,7 +22,7 @@
 
 <a href="#featured-projects--systems"><img src="https://img.shields.io/badge/PROJECTS_SHIPPED-10+-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Projects Shipped"/></a>
 &nbsp;
-<a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/AEGIS_BRAIN-v2.4.0_RELEASED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="AegisBrain v2.4.0"/></a>
+<a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/AEGIS_BRAIN-v2.5.0_RELEASED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="AegisBrain v2.5.0"/></a>
 &nbsp;
 <a href="#open-source-journey"><img src="https://img.shields.io/badge/OPEN_SOURCE-6_PRS_MERGED-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Open Source Contributor"/></a>
 &nbsp;
@@ -30,7 +30,7 @@
 &nbsp;
 <a href="#honors--track-record"><img src="https://img.shields.io/badge/HACKATHONS-PRIZE_WINNER-39d353?style=for-the-badge&labelColor=0d1117&color=238636" alt="Hackathon Winner"/></a>
 &nbsp;
-<a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/TEST_COVERAGE-286%2F286_PASSED-3fb950?style=for-the-badge&labelColor=0d1117&color=238636" alt="100% Green CI"/></a>
+<a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/TEST_COVERAGE-289%2F289_PASSED-3fb950?style=for-the-badge&labelColor=0d1117&color=238636" alt="100% Green CI"/></a>
 
 </div>
 
@@ -51,7 +51,7 @@
 
 ### WHAT I DO &nbsp; <img src="./assets/divider.svg" width="40%" height="12" align="center" alt="divider" />
 
-- **Autonomous AI & Agent Systems**: Building local neural memory buses, MCP tooling, and multi-agent token arbitrage engines ([AegisBrain](#aegis-brain-v240)).
+- **Autonomous AI & Agent Systems**: Building local neural memory buses, MCP tooling, and multi-agent token arbitrage engines ([AegisBrain](#aegis-brain-v250)).
 - **Zero-Trust Cryptography & Security**: Led the architecture of [HashWatch](#hashwatch), engineering tamper-evident digital signature baselines and streaming verification to prevent database poisoning.
 - **Distributed Backends & Healthcare Systems**: Designing resilient Java/Spring Boot microservices, emergency triage routing, and concurrency control ([TriageNet](#triagenet-v130) · [ShopFlow](#shopflow)).
 - **Upstream Open-Source Engineering**: Contributing production features, MCP catalog integrations, and resilience/security patches to enterprise repositories ([PipesHub](#open-source-journey-pipeshub) · [Spring AI](#open-source-journey-spring-ai) · [a2a-hub](#open-source-journey-a2a)).
@@ -228,11 +228,11 @@ A selection of projects focusing on backend systems, distributed architectures, 
 <br clear="all"/>
 <br/>
 
-<!-- ─── 1. AegisBrain v2.4.0 ─── -->
+<!-- ─── 1. AegisBrain v2.5.0 ─── -->
 
-<details open id="aegis-brain-v240">
+<details open id="aegis-brain-v250">
 <summary>
-  <b>AegisBrain v2.4.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>286/286 Tests Passing</code> &nbsp;|&nbsp; <code>100% Local Neural Memory & Token Arbitrage</code>
+  <b>AegisBrain v2.5.0</b> &nbsp;|&nbsp; <code>PRODUCTION LIVE</code> &nbsp;|&nbsp; <code>289/289 Tests Passing</code> &nbsp;|&nbsp; <code>100% Local Neural Memory & Token Arbitrage</code>
   <br/>
   <sub>Sub-Second Neural Memory Bus (&lt;25ms FTS5) & 3-Tier Agent Orchestration Engine (GPLv3)</sub>
 </summary>
@@ -247,17 +247,20 @@ A selection of projects focusing on backend systems, distributed architectures, 
       <b>Key Metrics:</b>
       <br/>
       • <b>Sub-25ms Neural Memory Retrieval:</b> 18.2ms SQLite FTS5 index queries on local SSD (vs 8,500ms+ unindexed transcript crawling)<br/>
-      • <b>286/286 automated tests passing:</b> 100% green test suite across syntax, isolation, security, and rollback verification<br/>
+      • <b>289/289 automated tests passing:</b> 100% green test suite across syntax, isolation, security, repo watchdog, and rollback verification<br/>
+      • <b>24/7 Repo & PR Auto-Discovery Watchdog:</b> Watches GitHub repositories for newly opened PRs, tracks review/comment transitions with auto-cleanup on merge, and dispatches instant alerts<br/>
       • <b>85%–92% Token Arbitrage Savings:</b> Frontier models orchestrate architectural invariants while local Tier 3 workers (Ollama Qwen2.5-Coder / Hermes) synthesize raw code drafts for free<br/>
-      • <b>Zero-Residue Rollback:</b> SHA-256 snapshot reflex engine reversibly tracks and restores host configuration files with 0 leftover residue<br/>
+      • <b>Zero-Residue Rollback & Anti-Trap Governor:</b> SHA-256 snapshot reflex engine, workspace-scoped context filtering, and JIT skill mounting with 0 leftover residue<br/>
       • <b>Lightweight 24/7 Daemon:</b> Asynchronous local HTTP daemon on 127.0.0.1:8765 using ~35MB RAM (&lt;0.1% CPU) with Telegram remote bridge (@HHAACLIBot)
       <br/><br/>
-      <b>Problem Solved:</b> AI coding assistants suffer from context amnesia between restarts or spend 50k+ tokens crawling multi-megabyte JSONL transcripts just to recall past decisions. Additionally, spending frontier API credits on mechanical boilerplate is costly. AegisBrain provides deterministic sub-second memory injection (&le;400 tokens) and an automated 4-decision quality architecture gate (Karpathy Simplicity, Unslop filter, AST Security check, Dual-environment tests).
+      <b>Problem Solved:</b> AI coding assistants suffer from context amnesia between restarts or spend 50k+ tokens crawling multi-megabyte JSONL transcripts just to recall past decisions. Additionally, spending frontier API credits on mechanical boilerplate is costly. AegisBrain provides deterministic sub-second memory injection (&le;400 tokens), workspace-scoped mistake-ledger guards, and an automated 4-decision quality architecture gate (Karpathy Simplicity, Unslop filter, AST Security check, Dual-environment tests).
       <br/><br/>
-      <b>Stack:</b> Python 3.12 · SQLite FTS5 (WAL mode) · FastAPI / asyncio · Telegram Bot API · PowerShell & Bash Core · Pytest
+      <b>Stack:</b> Python 3.12 · SQLite FTS5 (WAL mode) · HTTP Daemon / asyncio · Telegram Bot API · PowerShell & Bash Core · Pytest
       <br/><br/>
       <b>Direct Links:</b> &nbsp;
       <a href="https://aegis-brain-alpha.vercel.app"><img src="https://img.shields.io/badge/Live_Documentation-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Docs"/></a>
+      &nbsp;
+      <a href="https://github.com/PG300604/aegis-brain/releases/tag/v2.5.0"><img src="https://img.shields.io/badge/v2.5.0_Release-238636?style=flat-square&logo=github&logoColor=white" alt="v2.5.0 Release"/></a>
       &nbsp;
       <a href="https://github.com/PG300604/aegis-brain"><img src="https://img.shields.io/badge/Repository-161b22?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
     </td>
